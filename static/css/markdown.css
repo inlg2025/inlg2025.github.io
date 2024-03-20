@@ -1,0 +1,21 @@
+.markdown h1:not(:first-child),
+.markdown h2:not(:first-child),
+.markdown h3:not(:first-child),
+.markdown h4:not(:first-child),
+.markdown h5:not(:first-child),
+.markdown h6:not(:first-child) {
+  margin-top: 2.5rem;
+}
+
+.markdown h1:not(:last-child),
+.markdown h2:not(:last-child),
+.markdown h3:not(:last-child),
+.markdown h4:not(:last-child),
+.markdown h5:not(:last-child),
+.markdown h6:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.markdown p {
+  margin: 0;
+}

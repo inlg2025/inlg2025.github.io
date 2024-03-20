@@ -7,7 +7,6 @@
     position: relative;
     background: url("{{config.background_image}}") no-repeat center;
     background-size: cover;
-    padding-bottom: 20px;
   }
 
   .back h2 {
@@ -17,7 +16,6 @@
   .back h3 {
     font-weight: 300;
   }
-
   .back .dark-filter {
     top: 0;
     position: absolute;
@@ -30,13 +28,13 @@
 
 <div class="jumbotron jumbotron-fluid back">
   <div class="dark-filter"></div>
-  <div class="row header p-6 m-5">
+  <div class="row header m-5">
     <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
-      <h2>
-        {{config.tagline|safe}}
+      <h2 class="display-4">
+        {{ config.tagline | safe }}
       </h2>
-      <h3 class="p-5">
-        {{config.date|safe}} @ {{config.place|safe}}
+      <h3 class="mt-4">
+        {{ config.date | safe }} @ {{ config.place | safe }}
       </h3>
     </div>
   </div>
@@ -47,7 +45,7 @@
 
 <div class="container-fluid">
   <div class="row" style="margin-bottom: 2rem">
-    <div class="col-sm border p-4">
+    <div class="markdown col-sm border p-4">
       {{ home | markdown }}
     </div>
     <!--    <div class="col col-lg-2">-->

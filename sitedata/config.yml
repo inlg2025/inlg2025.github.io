@@ -1,6 +1,6 @@
 private: false
 name: INLG 2024
-tagline: 17th International Natural Language Generation Conference
+tagline: INLG 2024
 date: September 2024
 place: Tokyo, Japan
 citation_date: September 2024
@@ -8,10 +8,8 @@ proceedings_title: Proceedings of the 17th International Natural Language Genera
 analytics: UA-
 logo:
   image: static/images/inlg_logo.png
-  width: 90px
-  height: auto
 # uncomment the following line to show the site title next to the logo image
-site_title: INLG 2024
+site_title:
 page_title:
   prefix: "INLG 2024"
   separator: ": "
