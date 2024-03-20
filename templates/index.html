@@ -4,25 +4,37 @@
 {% block top %}
 <style>
   .back {
+    position: relative;
     background: url("{{config.background_image}}") no-repeat center;
     background-size: cover;
+    padding-bottom: 20px;
   }
 
   .back h2 {
     font-family: "Lato", sans-serif;
     font-weight: 900;
   }
+
+  .back .dark-filter {
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 60%;
+    background-color: black;
+  }
 </style>
 
-<div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
+<div class="jumbotron jumbotron-fluid back">
+  <div class="dark-filter"></div>
   <div class="row header p-6 m-5">
     <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
       <h2>
         {{config.tagline|safe}}
       </h2>
-      <h2 class="p-5">
-        {{config.date|safe}}
-      </h2>
+      <h3 class="p-5">
+        {{config.date|safe}} @ {{config.place|safe}}
+      </h3>
     </div>
   </div>
 </div>
@@ -31,8 +43,8 @@
 {% block content %}
 
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-sm border">
+  <div class="row" style="margin-bottom: 2rem">
+    <div class="col-sm border p-4">
       {{ home | markdown }}
     </div>
     <!--    <div class="col col-lg-2">-->

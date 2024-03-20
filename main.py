@@ -22,7 +22,6 @@ def load_sitedata(site_data_path):
     extra_files = []
     # Load all for your sitedata one time.
     for f in glob.glob(site_data_path + "/*"):
-        print(f)
         extra_files.append(f)
         name, typ = f.split("/")[-1].split(".")
         if typ == "json":
@@ -69,35 +68,15 @@ def home():
     return render_template("index.html", **data)
 
 
-def extract_list_field(v, key):
-    value = v.get(key, "")
-    if isinstance(value, list):
-        return value
-    else:
-        return value.split("|")
-
-
-def format_paper(v):
-    v["authors"] = extract_list_field(v, "authors")
-    dt = datetime.strptime(v["start_time"], "%Y-%m-%dT%H:%M:%SZ")
-    v["time"] = dt.strftime("%A %m/%d %H:%M EST")
-    v["short_time"] = dt.strftime("%H:%M EST")
-    v["title"] = v["title"].title()
-    v["title"] = re.sub(r"Nlg", "NLG", v["title"])
-    return v
-
-
-def format_workshop(v):
-    v["organizers"] = extract_list_field(v, "authors")
-    dt = datetime.strptime(v["start_time"], "%Y-%m-%dT%H:%M:%SZ")
-    v["time"] = dt.strftime("%A %m/%d %H:%M EST")
-    return v
-
-
 # ITEM PAGES
 @app.route("/static/<path:path>")
 def send_static(path):
     return send_from_directory("static", path)
+
+
+@app.route("/serve_<path>.json")
+def serve(path):
+    return jsonify(site_data[path])
 
 
 # --------------- DRIVER CODE -------------------------->
@@ -106,9 +85,6 @@ def send_static(path):
 
 @freezer.register_generator
 def generator():
-    for paper in site_data["papers"]:
-        yield "poster", {"poster": str(paper["UID"])}
-
     for key in site_data:
         yield "serve", {"path": key}
 
