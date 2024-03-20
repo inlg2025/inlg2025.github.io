@@ -1,0 +1,373 @@
+{# Components:
+tabs -- Navigation tabs
+section, subsection -- bootstrap sections
+speakergroup
+sponsorgroup
+organizergroup
+papergroup
+callgroup
+faqgroup
+highlightgroup
+workshopgroup
+tutorialgroup
+sessiongroup
+#}
+
+{% macro sessiongroup(private, sessions) %}
+{% for session in sessions %}
+{% set rowloop = loop.index %}
+<div class="row">
+    <div class="col-12" id="accordionExample">
+        <div class="card m-2">
+            <div class="card-header">
+                {% if session.zoom != None %}
+                {% if private %}
+                <a href="{{session.zoom}}">
+                    {% endif %}
+                    {% endif %}
+                    {{session.name}}
+                    {% if session.zoom != None %}
+                    {% if private %}
+                </a>
+                {% endif %}
+                {% endif %}
+                ({{session.start_time.strftime("%H:%M EST")}})
+                {% if session.chair %}
+                <i>Session Chair: {{session.chair}}</i>
+                {% endif %}
+                {% if session.full_video != blank %}
+                {% if private %}
+                <a href="{{session.full_video}}">Video</a>
+                {% endif %}
+                {% endif %}
+            </div>
+            <div id="collapse{{rowloop}}-{{loop.index}}" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    {% if session.url != blank %}
+                    <a href="{{session.url}}">More Info</a>
+                    {% endif %}
+                    <ul>
+                        {% for paper in session.contents %}
+                        {% if paper.title != blank %}
+                        {% if paper.name != blank %}
+                        <li>{{paper.title}}<br /><i>{{paper.name}}</i><br />{{paper.abstract}}</li>
+                        {% endif %}
+                        {% if paper.authors != blank %}
+                        <li>
+                            <a href="poster_{{paper.UID}}.html">
+                                {{paper.short_time}} {{paper.title}}
+                            </a>
+                            <br /><i>{{ paper.authors | join(", ") }}</i>
+                        </li>
+                        {% endif %}
+                        {% if paper.organizers != blank %}
+                        <li>{{paper.title}}<br /><i>{{ paper.organizers | join(", ") }}</i><br />{{paper.abstract}}</li>
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endmacro %}
+
+{% macro tabs(tab_group) -%}
+<ul class="nav nav-pills justify-content-center">
+    {% for tab in tab_group %}
+    <li class="nav-item">
+        <a class="nav-link {{tab[2]}} text-muted " data-toggle="tab" href="#tab-{{tab[0]}}" role="tab"
+            aria-controls="nav-home" aria-selected="true">{{tab[1]}}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro section(name) -%}
+<div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+    <div class="col-12 bd-content">
+        <h2 class="text-center">{{name}}</h2>
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro subsection(name) -%}
+<div class="row p-3">
+    <div class="col-12 bd-content">
+        <h3>{{name}}</h3>
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro speakergroup(private, speakers) -%}
+{% for speaker in speakers %}
+{% set rowloop = loop.index %}
+<div class="row">
+    <div class="col-12" id="accordionExample">
+        <div class="card m-2">
+            <div class="card-header">
+                <a class="" href="#{{speaker.UID}}" data-toggle="collapse"
+                    data-target="#collapse{{rowloop}}-{{loop.index}}" aria-expanded="true"
+                    aria-controls="collapse{{rowloop}}-{{loop.index}}">
+                    {{speaker.name}}</a>, {{speaker.institution}}
+            </div>
+            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse" aria-labelledby="headingOne"
+                data-parent="#accordionExample">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-5">
+                            <img src="{{speaker.image}}" width="100%" class="img-thumbnail" />
+                        </div>
+                        <div class="col-md-10 col-sm-6">
+                            <h3>
+                                {% if private %}
+                                {% if speaker.full_video != blank %}
+                                <a href={{speaker.full_video}}>
+                                    {% endif %}
+                                    {% endif %}
+                                    {{speaker.title}}
+                                    {% if private %}
+                                    {% if speaker.full_video != blank %}
+                                </a>
+                                {% endif %}
+                                {% endif %}
+                            </h3>
+                            {% if speaker.abstract %}
+                            <span class="font-weight-bold">Abstract:</span>
+                            {{speaker.abstract|markdown}}
+                            {% endif %}
+                            <br />
+                            {% if speaker.bio %}
+                            <span class="font-weight-bold">Bio:</span>
+                            {{speaker.bio|safe}}
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{%- endmacro %}
+
+{% macro sponsorgroup(sponsors) -%}
+<div class="row">
+    {% for org in sponsors %}
+    <div class="col-md-6 col-xs-6">
+        <div class="pp-card">
+            <div class="pp-card-header" class="text-muted">
+                <br /><br /><br />
+                <br /><br />
+                <center>
+                    <a href="{{org.url}}"><img src="{{org.image}}" class="rounded" style="height: 75px;"
+                            alt="{{org.name}}" /></a>
+                </center>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro organizergroup(committee) -%}
+<div class="row">
+    {% for org in committee %}
+    <div class="col-md-4 col-xs-6">
+        <div class="pp-card">
+            <div class="pp-card-header" class="text-muted">
+                <h5 class="card-title" align="center">{{org.name}}</h5>
+                <div>
+                    <h6 class="card-subtitle text-muted m-1" align="center">
+                        {{org.role}}
+                    </h6>
+                </div>
+                <div>
+                    <h6 class="card-subtitle text-muted m-1" align="center">
+                        {{org.aff}}{% if org.tw %} /
+                        <a class="text-muted" href="http://twitter.com/{{org.tw}}">@{{org.tw}}</a>{% endif %}
+                    </h6>
+                </div>
+                <center>
+                    <img src="{{org.im}}" class="rounded" style="height: 150px;" />
+                </center>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro papergroup(private, papers) -%}
+<div class="row">
+    {% for paper in papers %}
+    <div class="col-md-4 col-xs-6">
+        <div class="pp-card">
+            <div class="pp-card-header" class="text-muted">
+                <center>
+                    <h5>
+                        <a href="poster_{{paper.UID}}.html">{{paper.title}}</a>
+                    </h5>
+                    {% if paper.summary_video %}
+                    {% if private %}
+                    <a href="{{paper.summary_video}}">
+                        {% endif %}
+                        <img src="static/images/{{paper.UID}}.jpg" height="144" width="256" alt="{{paper.title}}">
+                        {% if private %}
+                    </a>
+                    {% endif %}
+                    {% endif %}
+                    {% if paper.summary_video == blank and paper.full_video %}
+                    {% if private %}
+                    <a href="{{paper.full_video}}">
+                        {% endif %}
+                        <img src="static/images/{{paper.UID}}.jpg" height="144" width="256" alt="{{paper.title}}">
+                        {% if private %}
+                    </a>
+                    {% endif %}
+                    {% endif %}
+                </center>
+                <!--        <h5 class="card-title" align="center"><a href="poster_{{paper.UID}}.html">{{paper.title}}</a></h5>
+            <div>
+              <h4 class="card-subtitle text-muted m-1" align="center">
+                <i>{{ paper.authors | join(", ") }}</i>
+              </h4> 
+            </div> -->
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro callgroup(calls) -%}
+{% for call in calls %}
+{% set rowloop = loop.index %}
+<div class="row">
+    <div class="col-12" id="accordionExample">
+        <div class="card m-2">
+            <div class="card-header">
+                <a class="" href="#" data-toggle="collapse" data-target="#collapse{{rowloop}}-{{loop.index}}"
+                    aria-expanded="true" aria-controls="collapse{{rowloop}}-{{loop.index}}">
+                    {{call.title}}
+                </a>, deadline {{call.deadline}}
+            </div>
+            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse" aria-labelledby="headingOne"
+                data-parent="#accordionExample">
+                <div class="card-body">
+                    {{ call.bodytext | markdown }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{%- endmacro %}
+
+{% macro faqgroup(FAQ) -%}
+{% for section in FAQ %}
+{{ subsection(section.Section) }}
+
+{% set rowloop = loop.index %}
+{% for qa in section.QA %}
+<div class="row">
+    <div class="col-12" id="accordionExample">
+        <div class="card m-2">
+            <div class="card-header">
+                <a class="" href="#" data-toggle="collapse" data-target="#collapse{{rowloop}}-{{loop.index}}"
+                    aria-expanded="true" aria-controls="collapse{{rowloop}}-{{loop.index}}">
+                    {{qa.Question}}
+                </a>
+            </div>
+            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse" aria-labelledby="headingOne"
+                data-parent="#accordionExample">
+                <div class="card-body">
+                    {{qa.Answer | markdown}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endfor %}
+{%- endmacro %}
+
+{% macro highlightgroup(papers, id) -%}
+<div class="row my-auto mx-auto">
+    <div id="carouselExample{{id}}" class="carousel slide d-none d-md-block" data-interval="false">
+        <div class="carousel-inner cards" role="listbox">
+            {% for openreview in papers %}
+            {% if loop.index % 3 == 1 %}
+            <div class="carousel-item {% if loop.index == 1%} active{% endif %}">
+                {% endif %}
+                <div class="col-md-4 col-xs-6 fluid">
+                    <div class="pp-card">
+                        <div class="pp-card-header">
+                            <a href="poster_{{openreview.UID}}.html" class="text-muted">
+                                <h5 class="card-title" align="center">
+                                    {{openreview.title}}
+                                </h5>
+                            </a>
+                            <h6 class="card-subtitle text-muted" align="center">
+                                {% for a in openreview.authors %}
+                                {{a}},
+                                {% endfor %}
+                            </h6>
+                            <center>
+                                <img class="cards_img lazy-load-img"
+                                    data-src="https://iclr.github.io/iclr-images/{{openreview.UID}}.png" width="80%" />
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                {% if loop.index % 3 == 0 or loop.index == loop.length %}
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample{{id}}" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample{{id}}" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro workshopgroup(private, workshops) -%}
+{% for workshop in workshops %}
+{% set rowloop = loop.index %}
+<div class="row">
+    <div class="col-12" id="accordionExample">
+        <div class="card m-1">
+            <div class="card-header">
+                <center>
+                    <h2>{{workshop.title}}</h2>
+                    {{workshop.time}}&nbsp;&nbsp;&nbsp;&nbsp;
+                    {% if private == true %}
+                    <a href="{{workshop.zoom}}">Zoom</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                        href="{{workshop.discord}}">Discord</a>
+                    {% endif %}
+                    <br />
+                    <i>
+                        {{ workshop.organizers | join(", ") }}
+                    </i>
+                </center>
+            </div>
+            <div id="collapse{{rowloop}}-{{loop.index}}" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    {{ workshop.abstract | markdown }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{%- endmacro %}

@@ -1,7 +1,6 @@
 git clone
 % pip install -r requirements.txt
-edit edit edit
-set config to private for the virtual conference site, or public for the public conference site
+edit files
 % make run
 % make freeze
 % git subtree push --prefix build origin gh-pages
