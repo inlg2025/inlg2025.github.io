@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- External Javascript libs_ext  -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+    integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+    integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+    integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+
+  <!-- Library libs_ext -->
+  <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+
+
+  <!--    Internal Libs -->
+  <script src="static/js/data/api.js"></script>
+
+
+  <script>
+    var auth0_domain = "dev-ma80app1.us.auth0.com";
+    var auth0_client_id = "ptF3gg7K6X0VN0FxOeCAVbKURrAis82d";
+  </script>
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.7/auth0-spa-js.production.js"></script>
+  <script src="static/js/modules/auth0protect.js"></script>
+
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+
+  <!-- External Fonts (no google for china) -->
+  <link href="static/css/Lato.css" rel="stylesheet" />
+  <link href="static/css/Exo.css" rel="stylesheet" />
+  <link href="static/css/Cuprum.css" rel="stylesheet" />
+  <link rel="stylesheet" href="static/css/main.css" />
+  <!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+  <link rel="stylesheet" href="static/css/fa_solid.css" />
+  <link rel="stylesheet" href="static/css/lazy_load.css" />
+  <link rel="stylesheet" href="static/css/typeahead.css" />
+
+  <title>INLG 2024</title>
+
+</head>
+
+<body>
+  <!-- NAV -->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="static/images/inlg_logo.png" height="auto" width="90px" />
+      </a>
+
+      <a class="navbar-brand" href="index.html">17th International Natural Language Generation Conference</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right flex-grow-1" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="calls.html">Calls</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="workshops.html">Workshops</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="organizers.html">Organizers</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="https://sigdialinlg2024.github.io/">Participating</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Program
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="speakers.html">Keynotes</a>
+              <a class="dropdown-item" href="https://sigdialinlg2024.github.io/calendar.html">Schedule</a>
+              <!--                    <a class="dropdown-item" href="panels.html">Panel</a>-->
+              <a class="dropdown-item" href="accepted_papers.html">Accepted Papers</a>
+              <a class="dropdown-item" href="awards.html">Awards</a>
+              <!--                    <a class="dropdown-item" href="papers.html">Papers</a>-->
+              <!--                    <a class="dropdown-item" href="workshops.html">Workshops</a>-->
+              <!--                    <a class="dropdown-item" href="tutorials.html">Tutorials</a>-->
+              <!--                    <a class="dropdown-item" href="hackathons.html">Hackathon</a>-->
+              <!--                    <a class="dropdown-item" href="genchal.html">GenChal</a>-->
+            </div>
+          </li>
+
+          <!--               <li class="nav-item ">-->
+          <!--                  <a class="nav-link" href="calendar.html">Schedule</a>-->
+          <!--              </li>-->
+
+          <!--                <li class="nav-item ">-->
+          <!--                    <a class="nav-link" href="sponsors.html">Sponsors</a>-->
+          <!--                </li>-->
+
+          <!--                <li class="nav-item ">-->
+          <!--                    <a class="nav-link" href="registration.html">Registration</a>-->
+          <!--                </li>-->
+
+          <li class="nav-item ">
+            <a class="nav-link" href="help.html">Help</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="https://2024.sigdial.org/">SIGDIAL 2024</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- User Overrides -->
+
+  <style>
+    .back {
+      background: url("static/images/tokyo.jpg") no-repeat center;
+      background-size: cover;
+    }
+
+    .back h2 {
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+    }
+  </style>
+
+  <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
+    <div class="row header p-6 m-5">
+      <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
+        <h2>
+          17th International Natural Language Generation Conference
+        </h2>
+        <h2 class="p-5">
+          September 2024
+        </h2>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+
+    </div>
+    <!-- Content -->
+    <div class="content">
+
+
+      <!-- Calls -->
+      <div class="border-top my-3"></div>
+      <div class="row p-4" id="faq">
+        <div class="col-12 bd-content">
+          <h2 class="text-center">Calls</h2>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-12" id="accordionExample">
+          <div class="card m-2">
+            <div class="card-header">
+              <a class="" href="#" data-toggle="collapse" data-target="#collapse1-1" aria-expanded="true"
+                aria-controls="collapse1-1">
+                INLG 2024 Call for Papers
+              </a>, deadline May 22, 2024 11:59:59 PM AOE
+            </div>
+            <div id="collapse1-1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <h3><em><em>Call For papers: 17th International Natural Language Generation Conference (INLG
+                      2024</em>)</em></h3>
+                <p>We invite the submission of long and short papers, as well as system demonstrations, related to all
+                  aspects of Natural Language Generation (NLG), including data-to-text, concept-to-text, text-to-text
+                  and vision-to-text approaches. Accepted papers will be presented as oral talks or posters.</p>
+                <p>The event is organized under the auspices of the Special Interest Group on Natural Language
+                  Generation (<a href="https://aclweb.org/aclwiki/SIGGEN">SIGGEN</a>) of the Association for
+                  Computational Linguistics (<a href="https://aclweb.org/">ACL</a>). The event will be held from 11-15
+                  September in Tokyo, Japan, Czech Republic. INLG 2024 will be (jointly) colocated with <a
+                    href="https://2024.sigdial.org/">SIGDial 2024</a>.</p>
+                <h3><strong>Important dates</strong></h3>
+                <p>All deadlines are Anywhere on Earth (UTC-12)</p>
+                <ul>
+                  <li><strong><em>UPDATE: START system regular paper title &amp; abstract submission deadline: May 22,
+                        2024</em></strong></li>
+                  <li><strong><em>UPDATE: START system full paper submission deadline: May 29, 2024</em></strong></li>
+                  <li><strong><em>UPDATE: ARR commitment to INLG deadline via START system: June 19, 2024</em></strong>
+                  </li>
+                  <li>START system demo paper submission deadline: June 15, 2024</li>
+                  <li>Notification: July 11, 2024</li>
+                  <li>Camera ready: July 25, 2024</li>
+                  <li>Conference: 11-15 September 2024</li>
+                </ul>
+                <h3><strong>Submission website</strong></h3>
+                <p>You can make your submissions to INLG 2024 <a href="https://softconf.com/n/inlg2024/">here</a>.</p>
+                <h3><strong>Topics</strong></h3>
+                <p>INLG 2024 solicits papers on any topic related to NLG. General topics of interest include, but are
+                  not limited to:</p>
+                <ul>
+                  <li>Affect/emotion generation</li>
+                  <li>Analysis and detection of automatically generated text</li>
+                  <li>Bias and fairness in NLG systems</li>
+                  <li>Cognitive modelling of language production</li>
+                  <li>Computational efficiency of NLG models</li>
+                  <li>Content and text planning</li>
+                  <li>Corpora and resources for NLG</li>
+                  <li>Ethical considerations of NLG</li>
+                  <li>Evaluation and error analysis of NLG systems</li>
+                  <li>Explainability and Trustworthiness of NLG systems</li>
+                  <li>Generalizability of NLG systems</li>
+                  <li>Grounded language generation</li>
+                  <li>Large Language Models for NLG</li>
+                  <li>Lexicalisation</li>
+                  <li>Multimedia and multimodality in generation</li>
+                  <li>Natural language understanding techniques for NLG</li>
+                  <li>NLG and accessibility</li>
+                  <li>NLG in speech synthesis and spoken language models</li>
+                  <li>NLG in dialogue</li>
+                  <li>NLG for human-robot interaction</li>
+                  <li>NLG for low-resourced languages</li>
+                  <li>NLG for real-world applications</li>
+                  <li>Paraphrasing, summarization and translation</li>
+                  <li>Personalisation and variation in text</li>
+                  <li>Referring expression generation</li>
+                  <li>Storytelling and narrative generation</li>
+                  <li>Surface realisation</li>
+                  <li>System architectures</li>
+                </ul>
+                <h3>Submissions &amp; Format</h3>
+                <p>Three kinds of papers can be submitted:</p>
+                <ul>
+                  <li><span style="text-decoration:underline;">Long papers</span> are most appropriate for presenting
+                    substantial research results and must not exceed eight (8) pages of content, plus unlimited pages of
+                    ethical considerations, supplementary material statements, and references. The supplementary
+                    material statement provides detailed descriptions to support the reproduction of the results
+                    presented in the paper (see below for details). The final versions of long papers will be given one
+                    additional page of content (up to 9 pages) so that reviewers' comments can be taken into account.
+                  </li>
+                  <li><span style="text-decoration:underline;">Short papers</span> are more appropriate for presenting
+                    an ongoing research effort and must not exceed four (4) pages, plus unlimited pages of ethical
+                    considerations, supplementary material statements, and references. The final versions of short
+                    papers will be given one additional page of content (up to 5 pages) so that reviewers' comments can
+                    be taken into account.</li>
+                  <li><span style="text-decoration:underline;">Demo papers</span> should be no more than two (2) pages,
+                    including references, and should describe implemented systems relevant to the NLG community. It also
+                    should include a link to a short screencast of the working software. In addition, authors of demo
+                    papers must be willing to present a demo of their system during INLG 2024.</li>
+                </ul>
+                <p>Submissions should follow <a
+                    href="https://www.aclweb.org/adminwiki/index.php?title=ACL_Author_Guidelines">ACL Author
+                    Guidelines</a> and policies for submission, review and citation, and be anonymised for double blind
+                  reviewing. Please use ACL 2024 style files; LaTeX style files and Microsoft Word templates are
+                  available at<a href="https://2024.aclweb.org/calls/style_and_formatting/">
+                    https://2024.aclweb.org/calls/style_and_formatting/</a>.</p>
+                <p>Authors must honour the ethical code set out in the <a
+                    href="https://www.aclweb.org/portal/content/acl-code-ethics">ACL Code of Ethics</a>. If your work
+                  raises any ethical issues, you should include an explicit discussion of those issues. This will also
+                  be taken into account in the review process. You may find <a
+                    href="https://aclrollingreview.org/responsibleNLPresearch/">this checklist</a> of use.</p>
+                <p>Authors are strongly encouraged to ensure that their work is reproducible; see, e.g., the following
+                  <a href="https://2021.aclweb.org/calls/reproducibility-checklist/">reproducibility checklist</a>.
+                  Papers involving any kind of experimental results (human judgments, system outputs, etc) should
+                  incorporate a data availability statement into their paper. Authors are asked to indicate whether the
+                  data is made publicly available. If the data is not made available, authors should provide a brief
+                  explanation why. (E.g. because the data contains proprietary information.) A <a
+                    href="https://inlg2024.github.io/resource_statement.html">statement guide</a> is available on the
+                  INLG 2024 website.</p>
+                <p>To submit a long or short paper to INLG 2024, authors can either submit directly or commit a paper
+                  previously reviewed by ARR via the same <a href="https://softconf.com/n/inlg2024/">paper submission
+                    site</a>. For direct submissions, the deadline for submitting abstracts and titles of papers is May
+                  22, 2024, 11:59:59 PM AOE and the full paper submission deadline is May 29, 2024, 11:59:59 PM AOE. If
+                  committing an ARR paper to INLG, the submission is also made through the INLG 2024 paper submission
+                  site, indicating the link of the paper on OpenReview. The deadline for committing an ARR paper to INLG
+                  is June 19, 2024, 11:59:59 PM AOE, and the last eligible ARR paper submission deadline for INLG 2024
+                  is April 15, 2024. It is important to note that when committing an ARR paper to INLG, it should be
+                  submitted through the INLG 2024 paper submission site, just like a direct submission paper, with the
+                  only difference being the need to provide the OpenReview link to the paper and to provide an optional
+                  author response to reviews.</p>
+                <p>Demo papers should be submitted directly through the INLG 2024 <a
+                    href="https://softconf.com/n/inlg2024/">paper submission site</a> by June 15, 2024, 11:59:59 PM AOE.
+                </p>
+                <p>All accepted papers will be published in the INLG 2024 proceedings and included in the ACL anthology.
+                  A paper accepted for presentation at INLG 2024 must not have been presented at any other meeting with
+                  publicly available proceedings. Dual submission to other conferences is permitted, provided that
+                  authors clearly indicate this in the submission form. If the paper is accepted at both venues, the
+                  authors will need to choose which venue to present at, since they can not present the same paper
+                  twice.</p>
+                <h3><strong>Awards</strong></h3>
+                <p>INLG 2024 will present several awards to recognize outstanding achievements in the field. These
+                  awards are:</p>
+                <ul>
+                  <li>Best Long Paper Award: This award will be given to the best long paper submission based on its
+                    originality, impact, and contribution to the field of NLG.</li>
+                  <li>Best Short Paper Award: This award will be given to the best short paper submission based on its
+                    originality, impact, and contribution to the field of NLG.</li>
+                  <li>Best Demo Paper Award: This award will recognize the best demo paper submitted to the conference.
+                    This award considers not only the paper's quality but also the demonstration given at the
+                    conference. The demonstration will play a significant role in the judging process.</li>
+                  <li>Best Evaluation Award: The award is a new addition to INLG 2024. This award is designed to honour
+                    authors who have demonstrated the most comprehensive and insightful analysis in evaluating their
+                    results. This award aims to highlight papers where the authors have gone the extra mile in providing
+                    a thorough and detailed analysis of their results, offering a nuanced understanding of their
+                    findings.</li>
+                </ul>
+                <p>Frequently asked questions about committing a paper from ACL Rolling Review are answered in the <a
+                    href="https://inlg2024.github.io/help.html">Help</a> tab.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-12" id="accordionExample">
+          <div class="card m-2">
+            <div class="card-header">
+              <a class="" href="#" data-toggle="collapse" data-target="#collapse2-2" aria-expanded="true"
+                aria-controls="collapse2-2">
+                Call for Workshop Proposals
+              </a>, deadline March 24, 2024 11:59:59 PM AOE
+            </div>
+            <div id="collapse2-2" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <h2>SIGDIAL&amp;INLG Call for Workshops</h2>
+                <p>The 24th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDial 2024) and
+                  the 17th International Natural Language Generation Conference (INLG 2024) will be held jointly in
+                  Tokyo, Japan on September 11-15, 2022. We now welcome the submission of workshop and tutorial
+                  proposals, which will take place on September 11 and 12 before the main conference.</p>
+                <p>We encourage submissions of proposals on any topic of interest to the discourse, dialogue, and
+                  natural language generation communities. This program is intended to offer new perspectives and bring
+                  together researchers working on related topics. We especially encourage the sessions that would bring
+                  together researchers from SIGDial and INLG communities.</p>
+                <p>Topics of interest include all aspects related to Dialogue, Discourse and Generation including (but
+                  not limited to) annotation and resources, evaluation, large language models, adversarial and RL
+                  methods, explainable/ethical AI, summarization, interactive/multimodal/situated/incremental systems,
+                  data/knowledge/vision-to-text, and applications of dialogue and NLG.</p>
+                <p>The proposed workshops/tutorials may include a poster session, a panel session, an oral presentation
+                  session, a hackathon, a generation/dialogue challenge, or a combination of the above. Workshop
+                  organizers will be responsible for soliciting, reviewing, and selecting papers or abstracts. The
+                  workshop papers will be published in a separate proceedings. Workshops may, at the discretion of the
+                  SIGDial/INLG organizers, be held as parallel sessions.</p>
+                <h3>Submissions</h3>
+                <p>Workshop and Tutorial proposals should be 2-4 pages containing: title, type (workshop or tutorial), a
+                  summary of the topic, motivating theoretical interest and/or application context, a list of organizers
+                  and sponsors, duration (half-day or full-day), and a requested session format(s):
+                  poster/panel/oral/hackathon session, the number of expected attendees. The workshop proposals will be
+                  reviewed jointly by the general chair and program co-chairs.</p>
+                <h3>Links</h3>
+                <p>Those wishing to propose a workshop or tutorial may want to look at some of the sessions organized at
+                  recent SIGDial meetings:</p>
+                <ul>
+                  <li><a href="https://2022.sigdial.org/call-for-papers-nlihri/">Natural Language in Human Robot
+                      Interaction (NLiHRI 2022)</a></li>
+                  <li><a href="https://nlg4health.uvt.nl/">NLG4health 2022</a></li>
+                  <li><a href="https://elitr.github.io/automatic-minuting/summdial.html">SummDial 2021</a></li>
+                  <li><a href="https://sites.google.com/view/safety4convai/home">SafeConvAI 2021</a></li>
+                  <li><a href="https://robodial.github.io/">RoboDIAL 2022</a></li>
+                  <li><a href="https://bigscience.huggingface.co/">BigScience Workshop: LLMs 2021</a></li>
+                  <li><a href="https://sites.google.com/view/nl4xai2019/">Interactive Natural Language Technology for
+                      Explainable Artificial Intelligence 2019</a></li>
+                  <li><a href="https://www.inlg2019.com/workshop">https://www.inlg2019.com/workshop</a></li>
+                  <li><a
+                      href="https://www.sigdial.org/files/workshops/conference18/sessions.htm">https://www.sigdial.org/files/workshops/conference18/sessions.htm</a>
+                  </li>
+                  <li><a href="https://inlg2018.uvt.nl/workshops/">https://inlg2018.uvt.nl/workshops/</a></li>
+                </ul>
+                <h3>Important Dates</h3>
+                <p>Mar 24, 2024: Workshop/Tutorial Proposal Submission Deadline</p>
+                <p>April 14, 2024: Workshops/Tutorials Notifications</p>
+                <h3>Submission</h3>
+                <p>The proposals should be sent to conference(a)sigdial.org.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-12" id="accordionExample">
+          <div class="card m-2">
+            <div class="card-header">
+              <a class="" href="#" data-toggle="collapse" data-target="#collapse3-3" aria-expanded="true"
+                aria-controls="collapse3-3">
+                Call for new Shared Task proposals (GenChal)
+              </a>, deadline June 11, 2024 11:59:59 PM AOE
+            </div>
+            <div id="collapse3-3" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <h3><strong>Call for new Shared Task proposals</strong></h3>
+                <p>We invite submissions of papers describing ideas for future shared tasks in the general area of
+                  language generation (Generation Challenges 2024). Proposed tasks can be in the area of core NLG, or in
+                  other research areas in which language is generated. Examples include, but are not limited to:
+                  data-to-text NLG, text-to-text generation (including MT and summarisation), combining core NLG and MT,
+                  combining core NLG and text summarisation, NLG quality estimation, NLG evaluation metrics, and/or
+                  generating language from heterogeneous data, including image and video.</p>
+                <p>The Generation Challenges (GenChal) are an umbrella event designed to bring together a variety of
+                  shared-task efforts that involve the generation of natural language. This year, Generation Challenges
+                  will be held during a special session at the 17th International Conference on Natural Language
+                  Generation (<a href="https://inlg2024.github.io/index.html">INLG 2024</a>), scheduled on September
+                  11-15 2024. The session will follow the format of previous GenChal results sessions, with
+                  presentations of results by the organisers of the generation challenges that are currently running, a
+                  poster session for task participants to present their submissions, as well as presentations of
+                  proposals for new shared tasks in the Task Proposals Track, and discussion sessions. You can see the
+                  previous GenChal tasks on the <a href="https://sites.google.com/view/genchalrepository/home">dedicated
+                    repository</a>.</p>
+                <p>Submissions should describe possible future tasks in detail, including information regarding
+                  organisers, task description, motivating theoretical interest and/or application context, size and
+                  state of completion of data to be used, schedule and evaluation plans. Accepted shared tasks will be
+                  run in the 2024 iteration of INLG.</p>
+                <h3><strong>Important dates</strong></h3>
+                <ul>
+                  <li><strong>EDIT!</strong> Submission deadline: June 11th 2024</li>
+                  <li>Notification: July 11th 2024</li>
+                  <li>Camera-ready submission: July 25th 2024</li>
+                  <li>INLG conference: September 11th-15th 2024</li>
+                </ul>
+                <p>All deadlines are 11.59 pm UTC -12h ("anywhere on Earth").</p>
+                <h3>Submissions &amp; Format</h3>
+                <p>Submissions in the Shared Task Proposals track should be no more than 4 (four) pages long excluding
+                  citations, and should follow the <a href="https://acl-org.github.io/ACLPUB/formatting.html">ACLPUB
+                    formatting guidelines</a> and <a
+                    href="https://2021.aclweb.org/downloads/acl-ijcnlp2021-templates.zip">template files</a>.</p>
+                <p>Proposals should be uploaded to the <a
+                    href="https://softconf.com/n/inlg2024/user/scmd.cgi?scmd=submitPaperCustom&amp;pageid=11">SoftConf</a>
+                  GenChal submission page, using the Submission type New shared task proposal.</p>
+                <p>Submissions will be peer-reviewed by the program committee. As reviewing will not be blind, there is
+                  no need to anonymise papers.</p>
+                <p>This is not intended to be a selective process, since the aim is to discuss new potential shared
+                  tasks with INLG delegates. However, the organisers reserve the right to reject proposals which do not
+                  fall within the scope of the GenChal initiative, or which do not follow guidelines. Accepted
+                  submissions will be published in separate GenChal 2024 proceedings on the ACL Anthology, <a
+                    href="https://aclanthology.org/volumes/2022.inlg-genchal/">as was done in 2022</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag("js", new Date());
+    gtag("config", "UA-");
+  </script>
+
+  <!-- Footer -->
+  <footer class="footer bg-light p-4">
+    <div class="container">
+      <p class="float-right"><a href="#">Back to Top</a></p>
+      <p class="text-center">© 2020 INLG 2024 Organizers</p>
+    </div>
+  </footer>
+
+  <!-- Code for hash tags -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (window.location.hash !== "") {
+        $(`a[href="${window.location.hash}"]`).tab("show");
+      }
+
+      $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+        const hash = $(e.target).attr("href");
+        if (hash.substr(0, 1) === "#") {
+          const position = $(window).scrollTop();
+          window.location.replace(`#${hash.substr(1)}`);
+          $(window).scrollTop(position);
+        }
+      });
+    });
+  </script>
+  <!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+
+</html>

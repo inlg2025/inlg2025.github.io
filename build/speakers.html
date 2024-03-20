@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- External Javascript libs_ext  -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+    integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+    integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+    integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+
+  <!-- Library libs_ext -->
+  <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+
+
+  <!--    Internal Libs -->
+  <script src="static/js/data/api.js"></script>
+
+
+  <script>
+    var auth0_domain = "dev-ma80app1.us.auth0.com";
+    var auth0_client_id = "ptF3gg7K6X0VN0FxOeCAVbKURrAis82d";
+  </script>
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.7/auth0-spa-js.production.js"></script>
+  <script src="static/js/modules/auth0protect.js"></script>
+
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+
+  <!-- External Fonts (no google for china) -->
+  <link href="static/css/Lato.css" rel="stylesheet" />
+  <link href="static/css/Exo.css" rel="stylesheet" />
+  <link href="static/css/Cuprum.css" rel="stylesheet" />
+  <link rel="stylesheet" href="static/css/main.css" />
+  <!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+  <link rel="stylesheet" href="static/css/fa_solid.css" />
+  <link rel="stylesheet" href="static/css/lazy_load.css" />
+  <link rel="stylesheet" href="static/css/typeahead.css" />
+
+  <title>INLG 2024</title>
+
+</head>
+
+<body>
+  <!-- NAV -->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="static/images/inlg_logo.png" height="auto" width="90px" />
+      </a>
+
+      <a class="navbar-brand" href="index.html">17th International Natural Language Generation Conference</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right flex-grow-1" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="calls.html">Calls</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="workshops.html">Workshops</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="organizers.html">Organizers</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="https://sigdialinlg2024.github.io/">Participating</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Program
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="speakers.html">Keynotes</a>
+              <a class="dropdown-item" href="https://sigdialinlg2024.github.io/calendar.html">Schedule</a>
+              <!--                    <a class="dropdown-item" href="panels.html">Panel</a>-->
+              <a class="dropdown-item" href="accepted_papers.html">Accepted Papers</a>
+              <a class="dropdown-item" href="awards.html">Awards</a>
+              <!--                    <a class="dropdown-item" href="papers.html">Papers</a>-->
+              <!--                    <a class="dropdown-item" href="workshops.html">Workshops</a>-->
+              <!--                    <a class="dropdown-item" href="tutorials.html">Tutorials</a>-->
+              <!--                    <a class="dropdown-item" href="hackathons.html">Hackathon</a>-->
+              <!--                    <a class="dropdown-item" href="genchal.html">GenChal</a>-->
+            </div>
+          </li>
+
+          <!--               <li class="nav-item ">-->
+          <!--                  <a class="nav-link" href="calendar.html">Schedule</a>-->
+          <!--              </li>-->
+
+          <!--                <li class="nav-item ">-->
+          <!--                    <a class="nav-link" href="sponsors.html">Sponsors</a>-->
+          <!--                </li>-->
+
+          <!--                <li class="nav-item ">-->
+          <!--                    <a class="nav-link" href="registration.html">Registration</a>-->
+          <!--                </li>-->
+
+          <li class="nav-item ">
+            <a class="nav-link" href="help.html">Help</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="https://2024.sigdial.org/">SIGDIAL 2024</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- User Overrides -->
+
+  <style>
+    .back {
+      background: url("static/images/tokyo.jpg") no-repeat center;
+      background-size: cover;
+    }
+
+    .back h2 {
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+    }
+  </style>
+
+  <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
+    <div class="row header p-6 m-5">
+      <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
+        <h2>
+          17th International Natural Language Generation Conference
+        </h2>
+        <h2 class="p-5">
+          September 2024
+        </h2>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+
+    </div>
+    <!-- Content -->
+    <div class="content">
+
+
+      <!-- Organizers -->
+      <div class="border-top my-3"></div>
+      <div class="row p-4" id="faq">
+        <div class="col-12 bd-content">
+          <h2 class="text-center">Speakers</h2>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-12" id="accordionExample">
+          <div class="card m-2">
+            <div class="card-header">
+              <a class="" href="#BarbaraDiEugenio" data-toggle="collapse" data-target="#collapse1-1"
+                aria-expanded="true" aria-controls="collapse1-1">
+                Barbara Di Eugenio</a>, University of Illinois Chicago
+            </div>
+            <div id="collapse1-1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-2 col-sm-5">
+                    <img src="/static/images/barbara_dieugenio.jpg" width="100%" class="img-thumbnail" />
+                  </div>
+                  <div class="col-md-10 col-sm-6">
+                    <h3>
+
+                      Engaging the Patient in Healthcare: Summarization and Interaction
+
+                    </h3>
+
+                    <span class="font-weight-bold">Abstract:</span>
+                    <p>Effective and compassionate communication with patients is becoming central to healthcare. I will
+                      discuss the results of and lessons learned from three ongoing projects in this space. The first,
+                      MyPHA, aims to provide patients with a clear and understandable summary of their hospital stay,
+                      which is informed by doctors’ and nurses’ perspectives, and by the strengths and concerns of the
+                      patients themselves. The second, SMART-SMS, models health coaching interactions via text exchanges
+                      that encourage patients to adopt specific and realistic physical activity goals. The third,
+                      HFChat, envisions an always-on-call conversational assistant for heart failure patients, that they
+                      can ask for information about lifestyle issues such as food and exercise. All our work is
+                      characterized by: large interdisciplinary groups of investigators who bring different perspectives
+                      to the research; grounding computational models in ecologically valid data, which is small by its
+                      own nature; the need for culturally valid interventions, since our UI Health system predominantly
+                      serves underprivileged, minority populations; and the challenges that arise when dealing with the
+                      healthcare enterprise.</p>
+
+                    <br />
+
+                    <span class="font-weight-bold">Bio:</span>
+                    Barbara Di Eugenio is a Professor and Director of Graduate Studies in the Computer Science
+                    department at the University of Illinois Chicago. There she leads the NLP laboratory
+                    (http://nlp.cs.uic.edu/). She obtained her PhD in Computer Science from the University of
+                    Pennsylvania (1993). Her research has always focused on the pragmatics and computational modeling of
+                    discourse and dialogue, grounded in authentic data collection on the one hand, and in user studies
+                    on the other. The applications of her work run the gamut from educational technology to human-robot
+                    interaction, from data visualization to health care. Dr. Di Eugenio is an NSF CAREER awardee (2002);
+                    a UIC University Scholar (2018-2020); and a Zenith Award recipient from AWIS, the Association for
+                    Women in Science (2022). She has been the editor-in-chief for the Journal of Discourse and Dialogue
+                    since 2019. She is very proud to have graduated 15 PhD and 32 Master’s students.
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-12" id="accordionExample">
+          <div class="card m-2">
+            <div class="card-header">
+              <a class="" href="#EmmanuelDupoux" data-toggle="collapse" data-target="#collapse2-2" aria-expanded="true"
+                aria-controls="collapse2-2">
+                Emmanuel Dupoux</a>, Ecole des Hautes Etudes en Sciences Sociales (EHESS)
+            </div>
+            <div id="collapse2-2" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-2 col-sm-5">
+                    <img src="/static/images/emmanuel_dupoux.jpg" width="100%" class="img-thumbnail" />
+                  </div>
+                  <div class="col-md-10 col-sm-6">
+                    <h3>
+
+                      Textless NLP: towards language processing from raw audio
+
+                    </h3>
+
+                    <span class="font-weight-bold">Abstract:</span>
+                    <p>The oral (or gestural) modality is the most natural channel for human language interactions. Yet,
+                      language technology (Natural Language Processing, NLP) is primarily based on the written modality,
+                      and requires massive amounts of textual resources for the training of useful language models. As a
+                      result, even fundamentally speech-first applications like speech-to-speech translation or spoken
+                      assistants like Alexa, or Siri, are constructed in a Frankenstein way, with text as an
+                      intermediate representation between the signal and language models. Besides this being
+                      inefficient, This has two unfortunate consequences: first, only a small fraction of the world's
+                      languages that have massive textual repositories can be addressed by current technology. Second,
+                      even for text-rich languages, the oral form mismatches the written form at a variety of levels,
+                      including vocabulary and expressions. The oral medium also contains typically unwritten linguistic
+                      features like rhythm and intonation (prosody) and rich paralinguistic information (non verbal
+                      vocalizations like laughter, cries, clicks, etc, nuances carried through changes in voice
+                      qualities) which are therefore inaccessible to language models. But is this a necessity? Could we
+                      build language applications directly from the audio stream without using any text? In this talk,
+                      we review recent breakthroughs in representation learning and self-supervised techniques which
+                      have made it possible to learn latent linguistic units directly from audio which unlock the
+                      learning of generative language models without the use of any text. We show that these models can
+                      capture heretofore unaddressed nuances of the oral language including in a dialogue context,
+                      opening up the possibility of speech-to-speech textless NLP applications. We outline existing
+                      technical challenges to achieve this goal, including challenges to build expressive oral language
+                      datasets at scale.</p>
+
+                    <br />
+
+                    <span class="font-weight-bold">Bio:</span>
+                    E. Dupoux is professor at the Ecole des Hautes Etudes en Sciences Sociales (EHESS) and Research
+                    Scientist at Meta AI Labs. He directs the Cognitive Machine Learning team at the Ecole Normale
+                    Supérieure (ENS) in Paris and INRIA. His education includes a PhD in Cognitive Science (EHESS), a MA
+                    in Computer Science (Orsay University) and a BA in Applied Mathematics (Pierre & Marie Curie
+                    University). His research mixes developmental science, cognitive neuroscience, and machine learning,
+                    with a focus on the reverse engineering of infant language and cognitive development using
+                    unsupervised or weakly supervised learning. He is the recipient of an Advanced ERC grant,
+                    co-organizer of the Zero Ressource Speech Challenge series (2015--2021), the Intuitive Physics
+                    Benchmark (2019) and led in 2017 a Jelinek Summer Workshop at CMU on multimodal speech learning. He
+                    is a CIFAR LMB and a ELLIS Fellow. He has authored 150 articles in peer reviewed outlets in
+                    cognitive science and language technology.
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-12" id="accordionExample">
+          <div class="card m-2">
+            <div class="card-header">
+              <a class="" href="#ElenaSimperl" data-toggle="collapse" data-target="#collapse3-3" aria-expanded="true"
+                aria-controls="collapse3-3">
+                Elena Simperl</a>, King’s College London
+            </div>
+            <div id="collapse3-3" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-2 col-sm-5">
+                    <img src="/static/images/elena_simperl.jpg" width="100%" class="img-thumbnail" />
+                  </div>
+                  <div class="col-md-10 col-sm-6">
+                    <h3>
+
+                      Knowledge graph use cases in natural language generation
+
+                    </h3>
+
+                    <span class="font-weight-bold">Abstract:</span>
+                    <p>Natural language generation (NLG) makes knowledge graphs (KGs) more accessible. I will present
+                      two applications of NLG in this space: in the first one, verbalisations of KG triples feed into
+                      downstream KG applications, allowing users with diverse levels of digital literacy to share their
+                      knowledge, and contribute to the KG. In the second one, having text representations of KG triples
+                      helps us verify the content of a KG against external sources towards more trustworthy KGs. I will
+                      present human-in-the-loop solutions to these applications that leverage a range of machine
+                      learning techniques to scale to the large, multilingual knowledge graphs modern applications use.
+                    </p>
+
+                    <br />
+
+                    <span class="font-weight-bold">Bio:</span>
+                    Elena Simperl is a Professor of Computer Science and Deputy Head of Department for Enterprise and
+                    Engagement in the Department of Informatics at King’s College London. She is also the Director of
+                    Research for the Open Data Institute (ODI) and a Fellow of the British Computer Society and the
+                    Royal Society of Arts. Elena features in the top 100 most influential scholars in knowledge
+                    engineering of the last decade. She obtained her doctoral degree in Computer Science from the Free
+                    University of Berlin, and her diploma in Computer Science from the Technical University of Munich.
+                    Prior to joining King’s in 2020, she was a Turing Fellow, and held positions in Germany, Austria and
+                    at the University of Southampton. Her research is at intersection between AI and social computing,
+                    helping designers understand how to build smart sociotechnical systems that combine data and
+                    algorithms with human and social capabilities. Elena led 14 European and national research projects,
+                    including recently QROWD, ODINE, Data Pitch, Data Stories, and ACTION. She is currently the
+                    scientific and technical director of MediaFutures, a Horizon 2020 programme that is using
+                    arts-inspired methods to design participatory AI systems that tackle misinformation and
+                    disinformation online. Elena’s interest in leading initiatives within the scientific community has
+                    also taken form through chairing several conferences in her field, including the European and
+                    International Semantic Web Conference series, the European Data Forum, and the European Semantic
+                    Technologies conference. She is the president of the Semantic Web Science Association.
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-12" id="accordionExample">
+          <div class="card m-2">
+            <div class="card-header">
+              <a class="" href="#RyanLowe" data-toggle="collapse" data-target="#collapse4-4" aria-expanded="true"
+                aria-controls="collapse4-4">
+                Ryan Lowe</a>, OpenAI
+            </div>
+            <div id="collapse4-4" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-2 col-sm-5">
+                    <img src="/static/images/ryan_lowe.jpg" width="100%" class="img-thumbnail" />
+                  </div>
+                  <div class="col-md-10 col-sm-6">
+                    <h3>
+
+                      Knowledge graph use cases in natural language generation
+
+                    </h3>
+
+                    <span class="font-weight-bold">Abstract:</span>
+                    <p>In this talk I will present different perspectives on the alignment of chatbots like ChatGPT.
+                      I’ll review reinforcement learning from human feedback (RLHF), the core training technique behind
+                      InstructGPT and ChatGPT, including a brief history of how it was developed. I’ll discuss some of
+                      the pitfalls of RLHF, and what is being done today to address them. I’ll then speculate on some of
+                      the alignment challenges I expect we’ll face with this new generation of powerful personal
+                      assistants, how they could reshape society, and some things we’ll need to do to make sure these
+                      changes are good for humans.</p>
+
+                    <br />
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag("js", new Date());
+    gtag("config", "UA-");
+  </script>
+
+  <!-- Footer -->
+  <footer class="footer bg-light p-4">
+    <div class="container">
+      <p class="float-right"><a href="#">Back to Top</a></p>
+      <p class="text-center">© 2020 INLG 2024 Organizers</p>
+    </div>
+  </footer>
+
+  <!-- Code for hash tags -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (window.location.hash !== "") {
+        $(`a[href="${window.location.hash}"]`).tab("show");
+      }
+
+      $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+        const hash = $(e.target).attr("href");
+        if (hash.substr(0, 1) === "#") {
+          const position = $(window).scrollTop();
+          window.location.replace(`#${hash.substr(1)}`);
+          $(window).scrollTop(position);
+        }
+      });
+    });
+  </script>
+  <!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+private: false
+name: INLG 2023
+tagline: 16th International Natural Language Generation Conference
+date: 11-15 September 2023
+citation_date: September 2023
+proceedings_title: Proceedings of the 16th International Natural Language Generation Conference
+analytics: UA-
+logo:
+  image: static/images/inlg_logo.png
+  width: 90px
+  height: auto
+# uncomment the following line to show the site title next to the logo image
+site_title: 16th International Natural Language Generation Conference
+page_title:
+  prefix: "INLG 2023"
+  separator: ": "
+background_image: static/images/prague_cropped.jpg
+organization: INLG 2023 Organizers
+
+calendar:
+  colors: #  Colors for the different event hashtags:
+    ---: "#bed972"
+    qa: "#4FCAEB"
+    talk: "#ccc"
+  sunday_saturday: false #  Include Sunday and Saturday

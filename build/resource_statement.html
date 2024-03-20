@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- External Javascript libs_ext  -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+    integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+    integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+    integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+
+  <!-- Library libs_ext -->
+  <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+
+
+  <!--    Internal Libs -->
+  <script src="static/js/data/api.js"></script>
+
+
+  <script>
+    var auth0_domain = "dev-ma80app1.us.auth0.com";
+    var auth0_client_id = "ptF3gg7K6X0VN0FxOeCAVbKURrAis82d";
+  </script>
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.7/auth0-spa-js.production.js"></script>
+  <script src="static/js/modules/auth0protect.js"></script>
+
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+
+  <!-- External Fonts (no google for china) -->
+  <link href="static/css/Lato.css" rel="stylesheet" />
+  <link href="static/css/Exo.css" rel="stylesheet" />
+  <link href="static/css/Cuprum.css" rel="stylesheet" />
+  <link rel="stylesheet" href="static/css/main.css" />
+  <!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+  <link rel="stylesheet" href="static/css/fa_solid.css" />
+  <link rel="stylesheet" href="static/css/lazy_load.css" />
+  <link rel="stylesheet" href="static/css/typeahead.css" />
+
+  <title>INLG 2024</title>
+
+</head>
+
+<body>
+  <!-- NAV -->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="static/images/inlg_logo.png" height="auto" width="90px" />
+      </a>
+
+      <a class="navbar-brand" href="index.html">17th International Natural Language Generation Conference</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right flex-grow-1" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="calls.html">Calls</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="workshops.html">Workshops</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="organizers.html">Organizers</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="https://sigdialinlg2024.github.io/">Participating</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Program
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="speakers.html">Keynotes</a>
+              <a class="dropdown-item" href="https://sigdialinlg2024.github.io/calendar.html">Schedule</a>
+              <!--                    <a class="dropdown-item" href="panels.html">Panel</a>-->
+              <a class="dropdown-item" href="accepted_papers.html">Accepted Papers</a>
+              <a class="dropdown-item" href="awards.html">Awards</a>
+              <!--                    <a class="dropdown-item" href="papers.html">Papers</a>-->
+              <!--                    <a class="dropdown-item" href="workshops.html">Workshops</a>-->
+              <!--                    <a class="dropdown-item" href="tutorials.html">Tutorials</a>-->
+              <!--                    <a class="dropdown-item" href="hackathons.html">Hackathon</a>-->
+              <!--                    <a class="dropdown-item" href="genchal.html">GenChal</a>-->
+            </div>
+          </li>
+
+          <!--               <li class="nav-item ">-->
+          <!--                  <a class="nav-link" href="calendar.html">Schedule</a>-->
+          <!--              </li>-->
+
+          <!--                <li class="nav-item ">-->
+          <!--                    <a class="nav-link" href="sponsors.html">Sponsors</a>-->
+          <!--                </li>-->
+
+          <!--                <li class="nav-item ">-->
+          <!--                    <a class="nav-link" href="registration.html">Registration</a>-->
+          <!--                </li>-->
+
+          <li class="nav-item ">
+            <a class="nav-link" href="help.html">Help</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="https://2024.sigdial.org/">SIGDIAL 2024</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- User Overrides -->
+
+  <style>
+    .back {
+      background: url("static/images/tokyo.jpg") no-repeat center;
+      background-size: cover;
+    }
+
+    .back h2 {
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+    }
+  </style>
+
+  <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
+    <div class="row header p-6 m-5">
+      <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
+        <h2>
+          17th International Natural Language Generation Conference
+        </h2>
+        <h2 class="p-5">
+          September 2024
+        </h2>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+
+    </div>
+    <!-- Content -->
+    <div class="content">
+
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm border">
+            <h2><strong>Supplementary Materials Availability Statement Guide </strong></h2>
+            <p><strong>INLG 2024 Resources Track</strong></p>
+            <p><strong>Key Points</strong></p>
+            <ul>
+              <li>All papers accepted for publication at INGL 2024 must include a supplementary materials availability
+                statement (even if only to state it can’t be made available or there aren’t any).</li>
+              <li>If resources are made available, reviewers are requested to consult the resource as well as the paper.
+              </li>
+              <li>Papers should be self-contained.</li>
+            </ul>
+            <p>Please find more details below.</p>
+            <p><strong>Usability and Reproducibility</strong></p>
+            <p>Usability of a resource or the data used or generated as part of the research as well as a clear
+              understanding how it came about is a key component of progress in scientific research, to use such a
+              resource competently in new research independently or to extend such a resource presented in scholarly
+              publications or to reproduce the experiment. In the context of computer science, providing access to such
+              material, such as code and datasets, greatly facilitates progress in research and reproducibility. This
+              supports the independent verification of results, and can increase the impact of a work by allowing other
+              researchers to reuse and build upon them. An important goal for INLG is to continue improving the
+              reproducibility of all papers, and usability and reusability of the resources, where relevant.</p>
+            <p><strong>Supplementary material vs. Paper Content</strong></p>
+            <p>All papers submitted to INLG 2024 need to be self-contained, meaning that the body of the paper should
+              provide a clear statement of their claims and clear argumentation regarding how these claims are
+              substantiated by evidence. This includes any details that are important for interpreting the resource,
+              such as the specifications of the machines used for experiments on the resource, key statistics about
+              datasets, important configurations or hyper-parameter settings, details about the metrics used, details
+              about how data was collected, etc.</p>
+            <p>The resource must include the materials reported in the paper that cannot feasibly be included in the
+              paper itself.</p>
+            <p>We strongly encourage authors to make the resource available under open licenses and in repositories that
+              provide long-term availability and have a persistent URI (Zenodo, Figshare, institutional repository,
+              etc.).</p>
+            <p><strong>Purpose of the Materials Availability Statement</strong></p>
+            <p>While it has become increasingly common for papers to include links to supplemental material to help
+              verify the results they present, often this is done in an ad hoc manner that differs from paper to paper.
+            </p>
+            <p>To make it easier for readers to find the supplementary materials, to understand what is provided and
+              what is not provided, and why, we ask all authors to include a standardized Supplementary Materials
+              Availability Statement at the end of their paper that:</p>
+            <ul>
+              <li>lists all resources presented in the paper;</li>
+              <li>points to locations where those resources can be found;</li>
+              <li>if applicable, justifies why certain resources cannot be made available (e.g., the privacy, technical
+                or legal concerns involved), or indicates the conditions under which they can be made available (if
+                any).</li>
+            </ul>
+            <p><strong>Format of the Supplementary Materials Availability Statement</strong></p>
+            <p>The Supplementary Materials Availability Statement should be placed at the end of the paper, just before
+              the References (and before Acknowledgements, if present). It does not count in the 8 pages page limit. It
+              should be formatted as an inline paragraph with an italicized heading:</p>
+            <hr />
+            <p><em>Supplementary Materials Availability Statement:</em> Source code is available …</p>
+            <hr />
+            <p>In Word, authors can simply replicate the formatting shown above.</p>
+            <p>In LaTeX, this can be achieved with the markup:</p>
+            <hr />
+            <p>\paragraph*{Supplementary Materials Availability Statement:} Source code is available …</p>
+            <hr />
+            <p><strong>Content of the Resource Availability Statement</strong></p>
+            <p>The Statement should point to the location of all resources made available as presented in the paper. The
+              authors must be careful to ensure that it is clear (either from the statement, or the resource linked from
+              the statement) what versions, configurations, dependencies, steps, etc., are needed to use the resource.
+              Some example templates of statements to include are:</p>
+            <ul>
+              <li><em>Source code for our System X is available from …</em></li>
+              <li><em>Datasets X, Y, Z are available from …</em></li>
+              <li><em>Query sets X, Y, Z are available from …</em></li>
+              <li><em>Source code for Baselines X, Y, Z is available from …</em></li>
+              <li><em>The raw data used to generate Figure X, Y and Tables A, B are available from …</em></li>
+            </ul>
+            <p>Pointers to resources can be provided either directly in the text of the statement, as footnotes, or as
+              bibliographical references; for example:</p>
+            <ul>
+              <li><em>Source code for OurX is available from Github.<sup>1</sup></em></li>
+              <li><em>Source code for OurX is available from Github [1].</em></li>
+              <li><em>Source code for OurX is available from Github at https://github.com/ThisIsUs/OurX.</em></li>
+            </ul>
+            <p>If multiple resources are available at one location, statements can be combined, for example:
+              “<em>Datasets A, B and query sets X, Y are available from …</em>”.</p>
+            <p>As per CfP, supplementary materials can be submitted via SoftConf.</p>
+            <p>In the unlikely case that the supplementary materials cannot be published openly, the authors must
+              clarify this in the statement, summarizing why it cannot be published, and include details about the
+              conditions under which the resource can be accessed; for example:</p>
+            <ul>
+              <li><em>Source code for our System X cannot be made available due to plans to commercialize the
+                  software.</em></li>
+              <li><em>Dataset X cannot be made available as it incorporates private user data. However, a suitably
+                  anonymized version may be made available under a licence, upon contact with the authors.</em></li>
+            </ul>
+            <p><strong>Examples of Supplementary Materials Availability Statements</strong></p>
+            <p><em>Supplementary Materials Availability Statement:</em> Source code for OurX and the queries used in
+              Section 4 are available from Github.<sup>1</sup> The OurOntoX dataset is available from Zenodo [4]. The
+              MyHealth dataset cannot be made available as it incorporates private user data. </p>
+            <hr />
+            <p>1 https://github.com/ThisIsUs/OurX</p>
+            <p>References </p>
+            <p>… </p>
+            <p>[4] This, I.U. OurX. Zenodo doi:10.5281/zenodo.12345678. (2024) https://doi.org/10.5281/zenodo.4035223
+            </p>
+            <p>… </p>
+            <p><strong>Review of the Supplementary Materials Availability Statement</strong></p>
+            <p>Reviewers will be asked to review the Availability Statement in order to verify that it does not omit any
+              resources that are presented as novel resources in the paper, that the resources are indeed available at
+              the locations indicated, and that all reasonable efforts have been made to make all relevant material
+              available.</p>
+            <p>Reviewers are expected to review the content of the material. Nonetheless, it is important that the paper
+              is self-contained, reporting on the resource and the context of its creation (refer to the full list of
+              criteria in the CfP). </p>
+          </div>
+        </div>
+      </div>
+
+
+      <script>
+        const updateUI = async () => {
+          const auth0_domain = "dev-ma80app1.us.auth0.com";
+          const auth0_client_id = "ptF3gg7K6X0VN0FxOeCAVbKURrAis82d";
+          const auth0 = await createAuth0Client({
+            domain: auth0_domain,
+            client_id: auth0_client_id,
+            cacheLocation: "localstorage",
+          });
+          const is_auth = await auth0.isAuthenticated();
+          console.log(is_auth, "--- is_auth");
+          if (is_auth) {
+            document.body.style.display = null;
+
+            // unused atm, hook up later; this won't get executed since we change location above
+            const user = await auth0.getUser();
+            $(".loginBtn").hide();
+            $(".logoutBtn").show();
+            $(".secret").show();
+            $(".user_name").text(user.name);
+            $(".login-message").text("You are logged in as");
+          } else {
+            $(".loginBtn").show();
+            $(".logoutBtn").hide();
+            $(".secret").hide();
+            $(".user_name").text("");
+            $(".login-message").text("You are currently not authenticated.");
+          }
+
+          $(".loginBtn").click(async function () {
+            window.location.href = `redirect.html?return=index.html`;
+          });
+          $(".logoutBtn").click(async function () {
+            await auth0.logout({
+              returnTo: window.location.href,
+            });
+          });
+        };
+        updateUI();
+      </script>
+
+
+
+    </div>
+  </div>
+
+
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag("js", new Date());
+    gtag("config", "UA-");
+  </script>
+
+  <!-- Footer -->
+  <footer class="footer bg-light p-4">
+    <div class="container">
+      <p class="float-right"><a href="#">Back to Top</a></p>
+      <p class="text-center">© 2020 INLG 2024 Organizers</p>
+    </div>
+  </footer>
+
+  <!-- Code for hash tags -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (window.location.hash !== "") {
+        $(`a[href="${window.location.hash}"]`).tab("show");
+      }
+
+      $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+        const hash = $(e.target).attr("href");
+        if (hash.substr(0, 1) === "#") {
+          const position = $(window).scrollTop();
+          window.location.replace(`#${hash.substr(1)}`);
+          $(window).scrollTop(position);
+        }
+      });
+    });
+  </script>
+  <!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+
+</html>
