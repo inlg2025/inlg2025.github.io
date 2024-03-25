@@ -1,9 +1,0 @@
-git clone
-% pip install -r requirements.txt
-edit files
-% make run
-% make freeze
-% git subtree push --prefix build origin gh-pages
-% git push origin main
-
-This is inspired from https://github.com/ieee-vgtc/vis-virtual-website
