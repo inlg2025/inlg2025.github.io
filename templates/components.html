@@ -87,9 +87,8 @@ sessiongroup
 {%- endmacro %}
 
 {% macro section(name) -%}
-<div class="border-top my-3"></div>
-<div class="row p-4" id="faq">
-    <div class="col-12 bd-content">
+<div class="row mb-4">
+    <div class="col-12">
         <h2 class="text-center">{{name}}</h2>
     </div>
 </div>
@@ -97,7 +96,7 @@ sessiongroup
 
 {% macro subsection(name) -%}
 <div class="row p-3">
-    <div class="col-12 bd-content">
+    <div class="col-12">
         <h3>{{name}}</h3>
     </div>
 </div>
@@ -249,16 +248,16 @@ sessiongroup
 {% set rowloop = loop.index %}
 <div class="row">
     <div class="col-12" id="accordionExample">
-        <div class="card m-2">
-            <div class="card-header">
-                <a class="" href="#" data-toggle="collapse" data-target="#collapse{{rowloop}}-{{loop.index}}"
+        <div class="card">
+            <div class="card-header" id="heading{{rowloop}}-{{loop.index}}">
+                <a class="" href="#" data-toggle="collapse" data-target="#collapse{{rowloop}}-{{loop.index}}" role="button"
                     aria-expanded="true" aria-controls="collapse{{rowloop}}-{{loop.index}}">
-                    {{call.title}}
-                </a>, deadline {{call.deadline}}
+                    {{ call.title }}
+                </a>, deadline {{ call.deadline }}
             </div>
-            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse" aria-labelledby="headingOne"
+            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse mt-3" aria-labelledby="heading{{rowloop}}-{{loop.index}}"
                 data-parent="#accordionExample">
-                <div class="card-body">
+                <div class="card-body markdown">
                     {{ call.bodytext | markdown }}
                 </div>
             </div>
