@@ -1,46 +1,6 @@
 {% set active_page = "Home" %}
 {% extends "base.html" %}
 
-{% block top %}
-<style>
-  .back {
-    position: relative;
-    background: url("{{config.background_image}}") no-repeat center;
-    background-size: cover;
-  }
-
-  .back h2 {
-    font-weight: 600;
-  }
-
-  .back h3 {
-    font-weight: 300;
-  }
-  .back .dark-filter {
-    top: 0;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    opacity: 60%;
-    background-color: black;
-  }
-</style>
-
-<div class="jumbotron jumbotron-fluid back">
-  <div class="dark-filter"></div>
-  <div class="row header m-5">
-    <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
-      <h2 class="display-4">
-        {{ config.tagline | safe }}
-      </h2>
-      <h3 class="mt-4">
-        {{ config.date | safe }} @ {{ config.place | safe }}
-      </h3>
-    </div>
-  </div>
-</div>
-{% endblock %}
-
 {% block content %}
 
 <div class="container-fluid">
@@ -53,4 +13,5 @@
     <!--    </div>-->
   </div>
 </div>
+
 {% endblock %}

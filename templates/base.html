@@ -27,7 +27,7 @@
     <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
         integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
 
-    <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
     <!-- Library libs_ext -->
@@ -90,12 +90,11 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-
-                    <!--
                     <li class="nav-item ">
                         <a class="nav-link" href="calls.html">Calls</a>
                     </li>
 
+                    <!--
                     <li class="nav-item ">
                         <a class="nav-link" href="workshops.html">Workshops</a>
                     </li>
@@ -151,13 +150,51 @@
 
     {% block body %}
     <!-- User Overrides -->
-    {% block top %} {% endblock %}
+    <style>
+    .back {
+        position: relative;
+        background: url("{{config.background_image}}") no-repeat center;
+        background-size: cover;
+    }
+    
+    .back h2 {
+        font-weight: 600;
+    }
+    
+    .back h3 {
+        font-weight: 300;
+    }
+
+    .back .dark-filter {
+        top: 0;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: 60%;
+        background-color: black;
+    }
+
+    .content {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    </style>
+    
+    <div class="jumbotron jumbotron-fluid back">
+        <div class="dark-filter"></div>
+        <div class="row header m-5">
+            <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
+            <h2 class="display-4">
+                {{ config.tagline | safe }}
+            </h2>
+            <h3 class="mt-4">
+                {{ config.date | safe }} @ {{ config.place | safe }}
+            </h3>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
-        <!-- Tabs -->
-        <div class="tabs">
-            {% block tabs %} {% endblock %}
-        </div>
         <!-- Content -->
         <div class="content">
             {% block content %} {% endblock %}
