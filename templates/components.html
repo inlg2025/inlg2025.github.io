@@ -173,31 +173,17 @@ sessiongroup
 </div>
 {%- endmacro %}
 
-{% macro organizergroup(committee) -%}
-<div class="row">
-    {% for org in committee %}
-    <div class="col-md-4 col-xs-6">
-        <div class="pp-card">
-            <div class="pp-card-header" class="text-muted">
-                <h5 class="card-title" align="center">{{org.name}}</h5>
-                <div>
-                    <h6 class="card-subtitle text-muted m-1" align="center">
-                        {{org.role}}
-                    </h6>
-                </div>
-                <div>
-                    <h6 class="card-subtitle text-muted m-1" align="center">
-                        {{org.aff}}{% if org.tw %} /
-                        <a class="text-muted" href="http://twitter.com/{{org.tw}}">@{{org.tw}}</a>{% endif %}
-                    </h6>
-                </div>
-                <center>
-                    <img src="{{org.im}}" class="rounded" style="height: 150px;" />
-                </center>
-            </div>
-        </div>
+{% macro display_person(person) %}
+<div class="col-md-4 col-sm-6 p-2">
+    <div class="border h-100 w-100 p-4" style="display: flex; flex-direction: column; align-items: center; justify-items: center;">
+        <div style="font-weight: 600;">{{person.name}}</div>
+        <div style="font-size: small; font-style: italic; margin-top: 0.4rem; text-align: center;">{{person.role}}</div>
+        <div style="font-size: small; text-align: center;">{{person.aff}}</div>
+        {% if person.im %}
+        <div style="margin-top: 0.8rem;"></div>
+        <img src="{{person.im}}" class="rounded" style="margin-top: auto; height: 12rem; width: 10rem; object-fit: cover;" />
+        {% endif %}
     </div>
-    {% endfor %}
 </div>
 {%- endmacro %}
 
@@ -250,13 +236,13 @@ sessiongroup
     <div class="col-12" id="accordionExample">
         <div class="card">
             <div class="card-header" id="heading{{rowloop}}-{{loop.index}}">
-                <a class="" href="#" data-toggle="collapse" data-target="#collapse{{rowloop}}-{{loop.index}}" role="button"
-                    aria-expanded="true" aria-controls="collapse{{rowloop}}-{{loop.index}}">
+                <a class="" href="#" data-toggle="collapse" data-target="#collapse{{rowloop}}-{{loop.index}}"
+                    role="button" aria-expanded="true" aria-controls="collapse{{rowloop}}-{{loop.index}}">
                     {{ call.title }}
                 </a>, deadline {{ call.deadline }}
             </div>
-            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse mt-3" aria-labelledby="heading{{rowloop}}-{{loop.index}}"
-                data-parent="#accordionExample">
+            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse mt-3"
+                aria-labelledby="heading{{rowloop}}-{{loop.index}}" data-parent="#accordionExample">
                 <div class="card-body markdown">
                     {{ call.bodytext | markdown }}
                 </div>

@@ -4,13 +4,13 @@ import csv
 import glob
 import json
 import os
-import re
-from datetime import datetime
 
+import markdown as md
 import yaml
-from flask import Flask, jsonify, redirect, render_template, send_from_directory
+from flask import (Flask, jsonify, redirect, render_template,
+                   send_from_directory)
 from flask_frozen import Freezer
-from flaskext.markdown import Markdown
+from markupsafe import Markup
 
 site_data = {}
 by_uid = {}
@@ -40,7 +40,11 @@ def load_sitedata(site_data_path):
 app = Flask(__name__)
 app.config.from_object(__name__)
 freezer = Freezer(app)
-markdown = Markdown(app)
+
+
+@app.template_filter("markdown")
+def filter_markdown(s: str):
+    return Markup(md.markdown(s, extensions=["tables"]))
 
 
 # MAIN PAGES
@@ -75,6 +79,13 @@ def calls():
     for call in data["calls"]:
         call["bodytext"] = open(call["body"]).read()
     return render_template("calls.html", **data)
+
+@app.route("/organizers.html")
+def organizers():
+    data = _data()
+    data["pc_chairs"] = site_data["committee"]["pc_chairs"]
+    data["local_organizers"] = site_data["committee"]["local_organizers"]
+    return render_template("organizers.html", **data)
 
 
 # ITEM PAGES
@@ -135,4 +146,4 @@ if __name__ == "__main__":
         if os.getenv("FLASK_DEBUG") == "True":
             debug_val = True
 
-        app.run(port=5000, debug=debug_val, extra_files=extra_files)
+        app.run(port=8888, debug=debug_val, extra_files=extra_files)

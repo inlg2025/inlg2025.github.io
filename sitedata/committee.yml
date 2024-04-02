@@ -1,0 +1,44 @@
+pc_chairs:
+  - role: Program Chair
+    name: Nguyen Le Minh
+    aff: Japan Advanced Institute of Science and Technology
+  - role: Program Chair
+    name: Daphne Ippolito
+    aff: Carnegie Mellon University
+  - role: Program Chair
+    name: Saad Mahamood
+    aff: Trivago
+    im: /static/images/saad_mahamood.jpg
+local_organizers:
+  - role: Local Organizer Chair
+    name: Tatsuya Ishigaki
+    aff: AIST
+    im: /static/images/tatsuya_ishigaki.jpg
+  - role: Sponsor Chair, Local Organizer
+    name: Ayana Niwa
+    aff: Recruit Co., Ltd. / Megagon Labs, Tokyo
+    im: /static/images/ayana_niwa.jpg
+  - role: Local Organizer
+    name: Takashi Yamamura
+    aff: Works Applications
+    im: /static/images/takashi_yamamura.jpg
+  - role: Local Organizer
+    name: Shun Tanaka
+    aff: JX PRESS Corporation
+    im: /static/images/shun_tanaka.jpg
+  - role: Local Organizer
+    name: Takato Yamazaki
+    aff: LY Corp. / SB Intuitions Corp.
+    im: /static/images/takato_yamazaki.jpg
+  - role: Local Organizer
+    name: Toshiki Kawamoto
+    aff: Amazon
+    im: /static/images/toshiki_kawamoto.jpg
+  - role: Local Organizer
+    name: Hiroya Takamura
+    aff: AIST
+    im: /static/images/hiroya_takamura.jpg
+  - role: Local Organizer
+    name: Ichiro Kobayashi
+    aff: Ochanomizu University
+    im: /static/images/ichiro_kobayashi.jpg

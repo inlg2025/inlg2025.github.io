@@ -1,0 +1,22 @@
+{% set active_page = "Organizers" %}
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- Organizers -->
+{{ components.section("Organizers") }}
+<h3>PC Chairs</h3>
+<div class="row">
+  {% for person in pc_chairs %}
+  {{ components.display_person(person) }}
+  {% endfor %}
+</div>
+
+<h3 style="margin-top: 2rem;">Local Organizers</h3>
+<div class="row">
+  {% for person in local_organizers %}
+  {{ components.display_person(person) }}
+  {% endfor %}
+</div>
+
+{% endblock %}

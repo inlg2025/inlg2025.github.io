@@ -3,14 +3,65 @@
 
 {% block content %}
 
+<style>
+  .supporters-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .supporters-title {
+    font-weight: 600;
+    font-style: italic;
+    width: 12rem;
+    font-size: 1.1rem;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+</style>
+
 <div class="container-fluid">
-  <div class="row" style="margin-bottom: 2rem">
+  <div class="row">
     <div class="markdown col-sm border p-4">
       {{ home | markdown }}
     </div>
     <!--    <div class="col col-lg-2">-->
     <!--      <a class="twitter-timeline" data-height="500" href="https://twitter.com/inlgmeeting?ref_src=twsrc%5Etfw">Tweets by inlgmeeting</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
     <!--    </div>-->
+  </div>
+  <div class="row border p-4" style="margin-top: 2rem; display: flex; flex-direction: column; gap: 2rem;">
+    <div class="supporters-container">
+      <div class="supporters-title">Supported by</div>
+      <div class="logo-container">
+        <a class="logo" href="https://aclweb.org/aclwiki/SIGGEN">
+          <img style="height: 3.5rem;" src="/static/images/inlg_logo.png" />
+        </a>
+        <a href="https://www.aclweb.org/">
+          <img style="height: 3rem" src="/static/images/acl_logo.svg" />
+        </a>
+      </div>
+    </div>
+    <div class="supporters-container">
+      <div class="supporters-title">Organized by</div>
+      <div class="logo-container">
+        <a href="https://www.airc.aist.go.jp/en/intro/">
+          <img style="height: 3rem;" src="/static/images/airc_logo.png" />
+        </a>
+      </div>
+    </div>
+    <div class="supporters-container">
+      <div class="supporters-title">Collocated with</div>
+      <div class="logo-container">
+        <a href="https://www.sigdial.org/">
+          <img style="height: 3rem;" src="/static/images/sigdial_logo.png" />
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 

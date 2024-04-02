@@ -5,6 +5,13 @@ The event will take place at [AIST](https://www.aist.go.jp/index_en.html) and th
 
 This conference will follow [SIGDIAL 2024](https://2024.sigdial.org), which will take place in Kyoto, Japan from September 18th to 20th.
 
-### News
+#### News
 
-Mar 20: INLG 2024 website is open.
+<table>
+  <tbody>
+    <tr>
+      <td><b>March 20</b></td>
+      <td>INLG 2024 website is open.</td>
+    </tr>
+  </tbody>
+</table>

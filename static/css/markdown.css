@@ -19,3 +19,21 @@
 .markdown p {
   margin: 0;
 }
+
+.markdown table {
+  border-spacing: 0;
+}
+
+.markdown thead {
+  border: none;
+}
+
+.markdown tr {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, max-content));
+  gap: 2rem;
+}
+
+.markdown td, .markdown th {
+  padding: 0.4rem 0rem;
+}
