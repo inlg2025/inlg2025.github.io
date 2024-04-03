@@ -91,13 +91,13 @@
 
             <div class="collapse navbar-collapse text-right flex-grow-1" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item {{ 'active' if request.path == '/' or request.path == '/index.html' }}">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item {{ 'active' if request.path == '/calls.html' }}">
                         <a class="nav-link" href="calls.html">Calls</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item {{ 'active' if request.path == '/organizers.html' }}">
                         <a class="nav-link" href="organizers.html">Organizers</a>
                     </li>
 
