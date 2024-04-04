@@ -66,7 +66,7 @@ def home():
     return render_template("index.html", **data)
 
 
-@app.route("/calls")
+@app.route("/calls.html")
 def calls():
     data = _data()
     data["calls"] = site_data["calls"]["calls"]
@@ -75,7 +75,7 @@ def calls():
     return render_template("calls.html", **data)
 
 
-@app.route("/organizers")
+@app.route("/organizers.html")
 def organizers():
     data = _data()
     data["pc_chairs"] = site_data["committee"]["pc_chairs"]
@@ -83,14 +83,14 @@ def organizers():
     return render_template("organizers.html", **data)
 
 
-@app.route("/faq")
+@app.route("/faq.html")
 def faq():
     data = _data()
     data["faq"] = site_data["faq"]["faq"]
     return render_template("faq.html", **data)
 
 
-@app.route("/resource-statement")
+@app.route("/resource-statement.html")
 def resource_statement():
     data = _data()
     data["mdcontent"] = open("sitedata/resource_statement.md").read()
