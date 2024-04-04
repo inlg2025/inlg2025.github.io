@@ -3,3 +3,4 @@ calls:
     title: INLG 2023 Call for Papers
     deadline: May 22, 2023 11:59:59 PM AOE
     body: sitedata/cfp.md
+    show: true

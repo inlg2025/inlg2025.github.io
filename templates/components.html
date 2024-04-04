@@ -241,7 +241,7 @@ sessiongroup
                     {{ call.title }}
                 </a>, deadline {{ call.deadline }}
             </div>
-            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse mt-3"
+            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse mt-3 {{'show' if call.show }}"
                 aria-labelledby="heading{{rowloop}}-{{loop.index}}" data-parent="#accordionExample">
                 <div class="card-body markdown">
                     {{ call.bodytext | markdown }}
