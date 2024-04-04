@@ -2,9 +2,11 @@ pc_chairs:
   - role: Program Chair
     name: Nguyen Le Minh
     aff: Japan Advanced Institute of Science and Technology
+    im: /static/images/nguyen_le_minh.png
   - role: Program Chair
     name: Daphne Ippolito
     aff: Carnegie Mellon University
+    im: /static/images/daphne_ippolito.png
   - role: Program Chair
     name: Saad Mahamood
     aff: Trivago
