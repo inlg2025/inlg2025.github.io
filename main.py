@@ -53,25 +53,20 @@ def _data():
     return data
 
 
-@app.route("/")
-def index():
-    return redirect("/index.html")
-
-
 @app.route("/favicon.ico")
 def favicon():
     return send_from_directory(site_data_path, "favicon.ico")
 
 
 # TOP LEVEL PAGES
-@app.route("/index.html")
+@app.route("/")
 def home():
     data = _data()
     data["home"] = open("sitedata/Home.md").read()
     return render_template("index.html", **data)
 
 
-@app.route("/calls.html")
+@app.route("/calls")
 def calls():
     data = _data()
     data["calls"] = site_data["calls"]["calls"]
@@ -80,12 +75,26 @@ def calls():
     return render_template("calls.html", **data)
 
 
-@app.route("/organizers.html")
+@app.route("/organizers")
 def organizers():
     data = _data()
     data["pc_chairs"] = site_data["committee"]["pc_chairs"]
     data["local_organizers"] = site_data["committee"]["local_organizers"]
     return render_template("organizers.html", **data)
+
+
+@app.route("/faq")
+def faq():
+    data = _data()
+    data["faq"] = site_data["faq"]["faq"]
+    return render_template("faq.html", **data)
+
+
+@app.route("/resource-statement")
+def resource_statement():
+    data = _data()
+    data["mdcontent"] = open("sitedata/resource_statement.md").read()
+    return render_template("single_md.html", **data)
 
 
 # ITEM PAGES

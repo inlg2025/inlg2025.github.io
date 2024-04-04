@@ -232,7 +232,7 @@ sessiongroup
 {% macro callgroup(calls) -%}
 {% for call in calls %}
 {% set rowloop = loop.index %}
-<div class="row">
+<div class="row row-list">
     <div class="col-12" id="accordionExample">
         <div class="card">
             <div class="card-header" id="heading{{rowloop}}-{{loop.index}}">
@@ -253,31 +253,32 @@ sessiongroup
 {% endfor %}
 {%- endmacro %}
 
-{% macro faqgroup(FAQ) -%}
-{% for section in FAQ %}
-{{ subsection(section.Section) }}
-
+{% macro faqgroup(faq) -%}
+{% for section in faq %}
 {% set rowloop = loop.index %}
-{% for qa in section.QA %}
-<div class="row">
-    <div class="col-12" id="accordionExample">
-        <div class="card m-2">
-            <div class="card-header">
-                <a class="" href="#" data-toggle="collapse" data-target="#collapse{{rowloop}}-{{loop.index}}"
-                    aria-expanded="true" aria-controls="collapse{{rowloop}}-{{loop.index}}">
-                    {{qa.Question}}
-                </a>
-            </div>
-            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse" aria-labelledby="headingOne"
-                data-parent="#accordionExample">
-                <div class="card-body">
-                    {{qa.Answer | markdown}}
+{{ subsection(section.section) }}
+<div>
+    {% for qa in section.qa %}
+    <div class="row row-list">
+        <div class="col-12" id="accordionExample">
+            <div class="card mx-2">
+                <div class="card-header">
+                    <a class="" href="#" data-toggle="collapse" data-target="#collapse{{rowloop}}-{{loop.index}}"
+                        role="button" aria-expanded="false" aria-controls="collapse{{rowloop}}-{{loop.index}}">
+                        {{ qa.question }}
+                    </a>
+                </div>
+                <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="markdown" style="margin-top: 1rem;">
+                        {{ qa.answer | markdown }}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    {% endfor %}
 </div>
-{% endfor %}
 {% endfor %}
 {%- endmacro %}
 

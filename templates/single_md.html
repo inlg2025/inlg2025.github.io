@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="markdown col-sm border p-4">{{ mdcontent | markdown }}</div>
+  </div>
+</div>
+
+{% endblock %}

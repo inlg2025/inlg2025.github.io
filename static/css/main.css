@@ -17,7 +17,6 @@ body {
 }
 
 .jumbotron {
-  background-color: rgba(236, 241, 246, 1);
   margin: 0;
 }
 
@@ -27,6 +26,10 @@ body {
 
 .btn {
   background-color: white;
+}
+
+.row-list:not(:first-child) {
+  margin-top: 1rem;
 }
 
 #main-nav {

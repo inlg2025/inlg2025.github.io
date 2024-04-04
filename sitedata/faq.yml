@@ -1,0 +1,13 @@
+faq:
+  - section: Frequently Asked Questions about ARR
+    qa:
+      - question: What papers may be committed to INLG 2024?
+        answer: You may commit any paper submitted to ARR since ARR started.
+      - question: What version of my paper should I commit to INLG 2024?
+        answer: You must commit the most recent version of the paper that has received reviews.
+      - question: Does INLG 2024 have an anonymity policy?
+        answer: INLG 2024 follows the ACL policy.
+      - question: Can I respond to the reviews when I commit to INLG 2024?
+        answer: When committing an ARR paper to INLG 2024 via the paper submission system, there will be space for you to provide an author response to review to the INLG 2024 area chairs. The author's response is mainly to raise potential concerns about objective misunderstandings by the reviewers and/or by the Action Editor about the technical aspect of the paper. These comments will only be visible to the INLG 2024 area chairs and program chairs. They will NOT be shared with the ARR reviewers or action editor.
+      - question: Can I revise the paper that I am committing to INLG 2024?
+        answer: The acceptance decisions will be made on the basis of the most recent version of your paper that was submitted to ARR and received reviews. If your paper is accepted to INLG 2024, you can revise it before sending the camera-ready version.

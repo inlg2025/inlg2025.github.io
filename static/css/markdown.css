@@ -20,20 +20,26 @@
   margin: 0;
 }
 
+.markdown p:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
 .markdown table {
-  border-spacing: 0;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.8rem;
 }
 
-.markdown thead {
-  border: none;
+.markdown td,
+.markdown th {
+  padding: 0.6rem;
+  vertical-align: top;
 }
 
-.markdown tr {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, max-content));
-  gap: 2rem;
+.markdown tr:nth-child(odd) {
+  background-color: rgb(244, 244, 244);
 }
 
-.markdown td, .markdown th {
-  padding: 0.4rem 0rem;
+.markdown tr:nth-child(even) {
+  background-color: rgb(252, 252, 252);
 }
