@@ -11,7 +11,11 @@ This conference will follow [SIGDIAL 2024](https://2024.sigdial.org), which will
   <tbody>
     <tr>
       <td style="white-space: nowrap;"><b>April 4</b></td>
-      <td><a href="/calls.html">INLG 2024 Call for Papers</a> is open, please check out the <a href="/calls.html">Calls</a> tab for more information.</td>
+      <td><b>We are seeking for sponsors!</b> Visit our <a href="/calls.html#sponsors">Call for Sponsors page</a> to learn more about supporting this event.</td>
+    </tr>
+    <tr>
+      <td style="white-space: nowrap;"><b>April 4</b></td>
+      <td><a href="/calls.html#cfp">INLG 2024 Call for Papers</a> is open, please check out the <a href="/calls.html">Calls</a> tab for more information.</td>
     </tr>
     <tr>
       <td style="white-space: nowrap;"><b>March 20</b></td>

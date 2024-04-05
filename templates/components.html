@@ -231,18 +231,17 @@ sessiongroup
 
 {% macro callgroup(calls) -%}
 {% for call in calls %}
-{% set rowloop = loop.index %}
 <div class="row row-list">
     <div class="col-12" id="accordionExample">
         <div class="card">
-            <div class="card-header" id="heading{{rowloop}}-{{loop.index}}">
-                <a class="" href="#" data-toggle="collapse" data-target="#collapse{{rowloop}}-{{loop.index}}"
-                    role="button" aria-expanded="true" aria-controls="collapse{{rowloop}}-{{loop.index}}">
+            <div class="card-header" id="heading-{{loop.index}}">
+                <a class="" href="#" data-toggle="collapse" data-target="#collapse-{{call.id}}"
+                    role="button" aria-expanded="true" aria-controls="collapse-{{loop.index}}">
                     {{ call.title }}
                 </a>
             </div>
-            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse mt-3 {{'show' if call.show }}"
-                aria-labelledby="heading{{rowloop}}-{{loop.index}}" data-parent="#accordionExample">
+            <div id="collapse-{{call.id}}" class="collapse mt-3 call-collapsed"
+                aria-labelledby="heading-{{loop.index}}" data-parent="#accordionExample">
                 <div class="card-body markdown">
                     {{ call.bodytext | markdown }}
                 </div>
@@ -251,6 +250,33 @@ sessiongroup
     </div>
 </div>
 {% endfor %}
+
+<style>
+html {
+    scroll-padding-top: 9rem;
+}
+</style>
+
+<script>
+function getAnchor() {
+    return document.URL.split("#").length > 1
+    ? document.URL.split("#")[1]
+    : null;
+}
+
+const anchor = getAnchor(document.URL);
+const el = anchor ? document.getElementById("collapse-" + anchor) : null;
+if (el) {
+    el.classList.add("show");
+    const navEl = document.getElementById("main-nav");
+    el.scrollIntoView({ behavior: "smooth" });
+} else {
+    const calls = document.getElementsByClassName("call-collapsed");
+    if (calls.length > 0) {
+        calls[0].classList.add("show");
+    }
+}
+</script>
 {%- endmacro %}
 
 {% macro faqgroup(faq) -%}

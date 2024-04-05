@@ -1,5 +1,7 @@
 calls:
-  - id: 1
+  - id: "cfp"
     title: INLG 2024 Call for Papers
     body: sitedata/cfp.md
-    show: true
+  - id: "sponsors"
+    title: INLG 2024 Call for Sponsors
+    body: sitedata/sponsor.md
