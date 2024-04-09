@@ -27,13 +27,13 @@ For this event, we offer three sponsor packages:
 ### Silver Sponsorship - $1,200
 
 - All Bronze benefits, with sponsor's logo displayed at **_medium_** size
-- A registration and banquet invitation
+- A complimentary registration for the main conference and workshop, along with a banquet invitation
 - Opportunity to showcase a poster panel with an optional desk
 
 ### Gold Sponsorship - $2,500
 
 - All Silver benefits, with sponsor's logo displayed at **_large_** size
-- An additional registration and banquet invitation
+- An additional complimentary registration for the main conference and workshop, along with a banquet invitation
 - Opportunity to showcase additional poster panel (two panels in total) with a bigger (2x) optional desk
 - Sponsor's logo displayed on the event banner
 
