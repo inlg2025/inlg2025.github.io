@@ -58,6 +58,11 @@ def favicon():
     return send_from_directory(site_data_path, "favicon.ico")
 
 
+@app.route("/sitemap.xml")
+def sitemap():
+    return send_from_directory(site_data_path, "sitemap.xml")
+
+
 # TOP LEVEL PAGES
 @app.route("/")
 def home():
