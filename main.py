@@ -102,6 +102,13 @@ def resource_statement():
     return render_template("single_md.html", **data)
 
 
+@app.route("/sponsor-ja.html")
+def sponsor_ja():
+    data = _data()
+    data["mdcontent"] = open("sitedata/sponsor_ja.md").read()
+    return render_template("single_md.html", **data)
+
+
 # ITEM PAGES
 @app.route("/static/<path:path>")
 def send_static(path):
