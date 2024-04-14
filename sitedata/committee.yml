@@ -29,13 +29,17 @@ local_organizers:
     aff: JX PRESS Corporation
     im: /static/images/shun_tanaka.jpg
   - role: Local Organizer
-    name: Takato Yamazaki
-    aff: LY Corp. / SB Intuitions Corp.
-    im: /static/images/takato_yamazaki.jpg
+    name: Yumi Hamazono
+    aff: Hitachi, Ltd.
+    im: /static/images/yumi_hamazono.jpg
   - role: Local Organizer
     name: Toshiki Kawamoto
     aff: Amazon
     im: /static/images/toshiki_kawamoto.jpg
+  - role: Local Organizer
+    name: Takato Yamazaki
+    aff: LY Corp. / SB Intuitions Corp.
+    im: /static/images/takato_yamazaki.jpg
   - role: Local Organizer
     name: Hiroya Takamura
     aff: AIST
