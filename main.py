@@ -7,7 +7,7 @@ import os
 
 import markdown as md
 import yaml
-from flask import Flask, jsonify, redirect, render_template, send_from_directory
+from flask import Flask, jsonify, render_template, send_from_directory
 from flask_frozen import Freezer
 from markupsafe import Markup
 
@@ -67,6 +67,9 @@ def sitemap():
 @app.route("/")
 def home():
     data = _data()
+    # data["gold_sponsors"] = site_data["sponsors"]["gold_sponsors"]
+    data["silver_sponsors"] = site_data["sponsors"]["silver_sponsors"]
+    # data["bronze_sponsors"] = site_data["sponsors"]["bronze_sponsors"]
     data["home"] = open("sitedata/Home.md").read()
     return render_template("index.html", **data)
 

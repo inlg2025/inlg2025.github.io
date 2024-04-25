@@ -11,6 +11,22 @@ pc_chairs:
     name: Saad Mahamood
     aff: Trivago
     im: /static/images/saad_mahamood.jpg
+  - role: Workshop Chair
+    name: Jing Li
+    aff: Hong Kong Polytechnic University
+    im: /static/images/jing_li.jpg
+  - role: Publication Chair
+    name: Chung-Chi Chen
+    aff: AIRC
+    im: /static/images/chungchi_chen.jpg
+  - role: Generation co-Chairs
+    name: Simon Mille
+    aff: ADAPT Centre
+    im: /static/images/simon_mille.jpg
+  - role: Generation co-Chairs
+    name: Miruna Clinciu
+    aff: Heriot-Watt
+    im: /static/images/miruna_clinciu.jpg
 local_organizers:
   - role: Local Organizer Chair
     name: Tatsuya Ishigaki

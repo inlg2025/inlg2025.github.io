@@ -13,8 +13,16 @@
   .supporters-title {
     font-weight: 600;
     font-style: italic;
-    width: 12rem;
+    width: 18rem;
+    font-size: 1.5rem;
+  }
+
+  .sponsors-title {
+    font-weight: 600;
+    font-style: italic;
+    width: 18rem;
     font-size: 1.1rem;
+    text-decoration: underline;
   }
 
   .logo-container {
@@ -23,7 +31,58 @@
     gap: 2rem;
     flex-wrap: wrap;
   }
+
+  .gold-logo {
+    width: calc(50% - 1rem);
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .gold-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .silver-logo {
+    width: calc(32% - 1rem);
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .silver-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .bronze-logo {
+    width: calc(18.5% - 1rem);
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .bronze-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .company-name {
+    font-weight: 500;
+    display: block;
+    text-align: center;
+  }
 </style>
+
+{% macro display_sponsors(sponsor, logo_class, logo_size) %}
+<div class="{{ logo_class }}">
+  <a href="{{ sponsor.link }}">
+    <img style="height: {{ logo_size }};" src="{{ sponsor.img }}" alt="{{ sponsor.name }}" />
+    <span class="company-name">{{sponsor.name}}</span>
+  </a>
+</div>
+{%- endmacro %}
 
 <div class="container-fluid">
   <div class="row">
@@ -59,7 +118,29 @@
         </a>
       </div>
     </div>
+    <div class="supporters-container">
+      <div class="supporters-title">Sponsors</div>
+      <!-- <div class="sponsors-title">Gold Sponsors</div>
+      <div class="logo-container">
+        {% for sponsor in gold_sponsors %}
+        {{ display_sponsors(sponsor, "gold-logo", "8rem") }}
+        {% endfor %}
+      </div> -->
+      <div class="sponsors-title">Silver Sponsors</div>
+      <div class="logo-container">
+        {% for sponsor in silver_sponsors %}
+        {{ display_sponsors(sponsor, "silver-logo", "6rem") }}
+        {% endfor %}
+      </div>
+      <!-- <div class="sponsors-title">Bronze Sponsors</div>
+      <div class="logo-container">
+        {% for sponsor in bronze_sponsors %}
+        {{ display_sponsors(sponsor, "bronze-logo", "4rem") }}
+        {% endfor %}
+      </div> -->
+    </div>
   </div>
+</div>
 </div>
 
 {% endblock %}
