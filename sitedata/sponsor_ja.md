@@ -41,7 +41,7 @@
 
 ## お申し込み方法
 
-お申し込み・お問い合わせはINLG2024のスポンサーシップ担当（丹羽） **<a href="mailto:inlg2024.sponsorship@gmail.com">inlg2024.sponsorship@gmail.com</a>** まで直接ご連絡ください。
+お申し込み・お問い合わせはINLG2024のスポンサーシップ担当（丹羽・濱園） **<a href=“mailto:M-INLG2024-sponsor-ml@aist.go.jp”>M-INLG2024-sponsor-ml@aist.go.jp</a>** まで直接ご連絡ください。
 
 お申し込みは8月31日まで承ります。
 
