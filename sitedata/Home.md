@@ -12,6 +12,10 @@ All accepted papers must be presented in person, and remote presentations are no
 <table>
   <tbody>
     <tr>
+      <td style="white-space: nowrap;"><b>May 14</b></td>
+      <td>The <a href="/calls.html#workshops-tutorials">Call for Workshop & Tutorial Proposals</a> is now available.</td>
+    </tr>
+    <tr>
       <td style="white-space: nowrap;"><b>April 5</b></td>
       <td><b>We are seeking for sponsors!</b> Visit our <a href="/calls.html#sponsors">Call for Sponsors page</a> to learn more about supporting this event.</td>
     </tr>
