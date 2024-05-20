@@ -35,7 +35,7 @@ For this event, we offer three sponsor packages:
 - All Silver benefits, with sponsor's logo displayed at **_large_** size
 - An additional complimentary registration for the main conference and workshop, along with a banquet invitation
 - Opportunity to showcase additional poster panel (two panels in total) with a bigger (2x) optional desk
-- Sponsor's logo displayed on the event banner
+- Sponsor's logo displayed on the hanging banner
 
 > 📝 _Note: For Silver and Gold sponsorship, we may close the sponsorship recruitment at any time due to limited venue space._
 
