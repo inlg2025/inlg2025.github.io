@@ -12,6 +12,10 @@ All accepted papers must be presented in person, and remote presentations are no
 <table>
   <tbody>
     <tr>
+      <td style="white-space: nowrap;"><b>May 30</b></td>
+      <td>The regular paper submission deadline is extended to June 7th.</td>
+    </tr>
+    <tr>
       <td style="white-space: nowrap;"><b>May 14</b></td>
       <td>The <a href="/calls.html#workshops-tutorials">Call for Workshop & Tutorial Proposals</a> is now available.</td>
     </tr>

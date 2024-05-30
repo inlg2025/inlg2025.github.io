@@ -8,7 +8,7 @@ The event is organized under the auspices of the Special Interest Group on Natur
 
 All deadlines are Anywhere on Earth (UTC-12)
 
-- START system regular paper submission deadline: May 31, 2024
+- START system regular paper submission deadline: June 7, 2024
 - ARR commitment to INLG deadline via START system: June 24, 2024
 - START system demo paper submission deadline: June 24, 2024
 - Notification: July 15, 2024
@@ -62,7 +62,7 @@ Authors must honor the ethical code set out in the [ACL Code of Ethics](https://
 
 Authors are strongly encouraged to ensure that their work is reproducible; see, e.g., the following [reproducibility checklist](https://2021.aclweb.org/calls/reproducibility-checklist/). Papers involving any kind of experimental results (human judgments, system outputs, etc) should incorporate a data availability statement into their paper. Authors are asked to indicate whether the data is made publicly available. If the data is not made available, authors should provide a brief explanation why. (E.g. because the data contains proprietary information.) A [statement guide](/resource-statement.html) is available on the INLG 2024 website.
 
-To submit a long or short paper to INLG 2024, authors can either submit directly or commit a paper previously reviewed by ARR via the [same paper submission site](https://softconf.com/n/inlg2024/). For direct submissions, the deadline for submitting papers is **May 31, 2024, 11:59:59 AOE**. If committing an ARR paper to INLG, the submission is also made through the INLG 2024 paper submission site, indicating the link of the paper on OpenReview. The deadline for committing an ARR paper to INLG is **June 24, 2024, 11:59:59 AOE**, and the last eligible ARR paper submission deadline for INLG 2024 is **May 24, 2024**. It is important to note that when committing an ARR paper to INLG, it should be submitted through the INLG 2024 paper submission site, just like a direct submission paper, with the only difference being the need to provide the OpenReview link to the paper and to provide an optional author response to reviews.
+To submit a long or short paper to INLG 2024, authors can either submit directly or commit a paper previously reviewed by ARR via the [same paper submission site](https://softconf.com/n/inlg2024/). For direct submissions, the deadline for submitting papers is **June 7, 2024, 11:59:59 AOE**. If committing an ARR paper to INLG, the submission is also made through the INLG 2024 paper submission site, indicating the link of the paper on OpenReview. The deadline for committing an ARR paper to INLG is **June 24, 2024, 11:59:59 AOE**, and the last eligible ARR paper submission deadline for INLG 2024 is **May 24, 2024**. It is important to note that when committing an ARR paper to INLG, it should be submitted through the INLG 2024 paper submission site, just like a direct submission paper, with the only difference being the need to provide the OpenReview link to the paper and to provide an optional author response to reviews.
 
 Demo papers should be submitted directly through the INLG 2024 [paper submission site](https://softconf.com/n/inlg2024/) by **June 24, 2024, 11:59:59 AOE**.
 
