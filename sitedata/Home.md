@@ -39,7 +39,7 @@ All accepted papers must be presented in person, and remote presentations are no
 <table>
   <tbody>
     <tr>
-      <td style="white-space: nowrap;"><b>May 31</b></td>
+      <td style="white-space: nowrap;"><b>June 7</b></td>
       <td>Regular paper submission deadline</td>
     </tr>
     <tr>
