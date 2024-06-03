@@ -12,6 +12,10 @@ All accepted papers must be presented in person, and remote presentations are no
 <table>
   <tbody>
     <tr>
+      <td style="white-space: nowrap;"><b>June 3</b></td>
+      <td>The <a href="/calls.html#genchal">Call for Generation Challenges 2024</a> is now available.</td>
+    </tr>
+    <tr>
       <td style="white-space: nowrap;"><b>May 30</b></td>
       <td>The regular paper submission deadline is extended to <b><span style="color: red;">June 7th</span></b>.</td>
     </tr>

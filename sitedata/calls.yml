@@ -8,3 +8,6 @@ calls:
   - id: "sponsors"
     title: INLG 2024 Call for Sponsors
     body: sitedata/sponsor.md
+  - id: "genchal"
+    title: Call for Generation Challenges 2024
+    body: sitedata/call_for_genchal.md

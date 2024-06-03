@@ -1,4 +1,4 @@
-# Call for Sponsors
+## Call for Sponsors
 
 The 17th International Conference on Natural Language Generation (INLG) will be held in Tokyo, Japan from September 23rd to 27th, 2024.
 **We humbly invite sponsors to consider supporting the conference!**
