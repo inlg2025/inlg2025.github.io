@@ -9,3 +9,6 @@ silver_sponsors:
   - name: Recruit Co., Ltd.
     link: https://www.recruit.co.jp/
     img: /static/images/recruit.jpg
+  - name: AIRC
+    link: https://www.airc.aist.go.jp/en/intro/
+    img: /static/images/airc_logo.png
