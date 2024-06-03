@@ -270,12 +270,13 @@ if (el) {
     el.classList.add("show");
     const navEl = document.getElementById("main-nav");
     el.scrollIntoView({ behavior: "smooth" });
-} else {
-    const calls = document.getElementsByClassName("call-collapsed");
-    if (calls.length > 0) {
-        calls[0].classList.add("show");
-    }
-}
+} 
+// else {
+//     const calls = document.getElementsByClassName("call-collapsed");
+//     if (calls.length > 0) {
+//         calls[0].classList.add("show");
+//     }
+// }
 </script>
 {%- endmacro %}
 
