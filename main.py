@@ -69,7 +69,7 @@ def home():
     data = _data()
     data["gold_sponsors"] = site_data["sponsors"]["gold_sponsors"]
     data["silver_sponsors"] = site_data["sponsors"]["silver_sponsors"]
-    # data["bronze_sponsors"] = site_data["sponsors"]["bronze_sponsors"]
+    data["bronze_sponsors"] = site_data["sponsors"]["bronze_sponsors"]
     data["home"] = open("sitedata/Home.md").read()
     return render_template("index.html", **data)
 
