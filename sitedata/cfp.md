@@ -66,7 +66,7 @@ To submit a long or short paper to INLG 2024, authors can either submit directly
 
 Demo papers should be submitted directly through the INLG 2024 [paper submission site](https://softconf.com/n/inlg2024/) by **June 24, 2024, 11:59:59 AOE**.
 
-All accepted papers will be published in the INLG 2024 proceedings and included in the ACL anthology. A paper accepted for presentation at INLG 2024 must not have been presented at any other meeting with publicly available proceedings. Dual submission to other conferences is permitted, provided that authors clearly indicate this in the submission form. If the paper is accepted at both venues, the authors will need to choose which venue to present at, since they can not present the same paper twice.
+All accepted papers will be published in the INLG 2024 proceedings and included in the ACL anthology. A paper accepted for presentation at INLG 2024 must not have been presented at any other meeting with publicly available proceedings. Dual submission to other conferences is permitted, provided that authors clearly indicate this in the submission form. If the paper is accepted at both venues, the authors will need to choose which venue to present at, since they can not present the same paper twice. Submitted papers for review at INLG 2024 must not be published elsewhere until after the notification of acceptance.
 Finally, at least one of the authors of an accepted paper must register to attend the conference.
 
 ### Awards

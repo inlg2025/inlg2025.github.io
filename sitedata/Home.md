@@ -5,7 +5,7 @@ The event will take place at [AIST Tokyo Water Front Annex](https://www.aist.go.
 
 This conference will follow [SIGDIAL 2024](https://2024.sigdial.org), which will take place in Kyoto, Japan from September 18th to 20th.
 
-All accepted papers must be presented in person, and remote presentations are not allowed without a compelling reason, such as visa or health problems, which is approved by the organizer.
+All accepted papers must be presented in person, and remote presentations are not allowed without a compelling reason, such as visa or health problems, which is approved by the organizer. Submitted papers for review at INLG 2024 must not be published elsewhere until after the notification of acceptance.
 
 #### News
 
