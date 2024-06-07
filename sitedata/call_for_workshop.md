@@ -28,6 +28,7 @@ After a workshop proposal is accepted, the organizers are encouraged to create a
 
 - Deadline for receipt of workshop proposals: 15th May 2024
 - Notification of acceptance: 29th May 2024
+- Workshop date: 23-24 September 2024
 
 #### Suggested timeline for workshop organization
 
