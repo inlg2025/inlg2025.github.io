@@ -16,15 +16,9 @@ Submissions should describe possible future tasks in detail, including informati
 All deadlines are 11.59 pm UTC -12h ("anywhere on Earth").
 
 ### Submissions and format
-Submissions in the Shared Task Proposals track should be no more than 4 (four) pages long excluding citations, and should follow the ACLPUB formatting guidelines (you will find LaTeX style files and Microsoft Word templates under this link).
+Submissions in the Shared Task Proposals track should be no more than 4 (four) pages long excluding citations, and should follow the ACLPUB formatting guidelines (see main call for details).
 
-Proposals should be uploaded to the SoftConf GenChal submission page, using the Submission type New shared task proposal.
+Proposals should be uploaded to the SoftConf INLG submission page, using the Submission type New shared task proposal.
 
 Submissions will be peer-reviewed by the program committee. As reviewing will not be blind, there is no need to anonymise papers.
-This is not intended to be a selective process, since the aim is to discuss new potential shared tasks with INLG delegates. However, the organisers reserve the right to reject proposals which do not fall within the scope of the GenChal initiative, or which do not follow guidelines. Accepted submissions will be published in separate GenChal 2023 proceedings on the ACL Anthology, as was done in 2022 and 2023.
-
----
-
-Looking forward to seeing you at INLG!
-
-Miruna and Simon, GenChal chairs, on behalf of the INLG'24 organisers
+This is not intended to be a selective process, since the aim is to discuss new potential shared tasks with INLG delegates. However, the organisers reserve the right to reject proposals which do not fall within the scope of the GenChal initiative, or which do not follow guidelines. Accepted submissions will be published in separate GenChal 2024 proceedings.
