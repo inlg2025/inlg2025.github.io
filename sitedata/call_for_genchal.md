@@ -16,7 +16,7 @@ Submissions should describe possible future tasks in detail, including informati
 All deadlines are 11.59 pm UTC -12h ("anywhere on Earth").
 
 ### Submissions and format
-Submissions in the Shared Task Proposals track should be no more than 4 (four) pages long excluding citations, and should follow the ACLPUB formatting guidelines (see main call for details).
+Submissions in the Shared Task Proposals track should be no more than 4 (four) pages long excluding citations, and should follow the ACLPUB formatting guidelines (see the main call-for-papers).
 
 Proposals should be uploaded to the SoftConf INLG submission page, using the Submission type New shared task proposal.
 
