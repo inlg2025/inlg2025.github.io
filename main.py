@@ -83,6 +83,13 @@ def calls():
     return render_template("calls.html", **data)
 
 
+@app.route("/registration.html")
+def registration():
+    data = _data()
+    data["registration"] = open("sitedata/registration.md").read()
+    return render_template("registration.html", **data)
+
+
 @app.route("/organizers.html")
 def organizers():
     data = _data()
