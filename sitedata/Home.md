@@ -12,7 +12,7 @@ All accepted papers must be presented in person, and remote presentations are no
 <table>
   <tbody>
     <tr>
-      <td style="white-space: nowrap;"><b>June 3</b></td>
+      <td style="white-space: nowrap;"><b>June 28</b></td>
       <td>The GenChal paper submission deadline is extended to <b><span style="color: red;">June 30th</span></b>.</td>
     </tr>
     <tr>
