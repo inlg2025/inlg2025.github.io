@@ -1,5 +1,5 @@
 ### Call for Generation Challenges 2024
-**Submission deadline: June 24th 2024**
+**Submission deadline: <s>June 24th 2024</s>  <span style="color: red;"><b>June 30th, 2024</b></span>**
 
 We invite submissions of papers describing ideas for future shared tasks in the general area of language generation (Generation Challenges 2024). Proposed tasks can be in the area of core NLG, or in other research areas in which language is generated. Examples include, but are not limited to: data-to-text NLG, text-to-text generation (including MT and summarisation), combining core NLG and MT, combining core NLG and text summarisation, NLG quality estimation, NLG evaluation metrics, and/or generating language from heterogeneous data, including image and video.
 
@@ -8,7 +8,7 @@ The Generation Challenges (GenChal) are an umbrella event designed to bring toge
 Submissions should describe possible future tasks in detail, including information regarding organisers, task description, motivating theoretical interest and/or application context, size and state of completion of data to be used, schedule and evaluation plans. Accepted shared tasks will be run in the 2025 iteration of INLG.
 
 ### Important dates
-- Submission deadline: June 24th 2024
+- Submission deadline: <s>June 24th 2024</s> <span style="color: red;"><b>June 30, 2024</b> (extended!)</span>
 - Notification: July 15th 2024
 - Camera-ready submission: August 16th 2024
 - Workshop at INLG conference: September 23rd-24th 2024
