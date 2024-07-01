@@ -1,0 +1,4 @@
+tutorials:
+  - id: "human-eval"
+    title: Tutorial on Human Evaluation of NLP System Quality
+    body: sitedata/human_eval.md

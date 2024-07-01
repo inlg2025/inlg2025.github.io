@@ -1,9 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
 
+{% if section_title %}
+{{ components.section(section_title) }}
+{% endif %}
+
 <div class="container-fluid">
   <div class="row">
-    <div class="markdown col-sm border p-4">{{ mdcontent | markdown }}</div>
+    <div class="markdown col-sm border p-4" style="overflow: hidden;">{{ mdcontent | markdown }}</div>
   </div>
 </div>
 

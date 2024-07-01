@@ -1,0 +1,9 @@
+{% set active_page = "Calls" %}
+{% extends "base.html" %}
+
+{% block content %}
+
+{{ components.section("Tutorials") }}
+{{ components.callgroup(tutorials) }}
+
+{% endblock %}

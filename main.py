@@ -86,8 +86,9 @@ def calls():
 @app.route("/registration.html")
 def registration():
     data = _data()
-    data["registration"] = open("sitedata/registration.md").read()
-    return render_template("registration.html", **data)
+    data["mdcontent"] = open("sitedata/registration.md").read()
+    data["section_title"] = "Registration"
+    return render_template("single_md.html", **data)
 
 
 @app.route("/organizers.html")
@@ -117,6 +118,15 @@ def sponsor_ja():
     data = _data()
     data["mdcontent"] = open("sitedata/sponsor_ja.md").read()
     return render_template("single_md.html", **data)
+
+
+@app.route("/tutorials.html")
+def tutorials():
+    data = _data()
+    data["tutorials"] = site_data["tutorials"]["tutorials"]
+    for tutorial in data["tutorials"]:
+        tutorial["bodytext"] = open(tutorial["body"]).read()
+    return render_template("tutorials.html", **data)
 
 
 # ITEM PAGES
