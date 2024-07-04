@@ -2,8 +2,8 @@ The registration site will open on July 15.
 
 ### Registration Fee
 
-- Early: before <u>August 10</u> AoE (JST: August 11 21:00)
-- Late: before <u>September 15</u> AoE (JST: August 16 21:00)
+- Early: before <u>August 4</u> AoE (JST: August 5 21:00)
+- Late: before <u>September 8</u> AoE (JST: September 9 21:00)
 
 <div style="width: 100%; overflow: scroll;">
   <table>
