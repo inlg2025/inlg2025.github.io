@@ -1,6 +1,8 @@
 faq:
   - section: Frequently Asked Questions about ARR
     qa:
+      - question: Can you issue an invitation letter for visa application?
+        answer: Yes, please contact the local chair, Tatsuya Ishigaki (ishigaki.tatsuya [at] aist.go.jp)
       - question: What papers may be committed to INLG 2024?
         answer: You may commit any paper submitted to ARR since ARR started.
       - question: What version of my paper should I commit to INLG 2024?
