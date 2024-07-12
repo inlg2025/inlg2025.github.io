@@ -102,8 +102,8 @@ The main conference ticket includes entry to the venue, reception, lunch (26th a
         <td>€80</td>
       </tr>
       <tr>
-        <td><b>Extra Ticket</b></td>
-        <td>Extra Ticket</td>
+        <td><b>Extra Ticket ()</b></td>
+        <td>Extra Ticketi (When you purchase a ticket, one person can accompany you to the banquet.)</td>
         <td>¥15,960</td>
         <td>$102</td>
         <td>€95</td>
