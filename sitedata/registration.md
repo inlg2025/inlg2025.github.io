@@ -5,6 +5,8 @@ The registration site will open on July 15.
 - Early: before <u>August 4</u> AoE (JST: August 5 21:00)
 - Late: before <u>September 8</u> AoE (JST: September 9 21:00)
 
+The main conference ticket includes entry to the venue, reception, lunch (26th and 27th September), and banquet.
+
 <div style="width: 100%; overflow: scroll;">
   <table>
     <tbody>
@@ -100,8 +102,8 @@ The registration site will open on July 15.
         <td>€80</td>
       </tr>
       <tr>
-        <td><b>Extra Ticket</b></td>
-        <td>Extra Ticket</td>
+        <td><b>Extra Ticket ()</b></td>
+        <td>Extra Ticketi (When you purchase a ticket, one person can accompany you to the banquet.)</td>
         <td>¥15,960</td>
         <td>$102</td>
         <td>€95</td>
