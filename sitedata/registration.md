@@ -7,6 +7,8 @@ The registration site will open on July 15.
 
 The main conference ticket includes entry to the venue, reception, lunch (26th and 27th September), and banquet.
 
+If you need an invitation letter or other documents for your visa application, please contact to the local chair, Tatsuya Ishigaki (ishigaki.tatsuya -{at} -aist.go.jp).
+
 <div style="width: 100%; overflow: scroll;">
   <table>
     <tbody>
