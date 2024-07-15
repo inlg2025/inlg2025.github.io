@@ -1,4 +1,4 @@
-The registration site will open on July 15.
+The registration is at https://amarys-jtb.jp/INLG2024/
 
 ### Registration Fee
 
