@@ -13,6 +13,10 @@ All accepted papers must be presented in person, and remote presentations are no
   <tbody>
     <tr>
       <td style="white-space: nowrap;"><b>July 17</b></td>
+      <td><b><a href="/registration.html">The registration</a> is now available.</b></td>
+    </tr>
+    <tr>
+      <td style="white-space: nowrap;"><b>July 17</b></td>
       <td><a href="/keynotes.html">The Keynote Speakers</a> are announced.</td>
     </tr>
     <tr>
