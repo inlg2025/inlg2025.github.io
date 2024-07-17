@@ -11,7 +11,7 @@ All accepted papers must be presented in person, and remote presentations are no
 
 <table>
   <tbody>
-  <tr>
+    <tr>
       <td style="white-space: nowrap;"><b>July 17</b></td>
       <td><a href="/keynotes.html">The Keynote Speakers</a> are announced.</td>
     </tr>
