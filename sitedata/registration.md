@@ -1,4 +1,4 @@
-The registration is at https://amarys-jtb.jp/INLG2024/
+The registration is at <a href="https://amarys-jtb.jp/INLG2024/">https://amarys-jtb.jp/INLG2024/</a>
 
 ### Registration Fee
 
