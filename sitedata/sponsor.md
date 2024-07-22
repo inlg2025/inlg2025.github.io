@@ -18,7 +18,7 @@ The conference will be an in-person event, ensuring maximum interaction and expo
 
 For this event, we offer three one sponsor packages:
 
-> **Applications for Gold and Silver Sponsorships are now closed.**
+**<span style="color: red;"><b>Applications for Gold and Silver Sponsorships are now closed.</b></span>**
 
 ### Bronze Sponsorship - $500
 
@@ -26,13 +26,13 @@ For this event, we offer three one sponsor packages:
 - Featured in emails and social media posts about sponsors
 - Opportunity to include brochure and novelties in the conference bags
 
-### <s>Silver Sponsorship - $1,200</s>
+### <s>Silver Sponsorship - $1,200</s> Thank you. Sold out!
 
 - <s>All Bronze benefits, with sponsor's logo displayed at **_medium_** size</s>
 - <s>A complimentary registration for the main conference and workshop, along with invitations to the banquet, reception, and lunch</s>
 - <s>Opportunity to showcase a poster panel with an optional desk</s>
 
-### <s>Gold Sponsorship - $2,500</s>
+### <s>Gold Sponsorship - $2,500</s> Thank you. Sold out!
 
 - <s>All Silver benefits, with sponsor's logo displayed at **_large_** size</s>
 - <s>An additional complimentary registration for the main conference and workshop, along with invitations to the banquet, reception, and lunch</s>
