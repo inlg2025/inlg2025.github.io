@@ -26,18 +26,18 @@ For this event, we offer three one sponsor packages:
 - Featured in emails and social media posts about sponsors
 - Opportunity to include brochure and novelties in the conference bags
 
-### Silver Sponsorship - $1,200
+### <s>Silver Sponsorship - $1,200</s>
 
-- All Bronze benefits, with sponsor's logo displayed at **_medium_** size
-- A complimentary registration for the main conference and workshop, along with invitations to the banquet, reception, and lunch
-- Opportunity to showcase a poster panel with an optional desk
+- <s>All Bronze benefits, with sponsor's logo displayed at **_medium_** size</s>
+- <s>A complimentary registration for the main conference and workshop, along with invitations to the banquet, reception, and lunch</s>
+- <s>Opportunity to showcase a poster panel with an optional desk</s>
 
-### Gold Sponsorship - $2,500
+### <s>Gold Sponsorship - $2,500</s>
 
-- All Silver benefits, with sponsor's logo displayed at **_large_** size
-- An additional complimentary registration for the main conference and workshop, along with invitations to the banquet, reception, and lunch
-- Opportunity to showcase additional poster panel (two panels in total) with a bigger (2x) optional desk
-- Sponsor's logo displayed on the hanging banner
+- <s>All Silver benefits, with sponsor's logo displayed at **_large_** size</s>
+- <s>An additional complimentary registration for the main conference and workshop, along with invitations to the banquet, reception, and lunch</s>
+- <s>Opportunity to showcase additional poster panel (two panels in total) with a bigger (2x) optional desk</s>
+- <s>Sponsor's logo displayed on the hanging banner</s>
 
 > 📝 _Note: For Silver and Gold sponsorship, we may close the sponsorship recruitment at any time due to limited venue space._
 
