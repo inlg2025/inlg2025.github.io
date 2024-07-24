@@ -12,6 +12,10 @@ All accepted papers must be presented in person, and remote presentations are no
 <table>
   <tbody>
     <tr>
+      <td style="white-space: nowrap;"><b>July 24</b></td>
+      <td><b><a href="/accepted-papers.html">The list of accepted papers</a> is now available.</b></td>
+    </tr>
+    <tr>
       <td style="white-space: nowrap;"><b>July 17</b></td>
       <td><b><a href="/registration.html">The registration</a> is now available.</b></td>
     </tr>
