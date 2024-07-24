@@ -1,3 +1,7 @@
+.markdown {
+  word-break: break-word;
+}
+
 .markdown h1:not(:first-child),
 .markdown h2:not(:first-child),
 .markdown h3:not(:first-child),

@@ -91,6 +91,14 @@ def registration():
     return render_template("single_md.html", **data)
 
 
+@app.route("/local-info.html")
+def local_info():
+    data = _data()
+    data["mdcontent"] = open("sitedata/local_info.md").read()
+    data["section_title"] = "Local Information"
+    return render_template("single_md.html", **data)
+
+
 @app.route("/organizers.html")
 def organizers():
     data = _data()
@@ -128,12 +136,14 @@ def tutorials():
         tutorial["bodytext"] = open(tutorial["body"]).read()
     return render_template("tutorials.html", **data)
 
+
 @app.route("/keynotes.html")
 def keynotes():
     data = _data()
     data["mdcontent"] = open("sitedata/keynotes.md").read()
     data["section_title"] = "Keynotes"
     return render_template("single_md.html", **data)
+
 
 # ITEM PAGES
 @app.route("/static/<path:path>")

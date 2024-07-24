@@ -92,8 +92,15 @@
                     <li class="nav-item {{ 'active' if request.path == '/calls.html' }}">
                         <a class="nav-link" href="/calls.html">Calls</a>
                     </li>
-                    <li class="nav-item {{ 'active' if request.path == '/registration.html' }}">
-                        <a class="nav-link" href="/registration.html">Registration</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            For Participants
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/registration.html">Registration</a>
+                            <a class="dropdown-item" href="/local-info.html">Local Information</a>
+                        </div>
                     </li>
                     <li class="nav-item {{ 'active' if request.path == '/organizers.html' }}">
                         <a class="nav-link" href="/organizers.html">Organizers</a>
@@ -105,8 +112,13 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item"
-                                href="https://sites.google.com/view/aiwolfdial2024-inlg">AIWolfDial2024</a>
-                            <a class="dropdown-item" href="https://practicald2t.github.io/">Practical D2T</a>
+                                href="https://sites.google.com/view/aiwolfdial2024-inlg"
+                                target="_blank"
+                                style="display: flex; align-items: center; gap: 0.3rem;">AIWolfDial2024 <img style="height: 0.9rem;" src="/static/images/open_in_new.svg" /></a>
+                            <a class="dropdown-item"
+                                href="https://practicald2t.github.io/"
+                                target="_blank"
+                                style="display: flex; align-items: center; gap: 0.3rem;">Practical D2T <img style="height: 0.9rem;" src="/static/images/open_in_new.svg" /></a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
