@@ -21,7 +21,7 @@ We are excited to share the following speakers have kindly accepted to give invi
 
 **Time:** 26th Sep. 13:30-14:15
 
-**Title:** TBA
+**Title:** Evaluating NLG: Do we know what we are doing?
 
 **Abstract:** Large Language Models (LLMs) have hauled Natural Language Generation (NLG) away from the fringes of NLP, into the spotlight. These developments are offering the NLG community considerable exposure and enormous opportunities. But with great renown come great responsibilities. Foremost among these responsibilities is the ability to assess the quality of generated texts reliably. In this talk, parts of which rest on joint work with Eduardo Calo, Albert Gatt, and Saad Mahamood, I will argue that we have not yet fulfilled that responsibility because, as yet, there exists no "theory" that tells us what are the different kinds of flaws from which a generated text can suffer, and how each of these flaws should be weighed.
 
