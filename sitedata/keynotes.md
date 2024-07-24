@@ -23,6 +23,14 @@ We are excited to share the following speakers have kindly accepted to give invi
 
 **Title:** TBA
 
+**Abstract:** Large Language Models (LLMs) have hauled Natural Language Generation (NLG) away from the fringes of NLP, into the spotlight. These developments are offering the NLG community considerable exposure and enormous opportunities. But with great renown come great responsibilities. Foremost among these responsibilities is the ability to assess the quality of generated texts reliably. In this talk, parts of which rest on joint work with Eduardo Calo, Albert Gatt, and Saad Mahamood, I will argue that we have not yet fulfilled that responsibility because, as yet, there exists no "theory" that tells us what are the different kinds of flaws from which a generated text can suffer, and how each of these flaws should be weighed.
+
+To illustrate these points, I will zoom in on a family of flaws that have attracted considerable attention and that should be relatively straightforward to understand. They are associated with the word "hallucination". Focussing primarily on Data-text NLG, I will argue that recently proposed perspectives on hallucination are not as systematic, clear, and fine-grained as they should be. Having done this, I will explore an alternative, logic-based perspective and discuss the strengths and limitations of this perspective in light of some experiments with an annotation scheme derived from this alternative perspective, which were recently conducted at trivago in Dusseldorf. I will conclude by asking what still separates the NLG community from possessing a systematic, clear, and fine-grained understanding of, firstly, hallucination and, secondly, other flaws from which a generated text can suffer, many of which can be as harmful as hallucination but much harder to grasp.
+
+<span style="font-size: 0.8rem; color: #666666">K. van Deemter (2024) The Pitfalls of Defining Hallucination. Computational Linguistics, June 2024.</span>
+
+**Short Bio:** Kees van Deemter has worked in Natural Language Processing from 1984 and on Natural Language Generation from about 1994. He likes to work with scholars in neighbouring disciplines, such as linguists, logicians, and psycholinguists. He is the author of "Not Exactly: in Praise of Vagueness" (Oxford University Press 2010) and of "Computational Models of Referring: a Study in Cognitive Science" (MIT Press 2016). Having led Utrecht University's NLP group from 2018 until March 2024, he is currently an Emeritus Professor at Utrecht University.
+
 ## Keynote 4: [Koichiro Yoshino](https://www.pomdp.net/)
 
 **Time:** 27th Sep. 13:30-14:15
