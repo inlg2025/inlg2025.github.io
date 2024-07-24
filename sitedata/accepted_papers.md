@@ -126,7 +126,7 @@
 *Anya Belz, Simon Mille, Craig Thomson and Rudali Huidrom*
 
 <style>
-li {
+.markdown li {
     margin-bottom: 1rem;
 }
 </style>
