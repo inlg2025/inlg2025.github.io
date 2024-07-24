@@ -128,13 +128,22 @@ def sponsor_ja():
     return render_template("single_md.html", **data)
 
 
-@app.route("/tutorials.html")
+@app.route("/workshops-tutorials.html")
 def tutorials():
     data = _data()
-    data["tutorials"] = site_data["tutorials"]["tutorials"]
-    for tutorial in data["tutorials"]:
-        tutorial["bodytext"] = open(tutorial["body"]).read()
+    data["calls"] = site_data["tutorials"]["tutorials"]
+    for tutorial in data["calls"]:
+        if "body" in tutorial:
+            tutorial["bodytext"] = open(tutorial["body"]).read()
     return render_template("tutorials.html", **data)
+
+
+@app.route("/accepted-papers.html")
+def accepted_papers():
+    data = _data()
+    data["mdcontent"] = open("sitedata/accepted_papers.md").read()
+    data["section_title"] = "Accepted Papers"
+    return render_template("single_md.html", **data)
 
 
 @app.route("/keynotes.html")

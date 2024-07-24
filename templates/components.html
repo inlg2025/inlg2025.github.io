@@ -235,17 +235,26 @@ sessiongroup
     <div class="col-12" id="accordionExample">
         <div class="card">
             <div class="card-header" id="heading-{{loop.index}}">
+                {% if "bodytext" in call %}
                 <a class="" href="#" data-toggle="collapse" data-target="#collapse-{{call.id}}"
                     role="button" aria-expanded="true" aria-controls="collapse-{{loop.index}}">
                     {{ call.title }}
                 </a>
+                {% elif "link" in call %}
+                <a href="{{ call.link }}" target="_blank" style="display: flex; align-items: center; gap: 0.4rem;">
+                    <div>{{ call.title }}</div>
+                    <img style="height: 0.9rem;" src="/static/images/open_in_new.svg" />
+                </a>
+                {% endif %}
             </div>
+            {% if "bodytext" in call %}
             <div id="collapse-{{call.id}}" class="collapse mt-3 call-collapsed"
                 aria-labelledby="heading-{{loop.index}}" data-parent="#accordionExample">
                 <div class="card-body markdown">
                     {{ call.bodytext | markdown }}
                 </div>
             </div>
+            {% endif %}
         </div>
     </div>
 </div>
