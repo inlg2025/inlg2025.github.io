@@ -46,8 +46,6 @@
 *Simone Alghisi, Massimo Rizzoli, Gabriel Roccabruna, Seyed Mahed Mousavi and Giuseppe Riccardi*
 - **The Unreasonable Ineffectiveness of Nucleus Sampling on Mitigating Text Memorization**  
 *Luka Borec, Philipp Sadler and David Schlangen*
-- **Audio-visual training for improved grounding in video-text LLMs**  
-*Shivprasad Rajendra Sagare, Hemachandran S, Kinshuk Sarabhai, Prashant Ullegaddi and Rajeshkumar SA*
 - **Towards Effective Long Conversation Generation with Dynamic Topic Tracking and Recommendation**  
 *Trevor Ashby, Adithya Kulkarni, Jingyuan Qi, Minqian Liu, Eunah Cho, Vaibhav Kumar and Lifu Huang*
 - **Explainability Meets Text Summarization: A Survey**  
@@ -70,9 +68,13 @@
 *Marco Antonio Sobrevilla Cabezudo, Marcio Lima Inacio and Thiago Alexandre Salgueiro Pardo*
 - **Automating True-False Multiple-Choice Question Generation and Evaluation with Retrieval-based Accuracy Differential**  
 *Chen-Jui Yu, Wen Hung Lee, LIN TSE KE, Shih-Wei Guo and Yao-Chung Fan*
+- **A Comprehensive Analysis of Memorization in Large Language Models**  
+*Hirokazu Kiyomaru, Issa Sugiura, Daisuke Kawahara and Sadao Kurohashi*
 
 ## Short Papers
 
+- **Audio-visual training for improved grounding in video-text LLMs**  
+*Shivprasad Rajendra Sagare, Hemachandran S, Kinshuk Sarabhai, Prashant Ullegaddi and Rajeshkumar SA*
 - **Forecasting Implicit Emotions Elicited in Conversations**  
 *Yurie Koga, Shunsuke Kando and Yusuke Miyao*
 - **German Voter Personas Can Radicalize LLM Chatbots via the Echo Chamber Effect**  
@@ -85,8 +87,6 @@
 *Xinyue Liu, Harshita Diddee and Daphne Ippolito*
 - **Are Large Language Models Actually Good at Text Style Transfer?**  
 *Sourabrata Mukherjee, Atul Kr. Ojha and Ondrej Dusek*
-- **A Comprehensive Analysis of Memorization in Large Language Models**  
-*Hirokazu Kiyomaru, Issa Sugiura, Daisuke Kawahara and Sadao Kurohashi*
 - **LLM Neologism: Emergence of Mutated Characters due to Byte Encoding**  
 *Ran Iwamoto and Hiroshi Kanayama*
 - **Entity-aware Multi-task Training Helps Rare Word Machine Translation**  
