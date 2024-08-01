@@ -109,6 +109,8 @@
 *Sheng Xu, Fumiyo Fukumoto and Yoshimi Suzuki*
 - **Leveraging Plug-and-Play Models for Rhetorical Structure Control in Text Generation**  
 *Yuka Yokogawa, Tatsuya Ishigaki, Yusuke Miyao, Hiroya Takamura and Ichiro Kobayashi*
+- **Zero-shot cross-lingual transfer in instruction tuning of large language models**  
+*Nadezhda Chirkova and Vassilina Nikoulina*
 
 ## Demo Papers
 
