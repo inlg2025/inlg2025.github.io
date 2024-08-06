@@ -77,10 +77,18 @@
 
 {% macro display_sponsors(sponsor, logo_class, logo_size) %}
 <div class="{{ logo_class }}">
+  {% if sponsor.link %}
   <a href="{{ sponsor.link }}">
+    {% endif %}
+    {% if sponsor.img %}
     <img style="height: {{ logo_size }};" src="{{ sponsor.img }}" alt="{{ sponsor.name }}" />
+    {% else %}
+    <div style="height: {{ logo_size }};"></div>
+    {% endif %}
     <span class="company-name">{{sponsor.name}}</span>
+    {% if sponsor.link %}
   </a>
+  {% endif %}
 </div>
 {%- endmacro %}
 
