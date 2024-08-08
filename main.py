@@ -90,6 +90,12 @@ def registration():
     data["section_title"] = "Registration"
     return render_template("single_md.html", **data)
 
+@app.route("/banquet.html")
+def banquet():
+    data = _data()
+    data["mdcontent"] = open("sitedata/banquet.md").read()
+    data["section_title"] = "Banquet"
+    return render_template("single_md.html", **data)
 
 @app.route("/local-info.html")
 def local_info():

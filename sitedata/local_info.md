@@ -29,7 +29,7 @@ Lunches on the 26th and 27th at the main conference are included in the registra
 
 ### Banquet
 
-The banquet will be a barbecue party. Let's socialize while enjoying Japanese sake. Local staffs will take you to the venue of the banquet after the session ends on the second day of the main conference (September 26th). ([Google Map](https://maps.app.goo.gl/kfSboTUYPVPdrboq7))
+The banquet will be a barbecue party on September 26th. Let's socialize while enjoying Japanese sake. Local staffs will take you to the venue of the banquet after the session ends on the second day of the main conference. Please see [Banquet page](https://inlg2024.github.io/banquet.html) for details.
 
 ### Accommodation
 
