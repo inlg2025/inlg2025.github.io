@@ -15,7 +15,11 @@ We are excited to share the following speakers have kindly accepted to give invi
 
 **Time:** 26th Sep. 10:00-10:45
 
-**Title:** TBA
+**Title:** The Quest for Automated Story Generation
+
+**Abstract:** The grand challenge of automated story generation has been a persistent theme in the study of artificial intelligence since the beginning of the field. Yet after half a century, it is not yet solved. One of the reasons automated story generation has been elusive is because it touches upon many other challenging, unsolved problems in AI: planning with language, modeling and reasoning about communicative intent, language understanding, sociocultural and commonsense knowledge, and theory of mind to name a few. In this talk I will selectively walk through the history of the pursuit of automated story generation. As the field of AI itself has gone through major phases, from symbolic to learning to neural systems, so has story generation research. I will conclude the talk by speculating on where automated story generation might continue to progress, and how the pursuit of story generation may inform the larger field of artificial intelligence.
+
+**Short Bio:** Dr. Mark Riedl is a Professor in the Georgia Tech School of Interactive Computing and Associate Director of the Georgia Tech Machine Learning Center. Dr. Riedl’s research focuses on human-centered artificial intelligence—the development of artificial intelligence and machine learning technologies that understand and interact with human users in more natural ways. Dr. Riedl’s recent work has focused on story understanding and generation, computational creativity, explainable AI, and teaching virtual agents to behave safely. His research is supported by the NSF, DARPA, ONR, the U.S. Army, U.S. Health and Human Services, Disney, Google, Meta, and Amazon. He is the recipient of a DARPA Young Faculty Award and an NSF CAREER Award.
 
 ## Keynote 3: [Kees van Deemter](https://www.uu.nl/medewerkers/CJvanDeemter)
 
