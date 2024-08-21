@@ -6,5 +6,5 @@ tutorials:
     title: AIWolfDial2024 (half-day workshop on 24th September)
     link: https://sites.google.com/view/aiwolfdial2024-inlg
   - id: "human-eval"
-    title: Tutorial on Human Evaluation of NLP System Quality (half-day workshop on 24th September)
+    title: Tutorial on Human Evaluation of NLP System Quality (full-day workshop on 24th September)
     body: sitedata/human_eval.md
