@@ -90,12 +90,14 @@ def registration():
     data["section_title"] = "Registration"
     return render_template("single_md.html", **data)
 
+
 @app.route("/banquet.html")
 def banquet():
     data = _data()
     data["mdcontent"] = open("sitedata/banquet.md").read()
     data["section_title"] = "Banquet"
     return render_template("single_md.html", **data)
+
 
 @app.route("/local-info.html")
 def local_info():
@@ -131,6 +133,14 @@ def resource_statement():
 def sponsor_ja():
     data = _data()
     data["mdcontent"] = open("sitedata/sponsor_ja.md").read()
+    return render_template("single_md.html", **data)
+
+
+@app.route("/program.html")
+def program():
+    data = _data()
+    data["mdcontent"] = open("sitedata/program.md").read()
+    data["section_title"] = "Program"
     return render_template("single_md.html", **data)
 
 

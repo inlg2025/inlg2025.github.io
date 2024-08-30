@@ -12,6 +12,10 @@ All accepted papers must be presented in person, and remote presentations are no
 <table>
   <tbody>
     <tr>
+      <td style="white-space: nowrap;"><b>Aug. 30</b></td>
+      <td><a href="/program.html">Program information</a> is now available.</td>
+    </tr>
+    <tr>
       <td style="white-space: nowrap;"><b>Aug. 8</b></td>
       <td><a href="/banquet.html">Banquet information</a> is now available.</td>
     </tr>
