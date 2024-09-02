@@ -2,7 +2,7 @@ We are excited to announce the details for the banquet during INLG 2024. This ye
 
 ### Event Details
 - **Date:** Thursday, September 26th, 2024
-- **Time:** 19:00 – 22:00
+- **Time:** 18:00 – 21:00
 - **Location:** City Farm BBQ, DiverCity Tokyo Plaza Rooftop, 1-1-10 Aomi, Koto City, Tokyo
 
 ### Venue Access
