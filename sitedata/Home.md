@@ -13,6 +13,10 @@ All accepted papers must be presented in person, and remote presentations are no
   <tbody>
     <tr>
       <td style="white-space: nowrap;"><b>Aug. 30</b></td>
+      <td>The website for the <a href="https://human-evaluation-tutorial.github.io/">Tutorial on Human Evaluation of NLP System Quality</a> is now available.</td>
+    </tr>
+    <tr>
+      <td style="white-space: nowrap;"><b>Aug. 30</b></td>
       <td><a href="/program.html">Program information</a> is now available.</td>
     </tr>
     <tr>
