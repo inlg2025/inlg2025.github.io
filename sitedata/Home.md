@@ -12,6 +12,10 @@ All accepted papers must be presented in person, and remote presentations are no
 <table>
   <tbody>
     <tr>
+      <td style="white-space: nowrap;"><b>Sep. 16</b></td>
+      <td><a href="https://aclanthology.org/events/inlg-2024/">The conference proceedings</a> is now available at ACL Anthology.</td>
+    </tr>
+    <tr>
       <td style="white-space: nowrap;"><b>Aug. 30</b></td>
       <td>The website for the <a href="https://human-evaluation-tutorial.github.io/">Tutorial on Human Evaluation of NLP System Quality</a> is now available.</td>
     </tr>
