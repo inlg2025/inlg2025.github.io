@@ -14,6 +14,9 @@ silver_sponsors:
   - name: AIRC
     link: https://www.airc.aist.go.jp/en/intro/
     img: /static/images/airc_logo.png
+  - name: KIRT
+    link: https://aistairc.github.io/plu/index.html
+    img: /static/images/kirt.png
 bronze_sponsors:
   - name: ANLP
     link: https://www.anlp.jp/en/index.html
