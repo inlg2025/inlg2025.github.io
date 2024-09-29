@@ -12,6 +12,10 @@ All accepted papers must be presented in person, and remote presentations are no
 <table>
   <tbody>
     <tr>
+      <td style="white-space: nowrap;"><b>Sep. 29</b></td>
+      <td><a href="/awards.html">Awards information</a> is now available.</td>
+    </tr>
+    <tr>
       <td style="white-space: nowrap;"><b>Sep. 16</b></td>
       <td><b><a href="https://aclanthology.org/events/inlg-2024/">The conference proceedings</a> is now available at ACL Anthology.</b></td>
     </tr>

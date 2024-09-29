@@ -144,6 +144,14 @@ def program():
     return render_template("single_md.html", **data)
 
 
+@app.route("/awards.html")
+def awards():
+    data = _data()
+    data["mdcontent"] = open("sitedata/awards.md").read()
+    data["section_title"] = "Awards"
+    return render_template("single_md.html", **data)
+
+
 @app.route("/workshops-tutorials.html")
 def tutorials():
     data = _data()
