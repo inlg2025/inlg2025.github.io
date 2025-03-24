@@ -1,10 +1,10 @@
 ## Supplementary Materials Availability Statement Guide
 
-**INLG 2024 Resources Track**
+**INLG 2025 Resources Track**
 
 **Key Points**
 
-- All papers accepted for publication at INLG 2024 must include a supplementary materials availability statement (even if only to state it can’t be made available or there aren’t any).
+- All papers accepted for publication at INLG 2025 must include a supplementary materials availability statement (even if only to state it can’t be made available or there aren’t any).
 - If resources are made available, reviewers are requested to consult the resource as well as the paper.
 - Papers should be self-contained.
 
@@ -16,7 +16,7 @@ Usability of a resource or the data used or generated as part of the research as
 
 **Supplementary material vs. Paper Content**
 
-All papers submitted to INLG 2024 need to be self-contained, meaning that the body of the paper should provide a clear statement of their claims and clear argumentation regarding how these claims are substantiated by evidence. This includes any details that are important for interpreting the resource, such as the specifications of the machines used for experiments on the resource, key statistics about datasets, important configurations or hyper-parameter settings, details about the metrics used, details about how data was collected, etc.
+All papers submitted to INLG 2025 need to be self-contained, meaning that the body of the paper should provide a clear statement of their claims and clear argumentation regarding how these claims are substantiated by evidence. This includes any details that are important for interpreting the resource, such as the specifications of the machines used for experiments on the resource, key statistics about datasets, important configurations or hyper-parameter settings, details about the metrics used, details about how data was collected, etc.
 
 The resource must include the materials reported in the paper that cannot feasibly be included in the paper itself.
 
