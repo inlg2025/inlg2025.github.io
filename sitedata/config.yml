@@ -13,7 +13,7 @@ site_title:
 page_title:
   prefix: "INLG 2025"
   separator: ": "
-background_image: static/images/tokyo.jpg
+background_image: static/images/hanoi.jpg
 organization: INLG 2025 Organizers
 
 calendar:
