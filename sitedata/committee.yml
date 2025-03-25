@@ -6,7 +6,7 @@ pc_chairs:
   - role: Program Chair
     name: TBA
     aff: TBA
-    im: /static/images/tba.png
+    im: /static/images/blank.png
   # - role: Program Chair
   #   name: Daphne Ippolito
   #   aff: Carnegie Mellon University
@@ -36,47 +36,47 @@ local_organizers:
     name: Nguyễn Thị Minh Huyền
     aff: HUS
     # im: /static/images/nguyen_thi_minh_huyen.jpg
-    im: /static/images/blank.jpg
+    im: /static/images/blank.png
   - role: Local Organizer
     name: Nguyễn Việt Cường
     aff: Int2
     # im: /static/images/nguyen_viet_cuong.jpg
-    im: /static/images/blank.jpg
+    im: /static/images/blank.png
   - role: Local Organizer
     name: Đỗ Văn Hải
     aff: TLU
     # im: /static/images/do_van_hai.jpg
-    im: /static/images/blank.jpg
+    im: /static/images/blank.png
   - role: Local Organizer
     name: Phan Xuân Hiếu
     aff: UET
     # im: /static/images/phan_xuan_hieu.jpg
-    im: /static/images/blank.jpg
+    im: /static/images/blank.png
   - role: Local Organizer
     name: Lê Hồng Phương
     aff: HUS
     # im: /static/images/le_hong_phuong.jpg
-    im: /static/images/blank.jpg
+    im: /static/images/blank.png
   - role: Local Organizer
     name: Lê Hoàng Quỳnh
     aff: UET
     # im: /static/images/le_hoang_quynh.jpg
-    im: /static/images/blank.jpg
+    im: /static/images/blank.png
   - role: Local Organizer
     name: Nguyễn Phương Thái
     aff: UET
     # im: /static/images/nguyen_phuong_thai.jpg
-    im: /static/images/blank.jpg
+    im: /static/images/blank.png
   - role: Local Organizer
     name: Nguyễn Minh Tiến
     aff: UTEHY
     # im: /static/images/nguyen_minh_tien.jpg
-    im: /static/images/blank.jpg
+    im: /static/images/blank.png
   - role: Local Organizer
     name: Nguyễn Thị Thu Trang
     aff: HUST
     # im: /static/images/nguyen_thi_thu_trang.jpg
-    im: /static/images/blank.jpg
+    im: /static/images/blank.png
   - role: Local Organizer
     name: Trần Đức Vũ
     aff: JAIST
