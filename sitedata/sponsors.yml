@@ -1,1 +1,9 @@
-TBA
+gold_sponsors:
+  - name: TBA
+    img: /static/images/tba.jpg
+silver_sponsors:
+  - name: TBA
+    img: /static/images/tba.jpg
+bronze_sponsors:
+  - name: TBA
+    img: /static/images/tba.jpg
