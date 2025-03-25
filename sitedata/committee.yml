@@ -35,8 +35,8 @@ local_organizers:
   - role: Local Organizer Chair
     name: Nguyễn Thị Minh Huyền
     aff: HUS
-    # im: /static/images/nguyen_thi_minh_huyen.jpg
-    im: /static/images/blank.png
+    im: /static/images/nguyen_thi_minh_huyen.jpg
+    # im: /static/images/blank.png
   - role: Local Organizer
     name: Nguyễn Việt Cường
     aff: Int2
