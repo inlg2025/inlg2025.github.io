@@ -34,52 +34,52 @@ pc_chairs:
 local_organizers:
   - role: Local Organizer Chair
     name: Nguyễn Thị Minh Huyền
-    aff: HUS
+    aff: VNU Hanoi University of Science
     im: /static/images/nguyen_thi_minh_huyen.jpg
     # im: /static/images/blank.png
   - role: Local Organizer
     name: Nguyễn Việt Cường
-    aff: Int2
+    aff: Intelligent Integration Co., Ltd. (INT²)
     # im: /static/images/nguyen_viet_cuong.jpg
     im: /static/images/blank.png
   - role: Local Organizer
     name: Đỗ Văn Hải
-    aff: TLU
+    aff: Thuy Loi University
     # im: /static/images/do_van_hai.jpg
     im: /static/images/blank.png
   - role: Local Organizer
     name: Phan Xuân Hiếu
-    aff: UET
+    aff: VNU University of Engineering and Technology
     # im: /static/images/phan_xuan_hieu.jpg
     im: /static/images/blank.png
   - role: Local Organizer
     name: Lê Hồng Phương
-    aff: HUS
+    aff: VNU Hanoi University of Science
     # im: /static/images/le_hong_phuong.jpg
     im: /static/images/blank.png
   - role: Local Organizer
     name: Lê Hoàng Quỳnh
-    aff: UET
+    aff: VNU University of Engineering and Technology
     # im: /static/images/le_hoang_quynh.jpg
     im: /static/images/blank.png
   - role: Local Organizer
     name: Nguyễn Phương Thái
-    aff: UET
+    aff: VNU University of Engineering and Technology
     # im: /static/images/nguyen_phuong_thai.jpg
     im: /static/images/blank.png
   - role: Local Organizer
     name: Nguyễn Minh Tiến
-    aff: UTEHY
+    aff: Hung Yen University of Technology and Education
     # im: /static/images/nguyen_minh_tien.jpg
     im: /static/images/blank.png
   - role: Local Organizer
     name: Nguyễn Thị Thu Trang
-    aff: HUST
+    aff: Hanoi University of Science and Technology
     # im: /static/images/nguyen_thi_thu_trang.jpg
     im: /static/images/blank.png
   - role: Local Organizer
     name: Trần Đức Vũ
-    aff: JAIST
+    aff: Japan Advanced Institute of Science and Technology
     # im: /static/images/tran_duc_vu.jpg
     im: /static/images/blank.png
 
