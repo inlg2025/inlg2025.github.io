@@ -80,5 +80,7 @@ local_organizers:
   - role: Local Organizer
     name: Trần Đức Vũ
     aff: JAIST
-    im: /static/images/tran_duc_vu.jpg
+    # im: /static/images/tran_duc_vu.jpg
+    im: /static/images/blank.png
+
     
