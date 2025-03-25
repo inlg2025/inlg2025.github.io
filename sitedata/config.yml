@@ -13,7 +13,7 @@ site_title:
 page_title:
   prefix: "INLG 2025"
   separator: ": "
-background_image: static/images/hanoi.jpg
+background_image: static/images/viasm_banner.jpg
 organization: INLG 2025 Organizers
 
 calendar:
