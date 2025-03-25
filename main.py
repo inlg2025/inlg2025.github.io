@@ -129,10 +129,10 @@ def resource_statement():
     return render_template("single_md.html", **data)
 
 
-@app.route("/sponsor-ja.html")
-def sponsor_ja():
+@app.route("/sponsor-vi.html")
+def sponsor_vi():
     data = _data()
-    data["mdcontent"] = open("sitedata/sponsor_ja.md").read()
+    data["mdcontent"] = open("sitedata/sponsor_vi.md").read()
     return render_template("single_md.html", **data)
 
 

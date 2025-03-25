@@ -1,21 +1,23 @@
 ## Call for Sponsors
 
-The 17th International Conference on Natural Language Generation (INLG) will be held in Tokyo, Japan from September 23rd to 27th, 2024.
+The 18th International Conference on Natural Language Generation (INLG) will be held in Hanoi, Vietnam from October 29 to November 2, 2025.
 **We humbly invite sponsors to consider supporting the conference!**
 
-### About INLG 2024
+### About INLG 2025
 
 INLG is the leading specialist conference for natural language generation and has been held regularly since the late 1980s.
 
 Organized by the [Special Interest Group in Generation (SIGGEN)](https://aclweb.org/aclwiki/SIGGEN) of the [Association for Computational Linguistics (ACL)](https://www.aclweb.org/portal/), it generally attracts around 200 attendees from universities and corporate research labs.
 
-### Why Sponsor INLG 2024?
+### Why Sponsor INLG 2025?
 
-By sponsoring INLG 2024, your organization gains visibility among top professionals and shows commitment to technological advancement in natural language generation.
+By sponsoring INLG 2025, your organization gains visibility among top professionals and shows commitment to technological advancement in natural language generation.
 The conference will be an in-person event, ensuring maximum interaction and exposure.
 
 ## Sponsorship Tiers
 
+TBA
+<!-- 
 For this event, we offer three one sponsor packages:
 
 **<span style="color: red;"><b>Applications for Gold and Silver Sponsorships are now closed.</b></span>**
@@ -48,3 +50,5 @@ Thank you. Sold out!
 ---
 
 To explore sponsorship opportunities, please contact us directly at **<a href="mailto:M-INLG2024-sponsor-ml@aist.go.jp">M-INLG2024-sponsor-ml@aist.go.jp</a>**.
+
+-->

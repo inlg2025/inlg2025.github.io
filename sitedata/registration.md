@@ -1,13 +1,15 @@
-The registration is at <a href="https://amarys-jtb.jp/INLG2024/">https://amarys-jtb.jp/INLG2024/</a>
+TBA
+
+<!-- The registration is at TBA.
 
 ### Registration Fee
 
-- Early: before <u>August 4</u> AoE (JST: August 5 21:00)
-- Late: before <u>September 8</u> AoE (JST: September 9 21:00)
+- Early: TBA
+- Late: TBA
 
-The main conference ticket includes entry to the venue, reception, lunch (26th and 27th September), and banquet.
+The main conference ticket includes entry to the venue, reception, lunch (TBA), and banquet.
 
-If you need an invitation letter or other documents for your visa application, please contact to the local chair, Tatsuya Ishigaki (ishigaki.tatsuya [at] aist.go.jp).
+If you need an invitation letter or other documents for your visa application, please contact to the local chair, TBA.
 
 <div style="width: 100%; overflow: scroll;">
   <table>
@@ -119,4 +121,4 @@ If you need an invitation letter or other documents for your visa application, p
       </tr>
     </tbody>
   </table>
-</div>
+</div> -->

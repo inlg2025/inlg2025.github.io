@@ -1,23 +1,9 @@
 gold_sponsors:
-  - name: DENSO IT LABORATORY
-    link: https://www.d-itlab.co.jp/en/
-    img: /static/images/denso_it_lab.jpg
-  - name: Fast Accounting Co., Ltd.
-    img: /static/images/first_accounting.png
+  - name: TBA
+    img: /static/images/blank.png
 silver_sponsors:
-  - name: Stockmark Inc.
-    link: https://stockmark.co.jp/
-    img: /static/images/stockmark.jpg
-  - name: Recruit Co., Ltd.
-    link: https://www.recruit.co.jp/
-    img: /static/images/recruit.jpg
-  - name: AIRC
-    link: https://www.airc.aist.go.jp/en/intro/
-    img: /static/images/airc_logo.png
-  - name: KIRT
-    link: https://aistairc.github.io/plu/index.html
-    img: /static/images/kirt.png
+  - name: TBA
+    img: /static/images/blank.png
 bronze_sponsors:
-  - name: ANLP
-    link: https://www.anlp.jp/en/index.html
-    img: /static/images/anlp.jpg
+  - name: TBA
+    img: /static/images/blank.png

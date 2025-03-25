@@ -1,10 +1,4 @@
 tutorials:
-  - id: "practicald2t"
-    title: Practical D2T (full-day workshop on 23rd September)
-    link: https://practicald2t.github.io/
-  - id: "aiwolfdial2024"
-    title: AIWolfDial2024 (half-day workshop on 24th September)
-    link: https://sites.google.com/view/aiwolfdial2024-inlg
-  - id: "human-eval"
-    title: Tutorial on Human Evaluation of NLP System Quality (full-day workshop on 24th September)
-    link: https://human-evaluation-tutorial.github.io/
+  - id: "tba"
+    title: TBA
+    link: TBA
