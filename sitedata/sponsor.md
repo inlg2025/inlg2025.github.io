@@ -1,6 +1,6 @@
 ## Call for Sponsors
 
-The 18th International Conference on Natural Language Generation (INLG) will be held in TBA from TBA.
+The 18th International Conference on Natural Language Generation (INLG) will be held in Hanoi, Vietnam from October 29 to November 2, 2025.
 **We humbly invite sponsors to consider supporting the conference!**
 
 ### About INLG 2025

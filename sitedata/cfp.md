@@ -2,18 +2,16 @@
 
 We invite the submission of long and short papers, as well as system demonstrations, related to all aspects of Natural Language Generation (NLG), including data-to-text, concept-to-text, text-to-text and vision-to-text approaches. Accepted papers will be presented as oral talks or posters.
 
-The event is organized under the auspices of the Special Interest Group on Natural Language Generation ([SIGGEN](https://aclweb.org/aclwiki/SIGGEN)) of the Association for Computational Linguistics ([ACL](https://aclweb.org/)). The event will be held from TBA. INLG 2025 will be taking place after TBA-conference nearby in Kyoto.
+The event is organized under the auspices of the Special Interest Group on Natural Language Generation ([SIGGEN](https://aclweb.org/aclwiki/SIGGEN)) of the Association for Computational Linguistics ([ACL](https://aclweb.org/)). The event will be held from October 29 to November 2, 2025. INLG 2025 will be taking place in Vietnam Institute for Advanced Study in Mathematics, Hanoi, Vietnam.
 
 ### Important dates
 
 All deadlines are Anywhere on Earth (UTC-12)
 
-- START system regular paper submission deadline: TBA
-- ARR commitment to INLG deadline via START system: TBA
-- START system demo paper submission deadline: TBA
-- Notification: TBA
-- Camera ready: TBA
-- Conference: TBA
+- Regular paper submission deadline: June 28, 2025
+- Notification: August 16, 2025
+- Camera ready: September 14, 2025
+- Conference: October 29 - November 2, 2025
 
 ### Topics
 
@@ -62,9 +60,12 @@ Authors must honor the ethical code set out in the [ACL Code of Ethics](https://
 
 Authors are strongly encouraged to ensure that their work is reproducible; see, e.g., the following [reproducibility checklist](https://2021.aclweb.org/calls/reproducibility-checklist/). Papers involving any kind of experimental results (human judgments, system outputs, etc) should incorporate a data availability statement into their paper. Authors are asked to indicate whether the data is made publicly available. If the data is not made available, authors should provide a brief explanation why. (E.g. because the data contains proprietary information.) A [statement guide](/resource-statement.html) is available on the INLG 2025 website.
 
+Submission link: TBA
+<!--
 To submit a long or short paper to INLG 2025, authors can either submit directly or commit a paper previously reviewed by ARR via the [same paper submission site](https://softconf.com/n/inlg2025/). For direct submissions, the deadline for submitting papers is TBA. If committing an ARR paper to INLG, the submission is also made through the INLG 2025 paper submission site, indicating the link of the paper on OpenReview. The deadline for committing an ARR paper to INLG is **TBA, 11:59:59 PM AOE**, and the last eligible ARR paper submission deadline for INLG 2025 is **TBA**. It is important to note that when committing an ARR paper to INLG, it should be submitted through the INLG 2025 paper submission site, just like a direct submission paper, with the only difference being the need to provide the OpenReview link to the paper and to provide an optional author response to reviews.
 
 Demo papers should be submitted directly through the INLG 2025 [paper submission site](https://softconf.com/n/inlg2025/) by **TBA, 11:59:59 PM AOE**.
+-->
 
 All accepted papers will be published in the INLG 2025 proceedings and included in the ACL anthology. A paper accepted for presentation at INLG 2025 must not have been presented at any other meeting with publicly available proceedings. Dual submission to other conferences is permitted, provided that authors clearly indicate this in the submission form. If the paper is accepted at both venues, the authors will need to choose which venue to present at, since they can not present the same paper twice. Submitted papers for review at INLG 2025 must not be published elsewhere until after the notification of acceptance.
 Finally, at least one of the authors of an accepted paper must register to attend the conference.

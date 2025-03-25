@@ -1,4 +1,6 @@
-The registration is at TBA.
+TBA
+
+<!-- The registration is at TBA.
 
 ### Registration Fee
 
@@ -119,4 +121,4 @@ If you need an invitation letter or other documents for your visa application, p
       </tr>
     </tbody>
   </table>
-</div>
+</div> -->

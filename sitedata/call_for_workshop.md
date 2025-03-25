@@ -1,7 +1,8 @@
+<!--
 ### INLG 2025: First Call for Workshop & Tutorial Proposals
 
 18th International Conference on Natural Language Generation
-Venue and Date TBA
+Hanoi, Vietnam, October 29 - November 2, 2025. 
 
 ---
 
@@ -58,3 +59,5 @@ Miruna Clinciu (Heriot-Watt University and the University of Edinburgh)
 
 Website: https://2025.inlgmeeting.org/
 X: @inlgmeeting
+
+-->

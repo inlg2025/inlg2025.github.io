@@ -2,12 +2,12 @@ calls:
   - id: "cfp"
     title: INLG 2025 Call for Papers
     body: sitedata/cfp.md
-  - id: "workshops-tutorials"
-    title: INLG 2025 Call for Workshop & Tutorial Proposals
-    body: sitedata/call_for_workshop.md
-  - id: "sponsors"
-    title: INLG 2025 Call for Sponsors
-    body: sitedata/sponsor.md
-  - id: "genchal"
-    title: Call for Generation Challenges 2025
-    body: sitedata/call_for_genchal.md
+  # - id: "workshops-tutorials"
+  #   title: INLG 2025 Call for Workshop & Tutorial Proposals
+  #   body: sitedata/call_for_workshop.md
+  # - id: "sponsors"
+  #   title: INLG 2025 Call for Sponsors
+  #   body: sitedata/sponsor.md
+  # - id: "genchal"
+  #   title: Call for Generation Challenges 2025
+  #   body: sitedata/call_for_genchal.md

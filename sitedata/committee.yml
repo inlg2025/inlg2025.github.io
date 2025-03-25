@@ -4,63 +4,72 @@ pc_chairs:
     aff: Japan Advanced Institute of Science and Technology
     im: /static/images/nguyen_le_minh.png
   - role: Program Chair
-    name: Daphne Ippolito
-    aff: Carnegie Mellon University
-    im: /static/images/daphne_ippolito.png
-  - role: Program Chair
-    name: Saad Mahamood
-    aff: Trivago
-    im: /static/images/saad_mahamood.jpg
-  - role: Workshop Chair
-    name: Jing Li
-    aff: Hong Kong Polytechnic University
-    im: /static/images/jing_li.jpg
-  - role: Publication Chair
-    name: Chung-Chi Chen
-    aff: AIRC
-    im: /static/images/chungchi_chen.jpg
-  - role: Generation Challenge co-Chairs
-    name: Simon Mille
-    aff: ADAPT Centre
-    im: /static/images/simon_mille.jpg
-  - role: Generation Challenge co-Chairs
-    name: Miruna Clinciu
-    aff: Heriot-Watt
-    im: /static/images/miruna_clinciu.jpg
+    name: TBA
+    aff: TBA
+    im: /static/images/tba.png
+  # - role: Program Chair
+  #   name: Daphne Ippolito
+  #   aff: Carnegie Mellon University
+  #   im: /static/images/daphne_ippolito.png
+  # - role: Program Chair
+  #   name: Saad Mahamood
+  #   aff: Trivago
+  #   im: /static/images/saad_mahamood.jpg
+  # - role: Workshop Chair
+  #   name: Jing Li
+  #   aff: Hong Kong Polytechnic University
+  #   im: /static/images/jing_li.jpg
+  # - role: Publication Chair
+  #   name: Chung-Chi Chen
+  #   aff: AIRC
+  #   im: /static/images/chungchi_chen.jpg
+  # - role: Generation Challenge co-Chairs
+  #   name: Simon Mille
+  #   aff: ADAPT Centre
+  #   im: /static/images/simon_mille.jpg
+  # - role: Generation Challenge co-Chairs
+  #   name: Miruna Clinciu
+  #   aff: Heriot-Watt
+  #   im: /static/images/miruna_clinciu.jpg
 local_organizers:
   - role: Local Organizer Chair
-    name: Tatsuya Ishigaki
-    aff: AIST
-    im: /static/images/tatsuya_ishigaki.jpg
-  - role: Sponsor Chair, Local Organizer
-    name: Ayana Niwa
-    aff: Recruit Co., Ltd. / Megagon Labs, Tokyo
-    im: /static/images/ayana_niwa.jpg
+    name: Nguyễn Thị Minh Huyền
+    aff: HUS
+    im: /static/images/nguyen_thi_minh_huyen.jpg
   - role: Local Organizer
-    name: Takashi Yamamura
-    aff: Works Applications
-    im: /static/images/takashi_yamamura.jpg
+    name: Nguyễn Việt Cường
+    aff: Int2
+    im: /static/images/nguyen_viet_cuong.jpg
   - role: Local Organizer
-    name: Shun Tanaka
-    aff: JX PRESS Corporation
-    im: /static/images/shun_tanaka.jpg
+    name: Đỗ Văn Hải
+    aff: TLU
+    im: /static/images/do_van_hai.jpg
   - role: Local Organizer
-    name: Yumi Hamazono
-    aff: Hitachi, Ltd.
-    im: /static/images/yumi_hamazono.jpg
+    name: Phan Xuân Hiếu
+    aff: UET
+    im: /static/images/phan_xuan_hieu.jpg
   - role: Local Organizer
-    name: Toshiki Kawamoto
-    aff: Amazon
-    im: /static/images/toshiki_kawamoto.jpg
+    name: Lê Hồng Phương
+    aff: HUS
+    im: /static/images/le_hong_phuong.jpg
   - role: Local Organizer
-    name: Takato Yamazaki
-    aff: LY Corp. / SB Intuitions Corp.
-    im: /static/images/takato_yamazaki.jpg
+    name: Lê Hoàng Quỳnh
+    aff: UET
+    im: /static/images/le_hoang_quynh.jpg
   - role: Local Organizer
-    name: Hiroya Takamura
-    aff: AIST
-    im: /static/images/hiroya_takamura.jpg
+    name: Nguyễn Phương Thái
+    aff: UET
+    im: /static/images/nguyen_phuong_thai.jpg
   - role: Local Organizer
-    name: Ichiro Kobayashi
-    aff: Ochanomizu University
-    im: /static/images/ichiro_kobayashi.jpg
+    name: Nguyễn Minh Tiến
+    aff: UTEHY
+    im: /static/images/nguyen_minh_tien.jpg
+  - role: Local Organizer
+    name: Nguyễn Thị Thu Trang
+    aff: HUST
+    im: /static/images/nguyen_thi_thu_trang.jpg
+  - role: Local Organizer
+    name: Trần Đức Vũ
+    aff: JAIST
+    im: /static/images/tran_duc_vu.jpg
+    

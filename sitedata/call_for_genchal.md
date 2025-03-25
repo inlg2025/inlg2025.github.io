@@ -1,3 +1,5 @@
+<!--
+
 ### Call for Generation Challenges 2025
 **Submission deadline: TBA**
 
@@ -22,3 +24,5 @@ Proposals should be uploaded to the SoftConf INLG submission page, using the Sub
 
 Submissions will be peer-reviewed by the program committee. As reviewing will not be blind, there is no need to anonymise papers.
 This is not intended to be a selective process, since the aim is to discuss new potential shared tasks with INLG delegates. However, the organisers reserve the right to reject proposals which do not fall within the scope of the GenChal initiative, or which do not follow guidelines. Accepted submissions will be published in separate GenChal 2025 proceedings.
+
+-->

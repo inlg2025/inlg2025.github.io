@@ -1,12 +1,13 @@
 ### Venue
 
-- Workshops TBA-dates
-  - Venue: TBA
-- Main Conference TBA-dates
-  - Venue: TBA
+<!-- - Workshops TBA-dates
+  - Venue: TBA -->
+- Main Conference October 29 - November 2, 2025
+  - Venue: [Vietnam Institute for Advanced Study in Mathematics](https://maps.app.goo.gl/sGMHtqe6Mr6Y8SrT7)
 
-Access guidance TBA
+<!-- Access guidance TBA -->
 
+<!-- 
 ### Lunch
 
 TBA
@@ -34,4 +35,4 @@ There is no official conference hotel for INLG 2025. TBA-recommendations.
 
 ##### Closest Hotels to the Conference Venues
 
-TBA-recommendations. 
+TBA-recommendations.  -->
