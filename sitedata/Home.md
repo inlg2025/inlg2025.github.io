@@ -30,7 +30,7 @@ All accepted papers must be presented in person, and remote presentations are no
       <td>Final camera-ready submission deadline</td>
     </tr>
     <tr>
-      <td style="white-space: nowrap;"><b>Oct 29 <br>- Nov 2</b></td>
+      <td style="white-space: nowrap;"><b>Oct 29 - Nov 2</b></td>
       <td>INLG 2025 Conference</td>
     </tr>
   </tbody>
