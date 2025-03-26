@@ -18,19 +18,19 @@ All accepted papers must be presented in person, and remote presentations are no
 <table>
   <tbody>
     <tr>
-      <td style="white-space: nowrap;"><b>June 28 2025</b></td>
+      <td style="white-space: nowrap;"><b>Jun 28</b></td>
       <td>Regular paper submission deadline</td>
     </tr>
     <tr>
-      <td style="white-space: nowrap;"><b>August 16, 2025</b></td>
+      <td style="white-space: nowrap;"><b>Aug 16</b></td>
       <td>Paper notification</td>
     </tr>
     <tr>
-      <td style="white-space: nowrap;"><b>September 14, 2025</b></td>
+      <td style="white-space: nowrap;"><b>Sep 14</b></td>
       <td>Final camera-ready submission deadline</td>
     </tr>
     <tr>
-      <td style="white-space: nowrap;"><b>October 29 - November 2, 2025</b></td>
+      <td style="white-space: nowrap;"><b>Oct 29 <br>- Nov 2</b></td>
       <td>INLG 2025 Conference</td>
     </tr>
   </tbody>
