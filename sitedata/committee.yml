@@ -1,36 +1,31 @@
-pc_chairs:
-  - role: Program Chair
+general_chairs:
+  - role: General Chair
     name: Nguyen Le Minh
     aff: Japan Advanced Institute of Science and Technology
     im: /static/images/nguyen_le_minh.png
+  
+pc_chairs:
+  - role: Program Chair
+    name: Lucie Flek
+    aff: University of Bonn, Lamarr Institute of Machine Learning and Artificial Intelligence
+    im: /static/images/lucie_flek.png
+
+  - role: Program Chair
+    name: Shashi Narayan
+    aff: Google DeepMind
+    im: /static/images/shashi_narayan.png
+
+  - role: Program Chair
+    name: Phan Xuân Hiếu
+    aff: VNU University of Engineering and Technology
+    # im: /static/images/phan_xuan_hieu.jpg
+    im: /static/images/blank.png
+    
   - role: Program Chair
     name: TBA
     aff: TBA
     im: /static/images/blank.png
-  # - role: Program Chair
-  #   name: Daphne Ippolito
-  #   aff: Carnegie Mellon University
-  #   im: /static/images/daphne_ippolito.png
-  # - role: Program Chair
-  #   name: Saad Mahamood
-  #   aff: Trivago
-  #   im: /static/images/saad_mahamood.jpg
-  # - role: Workshop Chair
-  #   name: Jing Li
-  #   aff: Hong Kong Polytechnic University
-  #   im: /static/images/jing_li.jpg
-  # - role: Publication Chair
-  #   name: Chung-Chi Chen
-  #   aff: AIRC
-  #   im: /static/images/chungchi_chen.jpg
-  # - role: Generation Challenge co-Chairs
-  #   name: Simon Mille
-  #   aff: ADAPT Centre
-  #   im: /static/images/simon_mille.jpg
-  # - role: Generation Challenge co-Chairs
-  #   name: Miruna Clinciu
-  #   aff: Heriot-Watt
-  #   im: /static/images/miruna_clinciu.jpg
+
 local_organizers:
   - role: Local Organizer Chair
     name: Nguyễn Thị Minh Huyền

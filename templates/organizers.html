@@ -5,10 +5,13 @@
 
 <!-- Organizers -->
 {{ components.section("Organizers") }}
+<h3>General Chairs</h3>
+<div class="row">
+  {% for person in general_chairs %}
+  {{ components.display_person(person) }}
+  {% endfor %}
+</div>
 <h3>PC Chairs</h3>
-<p>Please reach out to chairs at <a
-    href="mailto:TBA">TBA</a> for inquiries.
-</p>
 <div class="row">
   {% for person in pc_chairs %}
   {{ components.display_person(person) }}
