@@ -18,8 +18,7 @@ pc_chairs:
   - role: Program Chair
     name: Phan Xuân Hiếu
     aff: VNU University of Engineering and Technology
-    # im: /static/images/phan_xuan_hieu.jpg
-    im: /static/images/blank.png
+    im: /static/images/phan_xuan_hieu.jpeg
     
   - role: Program Chair
     name: TBA
@@ -45,7 +44,7 @@ local_organizers:
   - role: Local Organizer
     name: Phan Xuân Hiếu
     aff: VNU University of Engineering and Technology
-    # im: /static/images/phan_xuan_hieu.jpg
+    # im: /static/images/phan_xuan_hieu.jpeg
     im: /static/images/blank.png
   - role: Local Organizer
     name: Lê Hồng Phương
