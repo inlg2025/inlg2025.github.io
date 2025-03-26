@@ -8,12 +8,12 @@ pc_chairs:
   - role: Program Chair
     name: Lucie Flek
     aff: University of Bonn, Lamarr Institute of Machine Learning and Artificial Intelligence
-    im: /static/images/lucie_flek.png
+    im: /static/images/lucie_flek.jpeg
 
   - role: Program Chair
     name: Shashi Narayan
     aff: Google DeepMind
-    im: /static/images/shashi_narayan.png
+    im: /static/images/shashi_narayan.jpeg
 
   - role: Program Chair
     name: Phan Xuân Hiếu
