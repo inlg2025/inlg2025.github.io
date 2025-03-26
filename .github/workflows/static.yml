@@ -35,8 +35,8 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Build
         run: |
-          docker build -t inlg2024 .
-          docker run -v .:/app inlg2024
+          docker build -t inlg2025 .
+          docker run -v .:/app inlg2025
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
