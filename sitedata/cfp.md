@@ -8,10 +8,13 @@ The event is organized under the auspices of the Special Interest Group on Natur
 
 All deadlines are Anywhere on Earth (UTC-12)
 
+TBA
+
+<!-- 
 - Regular paper submission deadline: June 28, 2025
 - Notification: August 16, 2025
 - Camera ready: September 14, 2025
-- Conference: October 29 - November 2, 2025
+- Conference: October 29 - November 2, 2025 -->
 
 ### Topics
 
