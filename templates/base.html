@@ -206,6 +206,21 @@
     <!-- Code for hash tags -->
     <script type="text/javascript">
         $(document).ready(function () {
+
+            if(window.location.host === "temporary-inlg2025.github.io"){
+                $("body").append($('<span>')
+                            .text("WARNING! This page content is TEMPORARY!")
+                            .css("position","fixed")
+                            .css("top",0)
+                            .css("z-index",10000)
+                            .css("color","red")
+                            .css("font-size","1.5rem")
+                            .css("opacity","0.2")
+                            .css("pointer-events","none")
+                        );
+            }
+
+
             if (window.location.hash !== "") {
                 $(`a[href="${window.location.hash}"]`).tab("show");
             }
