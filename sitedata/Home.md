@@ -3,6 +3,8 @@
 The **18th International Natural Language Generation Conference** is scheduled to be held in Hanoi, Vietnam from October 29 to November 2, 2025.
 The event will take place at [Vietnam Institute for Advanced Study in Mathematics](https://maps.app.goo.gl/sGMHtqe6Mr6Y8SrT7).
 
+INLG 2025 will be taking place before EMNLP 2025 (November 5-9) in Suzhou, China.
+
 All accepted papers must be presented in person, and remote presentations are not allowed without a compelling reason, such as visa or health problems, which is approved by the organizer. Submitted papers for review at INLG 2025 must not be published elsewhere until after the notification of acceptance.
 
 #### News
