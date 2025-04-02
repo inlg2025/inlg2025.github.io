@@ -14,27 +14,33 @@ All accepted papers must be presented in person, and remote presentations are no
 </table>
 
 #### Important Dates
+All deadlines are Anywhere on Earth (UTC-12)
 
-TBA
-
-<!-- 
 <table>
   <tbody>
     <tr>
-      <td style="white-space: nowrap;"><b>Jun 28</b></td>
-      <td>Regular paper submission deadline</td>
+      <td style="white-space: nowrap;"><b>July 14</b></td>
+      <td>START system regular paper submission deadline</td>
     </tr>
     <tr>
-      <td style="white-space: nowrap;"><b>Aug 16</b></td>
+      <td style="white-space: nowrap;"><b>Aug 7</b></td>
+      <td>ARR commitment ot INLG deadline via START system</td>
+    </tr>
+    <tr>
+      <td style="white-space: nowrap;"><b>July 24</b></td>
+      <td>START system demo paper submission deadline</td>
+    </tr>
+    <tr>
+      <td style="white-space: nowrap;"><b>Aug 21</b></td>
       <td>Paper notification</td>
     </tr>
     <tr>
-      <td style="white-space: nowrap;"><b>Sep 14</b></td>
-      <td>Final camera-ready submission deadline</td>
+      <td style="white-space: nowrap;"><b>Sep 15</b></td>
+      <td>Camera-ready submission deadline</td>
     </tr>
     <tr>
       <td style="white-space: nowrap;"><b>Oct 29 - Nov 2</b></td>
       <td>INLG 2025 Conference</td>
     </tr>
   </tbody>
-</table> -->
+</table>
