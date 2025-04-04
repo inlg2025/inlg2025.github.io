@@ -8,7 +8,7 @@ faq:
       - question: What version of my paper should I commit to INLG 2025?
         answer: You must commit the most recent version of the paper that has received reviews.
       - question: Does INLG 2025 have an anonymity policy?
-        answer: INLG 2025 follows the ACL policy.
+        answer: INLG 2025 follows the [ACL policy](https://www.aclweb.org/adminwiki/index.php/ACL_Policies_for_Review_and_Citation).
       - question: Can I respond to the reviews when I commit to INLG 2025?
         answer: When committing an ARR paper to INLG 2025 via the paper submission system, there will be space for you to provide an author response to review to the INLG 2025 area chairs. The author's response is mainly to raise potential concerns about objective misunderstandings by the reviewers and/or by the Action Editor about the technical aspect of the paper. These comments will only be visible to the INLG 2025 area chairs and program chairs. They will NOT be shared with the ARR reviewers or action editor.
       - question: Can I revise the paper that I am committing to INLG 2025?

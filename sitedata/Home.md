@@ -3,6 +3,8 @@
 The **18th International Natural Language Generation Conference** is scheduled to be held in Hanoi, Vietnam from October 29 to November 2, 2025.
 The event will take place at [Vietnam Institute for Advanced Study in Mathematics](https://maps.app.goo.gl/sGMHtqe6Mr6Y8SrT7).
 
+INLG 2025 will be taking place before EMNLP 2025 (November 5-9) in Suzhou, China.
+
 All accepted papers must be presented in person, and remote presentations are not allowed without a compelling reason, such as visa or health problems, which is approved by the organizer. Submitted papers for review at INLG 2025 must not be published elsewhere until after the notification of acceptance.
 
 #### News
@@ -14,27 +16,33 @@ All accepted papers must be presented in person, and remote presentations are no
 </table>
 
 #### Important Dates
+All deadlines are Anywhere on Earth (UTC-12)
 
-TBA
-
-<!-- 
 <table>
   <tbody>
     <tr>
-      <td style="white-space: nowrap;"><b>Jun 28</b></td>
-      <td>Regular paper submission deadline</td>
+      <td style="white-space: nowrap;"><b>July 14</b></td>
+      <td>START system regular paper submission deadline</td>
     </tr>
     <tr>
-      <td style="white-space: nowrap;"><b>Aug 16</b></td>
+      <td style="white-space: nowrap;"><b>Aug 7</b></td>
+      <td>ARR commitment ot INLG deadline via START system</td>
+    </tr>
+    <tr>
+      <td style="white-space: nowrap;"><b>July 24</b></td>
+      <td>START system demo paper submission deadline</td>
+    </tr>
+    <tr>
+      <td style="white-space: nowrap;"><b>Aug 21</b></td>
       <td>Paper notification</td>
     </tr>
     <tr>
-      <td style="white-space: nowrap;"><b>Sep 14</b></td>
-      <td>Final camera-ready submission deadline</td>
+      <td style="white-space: nowrap;"><b>Sep 15</b></td>
+      <td>Camera-ready submission deadline</td>
     </tr>
     <tr>
       <td style="white-space: nowrap;"><b>Oct 29 - Nov 2</b></td>
       <td>INLG 2025 Conference</td>
     </tr>
   </tbody>
-</table> -->
+</table>
