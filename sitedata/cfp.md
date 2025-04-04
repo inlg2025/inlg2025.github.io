@@ -41,7 +41,7 @@ INLG 2025 solicits papers on any topic related to NLG. General topics of interes
 - Natural language understanding techniques for NLG
 - NLG and accessibility
 - NLG in speech synthesis and spoken language models
-- NLG in dialogue
+- NLG in dialogue systems and chatbots
 - NLG for human-robot interaction
 - NLG for low-resourced languages
 - NLG for real-world applications
