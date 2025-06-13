@@ -1,54 +1,51 @@
 ## Call for Sponsors
 
-The 18th International Conference on Natural Language Generation (INLG) will be held in Hanoi, Vietnam from October 29 to November 2, 2025.
-**We humbly invite sponsors to consider supporting the conference!**
+We invite your organization to partner with us for the 18th International Conference on Natural Language Generation (INLG 2025). This year, INLG will be held in the vibrant city of Hanoi, Vietnam, from October 29 to November 2, 2025, at Vietnam Institute for Advanced Study in Mathematics.
 
 ### About INLG 2025
 
-INLG is the leading specialist conference for natural language generation and has been held regularly since the late 1980s.
-
-Organized by the [Special Interest Group in Generation (SIGGEN)](https://aclweb.org/aclwiki/SIGGEN) of the [Association for Computational Linguistics (ACL)](https://www.aclweb.org/portal/), it generally attracts around 200 attendees from universities and corporate research labs.
+INLG is a leading specialist conference for natural language generation and has been held regularly since the late 1980s. Organised by the Special Interest Group in Generation (SIGGEN) of the Association for Computational Linguistics (ACL), it generally attracts around 300+ attendees from universities & corporate research labs across the globe.
 
 ### Why Sponsor INLG 2025?
 
-By sponsoring INLG 2025, your organization gains visibility among top professionals and shows commitment to technological advancement in natural language generation.
-The conference will be an in-person event, ensuring maximum interaction and exposure.
+Sponsoring INLG 2025 offers a great opportunity to elevate your brand's visibility, connect with top talent, and demonstrate your support in advancing research in NLG. Your support directly fuels this vital conference, fostering innovation and collaboration within the NLG community.
+
 
 ## Sponsorship Tiers
 
-TBA
-<!-- 
-For this event, we offer three one sponsor packages:
+We offer four distinct sponsorship levels, each designed to provide unique benefits and maximize your exposure: Bronze, Silver, Gold, and Diamond.
 
-**<span style="color: red;"><b>Applications for Gold and Silver Sponsorships are now closed.</b></span>**
 
-### Bronze Sponsorship - $500
+### Bronze Sponsorship: $500 (USD)
+- <b>Logo Placement</b>: Your company's logo will be displayed on the INLG website, included in the program, and featured on slides during the conference (small size).
+- <b>Social Media and Email Features</b>: Mentions in our emails and social media.
+- <b>Conference Bag Inclusion</b>: Opportunity to include one novelty item of your choice in the conference bags.
 
-- Sponsor's logo displayed on INLG website, in the official program, and on slides during the conference (**_small_** size)
-- Featured in emails and social media posts about sponsors
-- Opportunity to include brochure and novelties in the conference bags
+### Silver Sponsorship: $1300 (USD)
+- <b>Complimentary Registration</b>: Receive one complimentary registration for the main conference and workshop, including invitations to the banquet, reception, and lunch.
+- <b>Enhanced Logo Placement</b>: Your company's logo will be more prominently displayed on the INLG website, in the official program, and on conference slides (medium size).
+- <b>Dedicated Physical Space</b>: Secure a small space within the physical sponsor’s area, providing a direct point of contact with attendees.
+- <b>Increased Conference Bag Inclusion</b>: Opportunity to include up to two novelty items in the conference bags.
 
-### <s>Silver Sponsorship - $1,200</s>
+### Gold Sponsorship: $2700  (USD)
+- <b>Two Complimentary Registration</b>: Two complimentary registrations for the main conference and workshop, along with invitations to the banquet, reception, and lunch.
+- <b>Special Ceremony Mentions</b>: Your organization will receive special mention at both the Opening Ceremony and Closing Session.
+- <b>Premium Logo Placement</b>: Your company's logo will be more prominently displayed on the INLG website, in the official program, and on conference slides (large size).
+- <b>Generous Physical Space</b>: Secure a larger space within the physical sponsor’s area, providing a more extensive presence for engagement with the attendees.
+- <b>Increased Conference Bag Inclusion</b>: Opportunity to include up to two novelty items in the conference bags.
 
- Thank you. Sold out!
+### Diamond Sponsorship: $5000 (USD) - (Only One Available!)
+- <b>Three Complimentary Registration</b>: Three complimentary registrations for the main conference and workshop, including invitations to the banquet, reception, and lunch.
+- <b>Short Presentation Opportunity</b>: Deliver a 15-minute presentation during the main conference, providing a unique platform to showcase your research or initiatives to a relevant audience.
+- <b>Special Ceremony Mentions</b>: Your organization will receive special mention at both the Opening Ceremony and Closing Session.
+- <b>Full-Page Conference Ad</b>: Feature a full-page advertisement in both the PDF and printed versions of the Conference Programme, ensuring extensive reach.
+- <b>Premium Logo Placement</b>: Your company's logo will be more prominently displayed on the INLG website, in the official program, and on conference slides (large size).
+- <b>Generous Physical Space</b>: Secure a larger space within the physical sponsor’s area, providing a more extensive presence for engagement with the attendees.
+- <b>Maximized Conference Bag Inclusion</b>: Opportunity to include up to four novelty items in the conference bags.
 
-- <s>All Bronze benefits, with sponsor's logo displayed at **_medium_** size</s>
-- <s>A complimentary registration for the main conference and workshop, along with invitations to the banquet, reception, and lunch</s>
-- <s>Opportunity to showcase a poster panel with an optional desk</s>
+<b>Important Note</b>: Due to limited venue space, we encourage early commitment for Silver and Gold sponsorships as recruitment for these levels may close at any time.
 
-### <s>Gold Sponsorship - $2,500</s> 
+For more information about the event, see https://2025.inlgmeeting.org
+To learn more about sponsorship opportunities and to discuss how your organization can benefit from partnering with INLG 2025, please do not hesitate to contact our Sponsorship Chair, Shreyas Sharma at **<a href="mailto:shreyas.sharma@aixplain.com">shreyas.sharma@aixplain.com</a>**. 
+ 
 
-Thank you. Sold out!
-
-- <s>All Silver benefits, with sponsor's logo displayed at **_large_** size</s>
-- <s>An additional complimentary registration for the main conference and workshop, along with invitations to the banquet, reception, and lunch</s>
-- <s>Opportunity to showcase additional poster panel (two panels in total) with a bigger (2x) optional desk</s>
-- <s>Sponsor's logo displayed on the hanging banner</s>
-
-> 📝 _Note: For Silver and Gold sponsorship, we may close the sponsorship recruitment at any time due to limited venue space._
-
----
-
-To explore sponsorship opportunities, please contact us directly at **<a href="mailto:M-INLG2024-sponsor-ml@aist.go.jp">M-INLG2024-sponsor-ml@aist.go.jp</a>**.
-
--->
