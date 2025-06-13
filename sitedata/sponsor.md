@@ -45,7 +45,7 @@ We offer four distinct sponsorship levels, each designed to provide unique benef
 
 <b>Important Note</b>: Due to limited venue space, we encourage early commitment for Silver and Gold sponsorships as recruitment for these levels may close at any time.
 
-For more information about the event, see [https://2025.inlgmeeting.org](https://2025.inlgmeeting.org). 
+
 To learn more about sponsorship opportunities and to discuss how your organization can benefit from partnering with INLG 2025, please do not hesitate to contact our Sponsorship Chair, Shreyas Sharma at **<a href="mailto:shreyas.sharma@aixplain.com">shreyas.sharma@aixplain.com</a>**. 
  
 
