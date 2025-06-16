@@ -8,6 +8,7 @@ GenChal @ 18th International Conference on Natural Language Generation, Hanoi, V
 We invite submissions of papers describing ideas for future shared tasks in the general area of language generation. Proposed tasks can be in the area of core NLG, or in other research areas in which language is generated. Examples include, but are not limited to: data-to-text NLG, text-to-text generation (including MT and summarisation), combining core NLG and MT, combining core NLG and text summarisation, NLG quality estimation, NLG evaluation metrics, and/or generating language from heterogeneous data, including image and video.
 
 Submissions should describe possible future tasks in detail, including:
+
 - information regarding organisers;
 - task description;
 - motivating theoretical interest and/or application context;
