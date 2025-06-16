@@ -1,5 +1,5 @@
 
-# GenChal @INLG 2025: Call for new Shared Task proposals
+## GenChal @INLG 2025: Call for new Shared Task proposals
 
 GenChal @ 18th International Conference on Natural Language Generation, Hanoi, Vietnam, October 29 - November 2, 2025
 
@@ -19,7 +19,7 @@ Submissions should describe possible future tasks in detail, including:
 
 Accepted shared tasks will be offered a slot to present (i) the task at [INLG 2025](https://2025.inlgmeeting.org/), and (ii) the results in the 2026 or 2027 edition of INLG, during the Generation Challenges (GenChal) special session of the main conference. The GenChal session traditionally comprises overviews of task results by the organisers of currently running shared tasks, a poster session for task participants to present their submissions, as well as presentations of proposals for new shared tasks. You can see some of the previous tasks in the past GenChal proceedings on the ACL Anthology (see e.g. [2022](https://aclanthology.org/volumes/2022.inlg-genchal/), [2023](https://aclanthology.org/volumes/2023.inlg-genchal/) or [2024](https://aclanthology.org/volumes/2024.inlg-genchal/)).
 
-## Important dates
+### Important dates
 - **Submission deadline:** July 31st 2025.
 - **Notification:** August 25th 2025.
 - **Camera-ready submission:** September 15th 2025.
@@ -27,7 +27,7 @@ Accepted shared tasks will be offered a slot to present (i) the task at [INLG 20
 
 All deadlines are 11.59 pm UTC -12h ("anywhere on Earth").
 
-## Submissions and format
+### Submissions and format
 Submissions in the Shared Task Proposals track should be no more than 4 (four) pages long excluding citations, and should follow the [ACL Author Guidelines](https://www.aclweb.org/adminwiki/index.php?title=ACL_Author_Guidelines), and use LaTeX style files and Microsoft Word templates found under [this link](https://acl-org.github.io/ACLPUB/formatting.html).
 
 Proposals should be uploaded on [SoftConf](https://softconf.com/p/inlg2025/), using the Submission type _New shared task proposal_.
