@@ -1,6 +1,6 @@
 
 
-### First Call For Papers: 18th International Natural Language Generation Conference INLG 2025
+## First Call For Papers: 18th International Natural Language Generation Conference INLG 2025
 
 We invite the submission of long and short papers, as well as system demonstrations, related to all aspects of Natural Language Generation (NLG), including data-to-text, concept-to-text, text-to-text and vision-to-text approaches. Accepted papers will be presented as oral talks or posters.
 
