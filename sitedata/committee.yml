@@ -60,5 +60,33 @@ groups:
         name: Trần Đức Vũ
         aff: Japan Advanced Institute of Science and Technology
         im: /static/images/tran_duc_vu.jpg
-
       
+  - title: Publication Chair
+    members:
+      - role: Publication Chair
+        name: Ondřej Dušek
+        aff: Charles University
+        im: /static/images/ondrej_dusek.jpg
+
+  - title: Generation Challenge Chair
+    members:
+      - role: Generation Challenge Chair
+        name: Simon Mille
+        aff: Dublin City University
+        im: /static/images/simon_mille.jpg
+
+  - title: Sponsor Chair
+    members:
+      - role: Sponsor Chair
+        name: Shreyas Sharma
+        aff: aiXplain
+        im: /static/images/shreyas_sharma.jpg
+
+  - title: Workshop & Tutorial Chair
+    members:
+      - role: Workshop & Tutorial Chair
+        name: Xiaoyong Wei
+        aff: The Hong Kong Polytechnic University
+        im: /static/images/xiaoyong_wei.jpg
+
+  
