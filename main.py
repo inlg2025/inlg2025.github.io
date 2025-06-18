@@ -110,8 +110,7 @@ def local_info():
 @app.route("/organizers.html")
 def organizers():
     data = _data()
-    for group in site_data["committee"]:
-        data[group] = site_data["committee"][group]
+    data['committee'] = site_data["committee"]
     return render_template("organizers.html", **data)
 
 

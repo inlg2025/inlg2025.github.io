@@ -1,61 +1,64 @@
-pc_chairs:
-  - role: Program Co-Chair
-    name: Lucie Flek
-    aff: University of Bonn, Lamarr Institute of Machine Learning and Artificial Intelligence
-    im: /static/images/lucie_flek.jpg
-  - role: Program Co-Chair
-    name: Shashi Narayan
-    aff: Google DeepMind
-    im: /static/images/shashi_narayan.jpg
-  - role: Program Co-Chair
-    name: Phan Xuân Hiếu
-    aff: VNU University of Engineering and Technology
-    im: /static/images/phan_xuan_hieu.jpg
+groups:
+  - title: Program Chairs
+    members:
+      - role: Program Co-Chair
+        name: Lucie Flek
+        aff: University of Bonn, Lamarr Institute of Machine Learning and Artificial Intelligence
+        im: /static/images/lucie_flek.jpg
+      - role: Program Co-Chair
+        name: Shashi Narayan
+        aff: Google DeepMind
+        im: /static/images/shashi_narayan.jpg
+      - role: Program Co-Chair
+        name: Phan Xuân Hiếu
+        aff: VNU University of Engineering and Technology
+        im: /static/images/phan_xuan_hieu.jpg
 
-local_organizers:
-  - role: Local Organizer Co-Chair
-    name: Nguyễn Lê Minh
-    aff: Japan Advanced Institute of Science and Technology
-    im: /static/images/nguyen_le_minh.png
-  - role: Local Organizer Co-Chair
-    name: Nguyễn Thị Minh Huyền
-    aff: VNU Hanoi University of Science
-    im: /static/images/nguyen_thi_minh_huyen.jpg
-  - role: Local Organizer
-    name: Nguyễn Việt Cường
-    aff: Intelligent Integration Co., Ltd. (INT²)
-    im: /static/images/nguyen_viet_cuong.jpg
-  - role: Local Organizer
-    name: Đỗ Văn Hải
-    aff: Thuy Loi University
-    im: /static/images/do_van_hai.jpg
-  # - role: Local Organizer
-  #   name: Phan Xuân Hiếu
-  #   aff: VNU University of Engineering and Technology
-  #   im: /static/images/phan_xuan_hieu.jpg
-  - role: Local Organizer
-    name: Lê Hồng Phương
-    aff: VNU Hanoi University of Science
-    im: /static/images/le_hong_phuong.jpg
-  - role: Local Organizer
-    name: Lê Hoàng Quỳnh
-    aff: VNU University of Engineering and Technology
-    im: /static/images/le_hoang_quynh.jpg
-  - role: Local Organizer
-    name: Nguyễn Phương Thái
-    aff: VNU University of Engineering and Technology
-    im: /static/images/nguyen_phuong_thai.jpg
-  - role: Local Organizer
-    name: Nguyễn Minh Tiến
-    aff: Hung Yen University of Technology and Education
-    im: /static/images/nguyen_minh_tien.jpg
-  - role: Local Organizer
-    name: Nguyễn Thị Thu Trang
-    aff: Hanoi University of Science and Technology
-    im: /static/images/nguyen_thi_thu_trang.jpg
-  - role: Local Organizer
-    name: Trần Đức Vũ
-    aff: Japan Advanced Institute of Science and Technology
-    im: /static/images/tran_duc_vu.jpg
+  - title: Local Organization Committee
+    members:
+      - role: Local Organizer Co-Chair
+        name: Nguyễn Lê Minh
+        aff: Japan Advanced Institute of Science and Technology
+        im: /static/images/nguyen_le_minh.png
+      - role: Local Organizer Co-Chair
+        name: Nguyễn Thị Minh Huyền
+        aff: VNU Hanoi University of Science
+        im: /static/images/nguyen_thi_minh_huyen.jpg
+      - role: Local Organizer
+        name: Nguyễn Việt Cường
+        aff: Intelligent Integration Co., Ltd. (INT²)
+        im: /static/images/nguyen_viet_cuong.jpg
+      - role: Local Organizer
+        name: Đỗ Văn Hải
+        aff: Thuy Loi University
+        im: /static/images/do_van_hai.jpg
+      # - role: Local Organizer
+      #   name: Phan Xuân Hiếu
+      #   aff: VNU University of Engineering and Technology
+      #   im: /static/images/phan_xuan_hieu.jpg
+      - role: Local Organizer
+        name: Lê Hồng Phương
+        aff: VNU Hanoi University of Science
+        im: /static/images/le_hong_phuong.jpg
+      - role: Local Organizer
+        name: Lê Hoàng Quỳnh
+        aff: VNU University of Engineering and Technology
+        im: /static/images/le_hoang_quynh.jpg
+      - role: Local Organizer
+        name: Nguyễn Phương Thái
+        aff: VNU University of Engineering and Technology
+        im: /static/images/nguyen_phuong_thai.jpg
+      - role: Local Organizer
+        name: Nguyễn Minh Tiến
+        aff: Hung Yen University of Technology and Education
+        im: /static/images/nguyen_minh_tien.jpg
+      - role: Local Organizer
+        name: Nguyễn Thị Thu Trang
+        aff: Hanoi University of Science and Technology
+        im: /static/images/nguyen_thi_thu_trang.jpg
+      - role: Local Organizer
+        name: Trần Đức Vũ
+        aff: Japan Advanced Institute of Science and Technology
+        im: /static/images/tran_duc_vu.jpg
 
-    
+      
