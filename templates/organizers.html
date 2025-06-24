@@ -6,18 +6,13 @@
 <!-- Organizers -->
 {{ components.section("Organizers") }}
 
-<h3 style="margin-top: 2rem;">Program Chairs</h3>
+{% for group in committee.groups %}
+<h3 style="margin-top: 2rem;">{{group.title}}</h3>
 <div class="row">
-  {% for person in pc_chairs %}
+  {% for person in group.members %}
   {{ components.display_person(person) }}
   {% endfor %}
 </div>
-
-<h3 style="margin-top: 2rem;">Local Organization Committee</h3>
-<div class="row">
-  {% for person in local_organizers %}
-  {{ components.display_person(person) }}
-  {% endfor %}
-</div>
+{% endfor %}
 
 {% endblock %}

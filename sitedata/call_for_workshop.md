@@ -1,5 +1,5 @@
 
-### INLG 2025: First Call for Workshop & Tutorial Proposals
+## INLG 2025: First Call for Workshop & Tutorial Proposals
 
 18th International Conference on Natural Language Generation
 Hanoi, Vietnam, October 29 - November 2, 2025. 
