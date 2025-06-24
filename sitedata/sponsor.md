@@ -4,7 +4,7 @@ We invite your organization to partner with us for the 18th International Confer
 
 ### About INLG 2025
 
-INLG is a leading specialist conference for natural language generation and has been held regularly since the late 1980s. Organised by the Special Interest Group in Generation (SIGGEN) of the Association for Computational Linguistics (ACL), it generally attracts around 300+ attendees from universities & corporate research labs across the globe.
+INLG is a leading specialist conference for natural language generation and has been held regularly since the late 1980s. Organised by the Special Interest Group in Generation (SIGGEN) of the Association for Computational Linguistics (ACL), it generally attracts attendees from universities & corporate research labs across the globe.
 
 ### Why Sponsor INLG 2025?
 
