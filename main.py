@@ -187,10 +187,6 @@ def send_static(path):
 def serve(path):
     return jsonify(site_data[path])
 
-@app.route("/googlee49d4a21699e49c6.html")
-def google_ownership():
-    return send_from_directory(".", "/googlee49d4a21699e49c6.html")
-
 
 # --------------- DRIVER CODE -------------------------->
 # Code to turn it all static
