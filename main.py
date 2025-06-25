@@ -188,7 +188,7 @@ def serve(path):
     return jsonify(site_data[path])
 
 @app.route("/googlee49d4a21699e49c6.html")
-def serve(path):
+def google_ownership(path):
     return send_from_directory(".", path)
 
 
