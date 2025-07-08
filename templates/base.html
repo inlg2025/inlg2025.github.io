@@ -237,16 +237,19 @@
                 }
             });
             
+
             var banner_images = [
                 {% for img in config.background_image.substitutes %}
                     "{{config.background_image.main}}",
                     "{{img}}",
                 {% endfor %}
-                "{{config.background_image.main}}"
+                    "{{config.background_image.main}}"
             ];
             
-            var num = Math.ceil( Math.random() * banner_images.length );
-            $(".back").css("background",'url("'+banner_images[num]+'") no-repeat center;');
+            setInterval(function(){
+                var num = Math.ceil( Math.random() * banner_images.length );
+                $(".back").css("background",'url("'+banner_images[num]+'") no-repeat center;');
+            },5000);
 
         });
     </script>
