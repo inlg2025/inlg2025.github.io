@@ -133,7 +133,7 @@
     <style>
         .back {
             position: relative;
-            background: url("{{config.background_image}}") no-repeat center;
+            background: url("{{config.background_image.main}}") no-repeat center;
             background-size: cover;
             background-attachment: fixed;
         }
@@ -151,8 +151,12 @@
             position: absolute;
             height: 100%;
             width: 100%;
-            opacity: 60%;
+            opacity: 10%;
             background-color: black;
+        }
+
+        .back .banner-text {
+            text-shadow: 0 0 20px black;
         }
 
         .content {
@@ -163,7 +167,7 @@
     <div class="jumbotron jumbotron-fluid back">
         <div class="dark-filter"></div>
         <div class="row header m-5">
-            <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
+            <div class="banner-text p-1 mx-auto text-center text-white col-md-9 col-sm-12">
                 <h2 class="display-4">
                     {{ config.tagline | safe }}
                 </h2>
@@ -220,7 +224,6 @@
                         );
             }
 
-
             if (window.location.hash !== "") {
                 $(`a[href="${window.location.hash}"]`).tab("show");
             }
@@ -233,6 +236,18 @@
                     $(window).scrollTop(position);
                 }
             });
+            
+            var banner_images = [
+                {% for img in config.background_image.substitutes %}
+                    "{{config.background_image.main}}",
+                    "{{img}}",
+                {% endfor %}
+                "{{config.background_image.main}}"
+            ];
+            
+            var num = Math.ceil( Math.random() * banner_images.length );
+            $(".back").css("background",'url("'+banner_images[num]+'") no-repeat center;');
+
         });
     </script>
     {% endblock %}
