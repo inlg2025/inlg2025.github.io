@@ -236,7 +236,6 @@
                     $(window).scrollTop(position);
                 }
             });
-            
 
             var banner_images = [
                 {% for img in config.background_image.substitutes %}
@@ -245,12 +244,12 @@
                 {% endfor %}
                     "{{config.background_image.main}}"
             ];
-            
-            setInterval(function(){
+            var update_banner = function(){
                 var num = Math.ceil( Math.random() * banner_images.length );
-                $(".back").css("background",'url("'+banner_images[num]+'") no-repeat center;');
-            },5000);
-
+                $(".back").css("background",'url("'+banner_images[num]+'") no-repeat center');
+            }
+            update_banner();
+            setInterval(update_banner,5000);
         });
     </script>
     {% endblock %}
