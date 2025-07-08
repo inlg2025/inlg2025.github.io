@@ -246,7 +246,8 @@
             ];
             var update_banner = function(){
                 var num = Math.ceil( Math.random() * banner_images.length );
-                $(".back").css("background",'url("'+banner_images[num]+'") no-repeat center');
+                $(".back").css("background",'url("'+banner_images[num]+'") no-repeat center')
+                .css("background-size","cover").css("background-attachment","fixed");
             }
             update_banner();
             setInterval(update_banner,5000);
