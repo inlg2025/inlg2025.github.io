@@ -246,7 +246,7 @@
                     "{{config.background_image.main}}"
             ];
             var update_banner = function(){
-                var num = Math.ceil( Math.random() * banner_images.length );
+                var num = Math.floor( Math.random() * banner_images.length );
                 $(".back").css("background",'url("'+banner_images[num]+'") no-repeat center')
                 .css("background-size","cover").css("background-attachment","fixed");
             }
