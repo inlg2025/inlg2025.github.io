@@ -1,6 +1,6 @@
 
 
-## First Call For Papers: 18th International Natural Language Generation Conference INLG 2025
+## Third Call For Papers: 18th International Natural Language Generation Conference INLG 2025
 
 We invite the submission of long and short papers, as well as system demonstrations, related to all aspects of Natural Language Generation (NLG), including data-to-text, concept-to-text, text-to-text and vision-to-text approaches. Accepted papers will be presented as oral talks or posters.
 
@@ -10,7 +10,7 @@ The event is organized under the auspices of the Special Interest Group on Natur
 
 All deadlines are Anywhere on Earth (UTC-12)
 
-- START system regular paper submission deadline: July 14, 2025
+- START system regular paper submission deadline: <s>July 14, 2025</s> <span style="color: red;"><b>July 18, 2025</b> (Extended!)</span>
 - ARR commitment to INLG deadline via START system: August 7, 2025
 - START system demo paper submission deadline: July 24, 2025
 - Notification: August 21, 2025
@@ -70,7 +70,7 @@ Authors must honor the ethical code set out in the [ACL Code of Ethics](https://
 Authors are strongly encouraged to ensure that their work is reproducible; see, e.g., the following [reproducibility checklist](https://2021.aclweb.org/calls/reproducibility-checklist/). Papers involving any kind of experimental results (human judgments, system outputs, etc) should incorporate a data availability statement into their paper. Authors are asked to indicate whether the data is made publicly available. If the data is not made available, authors should provide a brief explanation why. (E.g. because the data contains proprietary information.) A [statement guide](/resource-statement.html) is available on the [INLG 2025 website](https://inlg2025.github.io/).
 
 
-To submit a long or short paper to INLG 2025, authors can either submit directly or commit a paper previously reviewed by ARR via the [same paper submission site](https://softconf.com/p/inlg2025/). For direct submissions, the deadline for submitting papers is **July 14, 2025, 11:59:59 AOE**. If committing an ARR paper to INLG, the submission is also made through the INLG 2025 paper submission site, indicating the link of the paper on OpenReview. The deadline for committing an ARR paper to INLG is **August 7, 2025, 11:59:59 AOE**, and the last eligible ARR paper submission deadline for INLG 2025 is **May 19, 2025**. It is important to note that when committing an ARR paper to INLG, it should be submitted through the INLG 2025 paper submission site, just like a direct submission paper, with the only difference being the need to provide the OpenReview link to the paper and to provide an optional author response to reviews.
+To submit a long or short paper to INLG 2025, authors can either submit directly or commit a paper previously reviewed by ARR via the [same paper submission site](https://softconf.com/p/inlg2025/). For direct submissions, the deadline for submitting papers is <s>July 14, 2025, 11:59:59 AOE</s> <span style="color:red"><b>July 18, 2025, 11:59:59 AOE</b></span>. If committing an ARR paper to INLG, the submission is also made through the INLG 2025 paper submission site, indicating the link of the paper on OpenReview. The deadline for committing an ARR paper to INLG is **August 7, 2025, 11:59:59 AOE**, and the last eligible ARR paper submission deadline for INLG 2025 is **May 19, 2025**. It is important to note that when committing an ARR paper to INLG, it should be submitted through the INLG 2025 paper submission site, just like a direct submission paper, with the only difference being the need to provide the OpenReview link to the paper and to provide an optional author response to reviews.
 
 Demo papers should be submitted directly through the INLG 2025 [paper submission site](https://softconf.com/p/inlg2025/) by **July 24, 2025, 11:59:59 PM AOE**.
 

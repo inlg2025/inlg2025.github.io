@@ -21,8 +21,8 @@ All deadlines are Anywhere on Earth (UTC-12)
 <table>
   <tbody>
     <tr>
-      <td style="white-space: nowrap;"><b>July 14</b></td>
-      <td>START system regular paper submission deadline</td>
+      <td style="white-space: nowrap;"><s>July 14</s> <br><span style="color:red"><b>July 18</b></span></td>
+      <td>START system regular paper submission deadline (extended to <span style="color:red"><b>July 18</b></span>)</td>
     </tr>
     <tr>
       <td style="white-space: nowrap;"><b>Aug 7</b></td>
