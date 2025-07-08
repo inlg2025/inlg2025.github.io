@@ -13,7 +13,13 @@ site_title:
 page_title:
   prefix: "INLG 2025"
   separator: ": "
-background_image: static/images/viasm_banner_v2.png
+background_image: 
+  main: static/images/viasm_banner_v2.png
+  substitutes: 
+    - "static/images/One Pillar Pagoda Hanoi.jpg"
+    - "static/images/Ho Chi Minh Mausoleum.jpg"
+    - "static/images/Attractions Hanoi Vietnam Tourism-2_0.jpg"
+    - "static/images/Temple of Literature Hanoi.jpg"
 organization: INLG 2025 Organizers
 
 calendar:
