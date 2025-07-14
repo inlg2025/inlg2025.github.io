@@ -7,6 +7,8 @@ INLG 2025 will be taking place before EMNLP 2025 (November 5-9) in Suzhou, China
 
 All accepted papers must be presented in person, and remote presentations are not allowed without a compelling reason, such as visa or health problems, which is approved by the organizer. Submitted papers for review at INLG 2025 must not be published elsewhere until after the notification of acceptance.
 
+The program chairs and local organizers can be reached at <a href="mailto:inlg-organizers@googlegroups.com" title="Email address for INLG's organizers"><b>inlg-organizers</b><span>@</span>googlegroups.com</a>
+
 #### News
 
 <table>
