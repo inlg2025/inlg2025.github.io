@@ -30,7 +30,7 @@ We are excited to share the following speakers have kindly accepted to give invi
 
 <!-- **Short Bio:** TBA -->
 
-## Keynote 4: [Mike White](https://www.linkedin.com/in/michael-white-16546184?trk=public_post-text) (Ohio State University)
+## Keynote 4: [Michael White](https://www.linkedin.com/in/michael-white-16546184?trk=public_post-text) (Ohio State University)
 
 <!-- **Time:** TBA -->
 
