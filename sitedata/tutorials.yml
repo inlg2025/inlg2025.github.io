@@ -1,4 +1,20 @@
 tutorials:
-  - id: "tba"
-    title: TBA
-    link: TBA
+  - id: LMMSocialScience
+    title: LMM & Social Science (half day tutorial on Oct 29 (afternoon))
+    link: "#"
+    
+  - id: LLMMedicine
+    title: LLM & Medicine (full day workshop on Oct 30)
+    link: "#"
+
+  - id: YoungResearcher
+    title: Young Researcher (full day workshop on Oct 29)
+    link: "#"
+
+  - id: Werewolf
+    title: Werewolf (half day contest & workshop on Oct 30 (morning))
+    link: "#"
+
+  - id: VisualContext
+    title: Visual Context (full day tutorial on Oct 29)
+    link: "#"
