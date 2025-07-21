@@ -22,6 +22,7 @@ We are excited to share the following speakers have kindly accepted to give invi
 **Short Bio:** Dr. Hadas Kotek is a Sr. Engineering Manager at Apple and a Research Affiliate at the MIT Department of Linguistics. She currently leads the data and evaluation efforts for the Apple Intelligence Responsible AI team. In this role, she focuses on identifying, evaluating, and developing mitigation strategies for harms and biases in customer-facing products that use Apple’s Large Language Models and Diffusion Models. Dr. Kotek has published on diverse topics in the domains of Responsible AI and NLP, including gender bias, hallucinations, evaluating model handling of controversial topics, improving human annotation quality, and human-in-the-loop strategies for annotation; and topics in Linguistics, including the structure and meaning of questions and experimental approaches to the study of quantification and numerosity. Prior to joining Apple, Dr. Kotek held visiting teaching and research positions in Linguistics at Yale, New York University, and McGill University.
 
 ## Keynote 3: [Minlie Huang](https://cn.linkedin.com/in/minlie-huang-tsinghua?trk=public_post-text) (黄民烈; Tsinghua University)
+<img src="/static/images/minlie_huang.jpg" class="rounded" style="display:block;margin: auto; height: 12rem; width: 10rem; object-fit: cover;" />
 
 <!-- **Time:** TBA -->
 
@@ -29,7 +30,17 @@ We are excited to share the following speakers have kindly accepted to give invi
 
 <!-- **Abstract:** TBA -->
 
-<!-- **Short Bio:** TBA -->
+**Short Bio:** His general interests include artificial intelligence, deep learning, and natural language processing. He is particularly interested in the following fields:
+
+Natural language generation theories, models & evaluation
+
+Fundamental problems in large language models and multi-modal foundation models
+
+AI alignment, safety and ethics
+
+Social intelligence with large language models (emotion, theory-of-mind, mental health applications)
+
+He is leading a research group named Conversational AI (CoAI, GitHub link). This group published more than 100 papers on ACL, ICLR, ICML, Neurips conferences, and has won many paper awards including COLING 2010 best paper, ACL 2012 best student paper, IJCAI 2018 distinguished paper, SIGDIAL 2020 best paper, NLPCC 2015/2020 best paper, ACL 2023/2024 area chair award, etc. They have also highly cited works including emotional chatting machine (AAAI 2018), ESC (ACL 2021), PPT (ACL 2022), MiniLLM (ICLR 2024), ChatGLM (2024, with Prof. Jie Tang), etc.
 
 ## Keynote 4: [Michael White](https://www.linkedin.com/in/michael-white-16546184?trk=public_post-text) (Ohio State University)
 <img src="/static/images/michael_white.jpg" class="rounded" style="display:block;margin: auto; height: 12rem; width: 10rem; object-fit: cover;" />
