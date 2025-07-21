@@ -32,13 +32,13 @@ We are excited to share the following speakers have kindly accepted to give invi
 
 **Short Bio:** His general interests include artificial intelligence, deep learning, and natural language processing. He is particularly interested in the following fields:
 
-Natural language generation theories, models & evaluation
+- Natural language generation theories, models & evaluation
 
-Fundamental problems in large language models and multi-modal foundation models
+- Fundamental problems in large language models and multi-modal foundation models
 
-AI alignment, safety and ethics
+- AI alignment, safety and ethics
 
-Social intelligence with large language models (emotion, theory-of-mind, mental health applications)
+- Social intelligence with large language models (emotion, theory-of-mind, mental health applications)
 
 He is leading a research group named Conversational AI (CoAI, GitHub link). This group published more than 100 papers on ACL, ICLR, ICML, Neurips conferences, and has won many paper awards including COLING 2010 best paper, ACL 2012 best student paper, IJCAI 2018 distinguished paper, SIGDIAL 2020 best paper, NLPCC 2015/2020 best paper, ACL 2023/2024 area chair award, etc. They have also highly cited works including emotional chatting machine (AAAI 2018), ESC (ACL 2021), PPT (ACL 2022), MiniLLM (ICLR 2024), ChatGLM (2024, with Prof. Jie Tang), etc.
 
