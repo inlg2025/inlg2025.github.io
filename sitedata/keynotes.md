@@ -1,5 +1,5 @@
 We are excited to share the following speakers have kindly accepted to give invited talks at INLG2025.
-
+ 
 ## Keynote 1: [Verena Rieser](https://uk.linkedin.com/in/verena-rieser-3590b86?trk=public_post-text) (Google DeepMind)
 <img src="/static/images/verena_rieser.jpg" class="rounded" style="display:block;margin: auto; height: 12rem; width: 10rem; object-fit: cover;" />
 <!-- **Time:** TBA -->
