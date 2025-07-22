@@ -160,6 +160,21 @@ def tutorials():
             tutorial["bodytext"] = open(tutorial["body"]).read()
     return render_template("tutorials.html", **data)
 
+@freezer.register_generator
+def tutorials_cfp():
+    for tut in site_data['tutorials']['tutorials']: 
+        yield {'tutorial_id':tut['id']}
+
+@app.route("/workshops-tutorials-<tutorial_id>.html")
+def tutorials_cfp(tutorial_id):
+    data = _data()
+    for tut in site_data['tutorials']['tutorials']:
+        if tut['id'] == tutorial_id:
+            data["mdcontent"] = open("sitedata/"+tut['md_file']).read()
+            break
+    else:
+        raise ValueError("Not found!")
+    return render_template("single_md.html", **data)
 
 @app.route("/accepted-papers.html")
 def accepted_papers():
