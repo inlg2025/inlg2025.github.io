@@ -1,0 +1,3 @@
+# Werewolf (half day contest & workshop on Oct 30 (morning))
+
+### Stay tuned! More information coming soon... 
