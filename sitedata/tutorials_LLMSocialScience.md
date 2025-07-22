@@ -1,0 +1,3 @@
+# LMM & Social Science (half day tutorial on Oct 29 (afternoon))
+
+### Stay tuned! More information coming soon... 
