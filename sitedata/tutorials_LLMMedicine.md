@@ -57,7 +57,7 @@ We particularly encourage papers that combine neural and symbolic approaches to 
 * Dr. Changmeng Zheng, The Hong Kong Polytechnic University
 * Mr. Jiatong Li, The Hong Kong Polytechnic University
 * Mr. Qi Peng, The Hong Kong Polytechnic University
-* Prof. Xiaoyong, The Hong Kong Polytechnic University
+* Prof. Xiaoyong Wei, The Hong Kong Polytechnic University
 * Prof. Qing Li, The Hong Kong Polytechnic University
 
 Contact: changmeng.zheng@polyu.edu.hk
