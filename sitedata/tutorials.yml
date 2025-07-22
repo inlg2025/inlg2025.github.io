@@ -1,20 +1,25 @@
 tutorials:
-  - id: LMMSocialScience
+  - id: llm-social-science
     title: LMM & Social Science (half day tutorial on Oct 29 (afternoon))
     link: "#"
+    md_file: tutorials_empty.md
     
-  - id: LLMMedicine
+  - id: llm-medicine
     title: LLM & Medicine (full day workshop on Oct 30)
-    link: "#"
+    link: "/workshops-tutorials-llm-medicine.html"
+    md_file: tutorials_LLMMedicine.md
 
-  - id: YoungResearcher
+  - id: young-researcher
     title: Young Researcher (full day workshop on Oct 29)
     link: "#"
+    md_file: tutorials_empty.md
 
-  - id: Werewolf
+  - id: werewolf
     title: Werewolf (half day contest & workshop on Oct 30 (morning))
     link: "#"
+    md_file: tutorials_empty.md
 
-  - id: VisualContext
+  - id: visual-context
     title: Visual Context (full day tutorial on Oct 29)
     link: "#"
+    md_file: tutorials_empty.md
