@@ -2,6 +2,9 @@ calls:
   - id: "cfp"
     title: INLG 2025 Call for Papers
     body: sitedata/cfp.md
+  - id: "cfp-tutorials"
+    title: INLG 2025 Call for Papers (Workshops & Tutorials)
+    body: sitedata/cfp_tutorials.md
   - id: "workshops-tutorials"
     title: INLG 2025 Call for Workshop & Tutorial Proposals
     body: sitedata/call_for_workshop.md
