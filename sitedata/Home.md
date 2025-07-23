@@ -13,7 +13,10 @@ The program chairs and local organizers can be reached at <a href="mailto:inlg-o
 
 <table>
   <tbody>
-    
+  <tr>
+    <td style="white-space: nowrap;"><b>Jul 22</b></td>
+    <td><span style="color:red">NEW!</span> <a href="/workshops-tutorials.html">Call for Papers (Workshops & Tutorials)</a> is now available.</td>
+  </tr>
   </tbody>
 </table>
 
