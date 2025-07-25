@@ -15,7 +15,7 @@ tutorials:
     md_file: tutorials_YoungResearcher.md
 
   - id: werewolf
-    title: Werewolf (half day contest & workshop on Oct 30 (morning))
+    title: AI Werewolf (half day contest & workshop on Oct 30 (morning))
     link: "/workshops-tutorials-werewolf.html"
     md_file: tutorials_Werewolf.md
 
