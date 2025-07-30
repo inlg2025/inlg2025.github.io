@@ -57,11 +57,10 @@ Participants will:
 
 1. Grasp the fundamental functions and limitations of LLMs.
 2. Explore applications of LLMs, including:
-
-  * Text generation and summarization
-  * Sentiment and discourse analysis
-  * Simulating human subjects and interviews
-  * Coding and classification in qualitative research
+    * Text generation and summarization
+    * Sentiment and discourse analysis
+    * Simulating human subjects and interviews
+    * Coding and classification in qualitative research
 
 3. Receive practical experience with open-source LLM tools and APIs such as OpenAI and Hugging Face.
 4. Critically assess the validity, biases, and ethical considerations of employing LLMs in social science research.
