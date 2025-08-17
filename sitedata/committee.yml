@@ -5,20 +5,31 @@ groups:
         name: Lucie Flek
         aff: University of Bonn, Lamarr Institute of Machine Learning and Artificial Intelligence
         im: /static/images/lucie_flek.jpg
+
       - role: Program Co-Chair
         name: Shashi Narayan
         aff: Google DeepMind
         im: /static/images/shashi_narayan.jpg
         
-      - role: Program Co-Chair
-        name: Phan Xuân Hiếu
-        aff: VNU University of Engineering and Technology
-        im: /static/images/phan_xuan_hieu.jpg
+      # - role: Program Co-Chair
+      #   name: Phan Xuân Hiếu
+      #   aff: VNU University of Engineering and Technology
+      #   im: /static/images/phan_xuan_hieu.jpg
 
+      - role: Local Organizer
+        name: Lê Hồng Phương
+        aff: VNU Hanoi University of Science
+        im: /static/images/le_hong_phuong.jpg
+        
       - role: Program Co-Chair
         name: Jiahuan Pei
         aff: Vrije Universiteit Amsterdam
         im: /static/images/jiahuan_pei.jpg
+
+      - role: Program Co-Chair
+        name: Phan Xuân Hiếu
+        aff: VNU University of Engineering and Technology
+        im: /static/images/phan_xuan_hieu.jpg
       
       - role: Publication Chair
         name: Ondřej Dušek
@@ -58,14 +69,14 @@ groups:
         name: Đỗ Văn Hải
         aff: Thuy Loi University
         im: /static/images/do_van_hai.jpg
-      # - role: Local Organizer
-      #   name: Phan Xuân Hiếu
-      #   aff: VNU University of Engineering and Technology
-      #   im: /static/images/phan_xuan_hieu.jpg
       - role: Local Organizer
-        name: Lê Hồng Phương
-        aff: VNU Hanoi University of Science
-        im: /static/images/le_hong_phuong.jpg
+        name: Phan Xuân Hiếu
+        aff: VNU University of Engineering and Technology
+        im: /static/images/phan_xuan_hieu.jpg
+      # - role: Local Organizer
+      #   name: Lê Hồng Phương
+      #   aff: VNU Hanoi University of Science
+      #   im: /static/images/le_hong_phuong.jpg
       - role: Local Organizer
         name: Lê Hoàng Quỳnh
         aff: VNU University of Engineering and Technology
