@@ -23,3 +23,8 @@ tutorials:
     title: Visual Context (full day tutorial on Oct 29)
     link: "/workshops-tutorials-visual-context.html"
     md_file: tutorials_VisualContext.md
+
+  - id: vlsp
+    title: Vietnamese Language & Speech Processing (two-day workshop Oct 29-30)
+    link: "https://vlsp.org.vn/vlsp2025/"
+    md_file: tutorials_empty.md
