@@ -1,8 +1,8 @@
-# INLG 2025 Workshop: Large Language Models in Social Science: Methods, Applications, and Ethics
+# INLG 2025 Tutorial: Large Language Models in Social Science: Methods, Applications, and Ethics
 
 Half day tutorial on Oct 29 (afternoon)
 
-*This workshop introduces Large Language Models (LLMs) in social sciences, offering hands-on experience (no coding or advanced maths needed) and critical discussion around methodological opportunities, limitations, and ethical concerns.*
+*This tutorial/workshop introduces Large Language Models (LLMs) in social sciences, offering hands-on experience (no coding or advanced maths needed) and critical discussion around methodological opportunities, limitations, and ethical concerns.*
 
 ## Organizers
 
