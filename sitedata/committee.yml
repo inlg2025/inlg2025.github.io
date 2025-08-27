@@ -16,7 +16,7 @@ groups:
       #   aff: VNU University of Engineering and Technology
       #   im: /static/images/phan_xuan_hieu.jpg
 
-      - role: Local Organizer
+      - role: Program Co-Chair
         name: Lê Hồng Phương
         aff: VNU Hanoi University of Science
         im: /static/images/le_hong_phuong.jpg
