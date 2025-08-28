@@ -1,21 +1,21 @@
 tutorials:
   - id: llm-social-science
-    title: LMM & Social Science (half day tutorial on Oct 29 (afternoon))
+    title: "Large Language Models in Social Science: Methods, Applications, and Ethics (half day tutorial on Oct 29 (afternoon))"
     link: "/workshops-tutorials-llm-social-science.html"
     md_file: tutorials_LLMSocialScience.md
     
   - id: llm-medicine
-    title: LLM & Medicine (full day workshop on Oct 30)
+    title: "LLM Reasoning on Medicine: Challenges, Opportunities, and Future (full day workshop on Oct 30)"
     link: "/workshops-tutorials-llm-medicine.html"
     md_file: tutorials_LLMMedicine.md
 
   - id: young-researcher
-    title: Young Researcher (full day workshop on Oct 29)
+    title: "The 1st Workshop for Young Researchers in Natural Language Generation (YNLG 2025) (full day workshop on Oct 29)"
     link: "/workshops-tutorials-young-researcher.html"
     md_file: tutorials_YoungResearcher.md
 
   - id: werewolf
-    title: AI Werewolf (half day contest & workshop on Oct 30 (morning))
+    title: "The 3rd International Workshop of AI Werewolf and Dialog System (AIWolfDial2025) (half day contest & workshop on Oct 30 (morning))"
     link: "/workshops-tutorials-werewolf.html"
     md_file: tutorials_Werewolf.md
 
@@ -25,6 +25,6 @@ tutorials:
     md_file: tutorials_VisualContext.md
 
   - id: vlsp
-    title: Vietnamese Language & Speech Processing (two-day workshop Oct 29-30)
+    title: "The 11th International Workshop on Vietnamese Language and Speech Processing (VLSP 2025) (two-day workshop Oct 29-30)"
     link: "https://vlsp.org.vn/vlsp2025/"
     md_file: tutorials_empty.md
