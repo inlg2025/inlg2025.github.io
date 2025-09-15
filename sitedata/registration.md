@@ -9,10 +9,10 @@
 
 
 #### Author Registration:
-Every main conference paper requires a full package registration by September 26, 2025 to be included in the program.   
+Every main conference paper requires a full package registration by October 8, 2025 to be included in the program.   
 
 #### Early Bird Rate: 
-To qualify for Early Bird rates, full payment should be made on or before September 26, 2025.
+To qualify for Early Bird rates, full payment should be made on or before October 8, 2025.
 
 #### Student Discounts:
 Reduced registration fees are available for students.  For online registration, a scanned copy of the student ID should be attached. It should also be presented during on-site registration.
@@ -36,9 +36,9 @@ If you need an invitation letter or other documents for your visa application, p
     </colspan>
     <tbody>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td colspan=3><b>Registration Fee</b></td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
         <td></td>
         <td>Foreigners (USD)</td>
         <td>Local (VND)</td>
@@ -247,3 +247,38 @@ If you need an invitation letter or other documents for your visa application, p
 
 
 
+### MODE OF PAYMENT
+
+#### Method 1: Paypal
+The participant must fill out the registration form (link) with payment proof.
+
+#### Method 2: Bank Transfer
+Name:  VIETNAM ASSOCIATION FOR INFORMATION PROCESSING
+
+Address: 1 Han Thuyen str., Hai Ba Trung, Hanoi, Vietnam
+
+Bank:  Vietnam International Bank
+No 64-68 Ly Thuong Kiet Street, Cua Nam Ward, Hanoi
+
+Branch:  VIB Ly Thuong Kiet
+
+Account Number for USD payment: 003 84006 0000 085 
+
+Account Number for VND payment (local participants):  003 70406 0000 979 
+
+Swift Code:  VNIBVNVX
+
+Payment Reference: 
+
+- Paper registration: INLG 2025 from Author Name for Paper ID
+- Attendance registration: INLG 2025 from Participant Name
+
+For bank transactions, the participant must fill out the registration form (link).  The following documents must be attached: Deposit slip, student card (for student participants).
+
+#### Method 3: On-site payment
+
+Walk-ins may pay on-site and on a cash basis (only Vietnam dongs and US dollars will be accepted for on-site payment).
+
+Local participants should use Method 2 (VND payment) or Method 3.
+
+If you have any questions, please send an email to: vlsp.resources@gmail.com.
