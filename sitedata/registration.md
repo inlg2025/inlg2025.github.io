@@ -36,7 +36,7 @@ If you need an invitation letter or other documents for your visa application, p
     </colspan>
     <tbody>
       <tr>
-        <td colspan=3><b>Registration Fee</b></td>
+        <td colspan=3><h3>Registration Fee</h3></td>
         <!-- <td></td> -->
         <!-- <td></td> -->
         <td></td>
