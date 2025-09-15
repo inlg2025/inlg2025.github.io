@@ -25,12 +25,12 @@ Local participants benefit from special fees.
 <div style="width: 100%; overflow: scroll;">
   <table>
     <colspan>
-      <col style="min-width: 0rem;">
-      <col style="min-width: 0rem;">
-      <col style="min-width: 0rem;">
-      <col style="min-width: 0rem;">
-      <col style="min-width: 0rem;">
-      <col style="min-width: 0rem;">
+      <col style="min-width: 5rem;">
+      <col style="min-width: 5rem;">
+      <col style="min-width: 6rem;">
+      <col style="min-width: 5rem;">
+      <col style="min-width: 5rem;">
+      <col style="min-width: 8rem;">
     </colspan>
     <tbody>
       <tr>
