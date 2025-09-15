@@ -37,11 +37,11 @@ If you need an invitation letter or other documents for your visa application, p
       <col style="min-width: 5rem;">
       <col style="min-width: 8rem;"> -->
       <col style="min-width: 10ch;">
-      <col style="min-width: 5ch;">
-      <col style="min-width: 5ch;">
-      <col style="min-width: 5ch;">
-      <col style="min-width: 5ch;">
       <col style="min-width: 8ch;">
+      <col style="min-width: 10ch;">
+      <col style="min-width: 8ch;">
+      <col style="min-width: 8ch;">
+      <col style="min-width: 12ch;">
     </colspan>
     <tbody>
       <tr>
