@@ -30,12 +30,18 @@ If you need an invitation letter or other documents for your visa application, p
 <div style="width: 100%; overflow: scroll;">
   <table>
     <colspan>
-      <col style="min-width: 5rem;">
+      <!-- <col style="min-width: 5rem;">
       <col style="min-width: 5rem;">
       <col style="min-width: 6rem;">
       <col style="min-width: 5rem;">
       <col style="min-width: 5rem;">
-      <col style="min-width: 8rem;">
+      <col style="min-width: 8rem;"> -->
+      <col style="min-width: 10ch;">
+      <col style="min-width: 5ch;">
+      <col style="min-width: 5ch;">
+      <col style="min-width: 5ch;">
+      <col style="min-width: 5ch;">
+      <col style="min-width: 8ch;">
     </colspan>
     <tbody>
       <tr>
