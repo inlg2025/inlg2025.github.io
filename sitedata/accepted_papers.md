@@ -179,7 +179,7 @@
 *Chung-Chi Chen, Ming-Hung Wang, Ramon Ruiz-Dolz, Chris Reed, Ichiro Kobayashi, Yusuke Miyao and Hiroya Takamura*
 
 
-- **ReproNLP Shared Task Overview*
+- **ReproNLP Shared Task Overview**
 *Anya Belz, Craig Thomson, Javier González Corbelle, Malo Ruelle*
 
 - **DCU-ADAPT-modPB at the GEM’24 Data-to-Text Generation Task: Model Hybridisation for Pipeline Data-to-Text Natural Language Generation**
