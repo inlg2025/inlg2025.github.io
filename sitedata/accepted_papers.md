@@ -1,9 +1,5 @@
 ## Long Papers
 
-- **TITLE**  
-*AUTHORS*
-
-
 - **Dual Debiasing: Remove Stereotypes and Keep Factual Gender for Fair Language Modeling and Translation**
 *Tomasz Limisiewicz, David Mareček and Tomáš Musil*
 
@@ -160,7 +156,7 @@
 
 ## Demo Papers
 
-- **VitaEval: Open-source Human Evaluation Tool for Video-to-Text and Video-to-Audio Systems*
+- **VitaEval: Open-source Human Evaluation Tool for Video-to-Text and Video-to-Audio Systems**
 *Goran Topic, Yuki Saito, Katsuhito Sudoh, Shinnosuke Takamichi, Hiroya Takamura, Graham Neubig and Tatsuya Ishigaki* 
 
 - **CSPaper Review: Fast, Rubric-Faithful Conference Feedback**
@@ -169,7 +165,7 @@
 - **Echoes of Others: Real-Time LLM Dialogue Generation for Immersive NPC Interaction**
 *James McGrath, Michela Lorandi and Anya Belz* 
 
-- **ARTIST: A Learning Support System for Fostering Students' Argumentative Writing Skills*
+- **ARTIST: A Learning Support System for Fostering Students' Argumentative Writing Skills**
 *Thomas Huber and Christina Niklaus* 
     
 
