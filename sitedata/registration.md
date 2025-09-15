@@ -46,87 +46,87 @@ Local participants benefit from special fees.
         <td>Full</td>
         <td>Regular</td>
         <td>Early Bird</td>
-        <td>370</td>
-        <td>6,000,000</td>
+        <td>$370</td>
+        <td>6,000,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Full</td>
         <td>Regular</td>
         <td>Late</td>
-        <td>500</td>
-        <td>8,000,000</td>
+        <td>$500</td>
+        <td>8,000,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Full</td>
         <td>Student</td>
         <td>Early Bird</td>
-        <td>190</td>
-        <td>3,000,000</td>
+        <td>$190</td>
+        <td>3,000,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Full</td>
         <td>Student</td>
         <td>Late</td>
-        <td>260</td>
-        <td>5,000,000</td>
+        <td>$260</td>
+        <td>5,000,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Basic</td>
         <td>Regular</td>
         <td>Early Bird</td>
-        <td>260</td>
-        <td>4,000,000</td>
+        <td>$260</td>
+        <td>4,000,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Basic</td>
         <td>Regular</td>
         <td>Late</td>
-        <td>400</td>
-        <td>5,000,000</td>
+        <td>$400</td>
+        <td>5,000,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Basic</td>
         <td>Student</td>
         <td>Early Bird</td>
-        <td>100</td>
-        <td>1,500,000 (Free for volunteer students)</td>
+        <td>$100</td>
+        <td>1,500,000₫ (Free for volunteer students)</td>
       </tr>
       <tr>
         <td></td>
         <td>Basic</td>
         <td>Student</td>
         <td>Late</td>
-        <td>160</td>
-        <td>2,500,000 (Free for volunteer students)</td>
+        <td>$160</td>
+        <td>2,500,000₫ (Free for volunteer students)</td>
       </tr>
       <tr>
         <td></td>
         <td>Lite</td>
         <td>Regular</td>
         <td>Early Bird</td>
-        <td>100</td>
-        <td>500,000</td>
+        <td>$100</td>
+        <td>500,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Lite</td>
         <td>Regular</td>
         <td>Late</td>
-        <td>160</td>
-        <td>1,000,000</td>
+        <td>$160</td>
+        <td>1,000,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Lite</td>
         <td>Student</td>
         <td>Early Bird</td>
-        <td>50</td>
+        <td>$50</td>
         <td>Free</td>
       </tr>
       <tr>
@@ -134,56 +134,56 @@ Local participants benefit from special fees.
         <td>Lite</td>
         <td>Student</td>
         <td>Late</td>
-        <td>80</td>
-        <td>500,000 (Free for volunteer students)</td>
+        <td>$80</td>
+        <td>500,000₫ (Free for volunteer students)</td>
       </tr>
       <tr>
         <td><b>Workshop</b> (coffee breaks included)</td>
         <td>Half-day workshop</td>
         <td>Regular</td>
         <td>Early Bird</td>
-        <td>60</td>
-        <td>400,000</td>
+        <td>$60</td>
+        <td>400,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Half-day workshop</td>
         <td>Regular</td>
         <td>Late</td>
-        <td>80</td>
-        <td>600,000</td>
+        <td>$80</td>
+        <td>600,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Half-day workshop</td>
         <td>Student</td>
         <td>Early Bird</td>
-        <td>30</td>
-        <td>200,000</td>
+        <td>$30</td>
+        <td>200,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Half-day workshop</td>
         <td>Student</td>
         <td>Late</td>
-        <td>40</td>
-        <td>300,000</td>
+        <td>$40</td>
+        <td>300,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>One-day workshop</td>
         <td>Regular</td>
         <td>Early Bird</td>
-        <td>80 (lunch included)</td>
-        <td>600,000 (lunch included)</td>
+        <td>$80 (lunch included)</td>
+        <td>600,000₫ (lunch included)</td>
       </tr>
       <tr>
         <td></td>
         <td>One-day workshop</td>
         <td>Regular</td>
         <td>Late</td>
-        <td>100 (lunch included)</td>
-        <td>800,000 (lunch included)
+        <td>$100 (lunch included)</td>
+        <td>800,000₫ (lunch included)
         </td>
       </tr>
       <tr>
@@ -191,39 +191,39 @@ Local participants benefit from special fees.
         <td>One-day workshop</td>
         <td>Student</td>
         <td>Early Bird</td>
-        <td>40 (lunch included)</td>
-        <td>300,000 (lunch included)</td>
+        <td>$40 (lunch included)</td>
+        <td>300,000₫ (lunch included)</td>
       </tr>
       <tr>
         <td></td>
         <td>One-day workshop</td>
         <td>Student</td>
         <td>Late</td>
-        <td>50 (lunch included)</td>
-        <td>400,000 (lunch included)</td>
+        <td>$50 (lunch included)</td>
+        <td>400,000₫ (lunch included)</td>
       </tr>
       <tr>
         <td></td>
         <td>VLSP (2 days)</td>
         <td>Regular</td>
         <td>Early Bird</td>
-        <td>80 (lunch included)</td>
-        <td>500,000 (lunch included)</td>
+        <td>$80 (lunch included)</td>
+        <td>500,000₫ (lunch included)</td>
       </tr>
       <tr>
         <td></td>
         <td>VLSP (2 days)</td>
         <td>Regular</td>
         <td>Late</td>
-        <td>100 (lunch included)</td>
-        <td>600,000 (lunch included)</td>
+        <td>$100 (lunch included)</td>
+        <td>600,000₫ (lunch included)</td>
       </tr>
       <tr>
         <td></td>
         <td>VLSP (2 days)</td>
         <td>Student</td>
         <td>Early Bird</td>
-        <td>40 (lunch included)</td>
+        <td>$40 (lunch included)</td>
         <td>Free</td>
       </tr>
       <tr>
@@ -231,15 +231,13 @@ Local participants benefit from special fees.
         <td>VLSP (2 days)</td>
         <td>Student</td>
         <td>Late</td>
-        <td>50 (lunch included)</td>
+        <td>$50 (lunch included)</td>
         <td>Free</td>
       </tr>
       <tr><td><b>Extra ticket for Gala Dinner</b></td>
       <td colspan=3>When you purchase a ticket, one person can accompany you to the gala dinner.</td>
-      <!-- <td></td> -->
-      <!-- <td></td> -->
-      <td>100</td>
-      <td>2,500,000</td>
+      <td>$100</td>
+      <td>2,500,000₫</td>
       </tr>
     </tbody>
   </table>
