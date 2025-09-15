@@ -45,12 +45,12 @@ If you need an invitation letter or other documents for your visa application, p
         <td>Local (VND)</td>
       </tr>
       <tr>
-        <td><b>Main Conference</b></td>
+        <td nowrap><b>Main<br/>Conference</b></td>
         <td>Full</td>
         <td>Regular</td>
-        <td >Early Bird</td>
+        <td>Early Bird</td>
         <td>$370</td>
-        <td>6,000,000₫</td>
+        <td nowrap>6,000,000₫</td>
       </tr>
       <tr>
         <td></td>
@@ -58,15 +58,15 @@ If you need an invitation letter or other documents for your visa application, p
         <td>Regular</td>
         <td>Late</td>
         <td>$500</td>
-        <td>8,000,000₫</td>
+        <td nowrap>8,000,000₫</td>
       </tr>
       <tr>
         <td></td>
         <td>Full</td>
-        <td>Student</td>
+        <td nowrap>Student</td>
         <td>Early Bird</td>
         <td>$190</td>
-        <td>3,000,000₫</td>
+        <td nowrap>3,000,000₫</td>
       </tr>
       <tr>
         <td></td>
@@ -74,7 +74,7 @@ If you need an invitation letter or other documents for your visa application, p
         <td>Student</td>
         <td>Late</td>
         <td>$260</td>
-        <td>5,000,000₫</td>
+        <td nowrap>5,000,000₫</td>
       </tr>
       <tr>
         <td></td>
@@ -82,7 +82,7 @@ If you need an invitation letter or other documents for your visa application, p
         <td>Regular</td>
         <td>Early Bird</td>
         <td>$260</td>
-        <td>4,000,000₫</td>
+        <td nowrap>4,000,000₫</td>
       </tr>
       <tr>
         <td></td>
