@@ -30,12 +30,6 @@ If you need an invitation letter or other documents for your visa application, p
 <div style="width: 100%; overflow: scroll;">
   <table>
     <colspan>
-      <!-- <col style="min-width: 5rem;">
-      <col style="min-width: 5rem;">
-      <col style="min-width: 6rem;">
-      <col style="min-width: 5rem;">
-      <col style="min-width: 5rem;">
-      <col style="min-width: 8rem;"> -->
       <col style="min-width: 10ch;">
       <col style="min-width: 8ch;">
       <col style="min-width: 10ch;">
@@ -54,7 +48,7 @@ If you need an invitation letter or other documents for your visa application, p
         <td><b>Main Conference</b></td>
         <td>Full</td>
         <td>Regular</td>
-        <td>Early Bird</td>
+        <td >Early Bird</td>
         <td>$370</td>
         <td>6,000,000₫</td>
       </tr>
@@ -92,11 +86,11 @@ If you need an invitation letter or other documents for your visa application, p
       </tr>
       <tr>
         <td></td>
-        <td>Basic</td>
-        <td>Regular</td>
-        <td>Late</td>
-        <td>$400</td>
-        <td>5,000,000₫</td>
+        <td nowrap>Basic</td>
+        <td nowrap>Regular</td>
+        <td nowrap>Late</td>
+        <td nowrap>$400</td>
+        <td nowrap>5,000,000₫</td>
       </tr>
       <tr>
         <td></td>
