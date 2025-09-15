@@ -23,6 +23,7 @@ Local participants benefit from special fees.
 #### Invitation Letter:
 If you need an invitation letter or other documents for your visa application, please contact to the local chair, Lê Hoàng Quỳnh (lhquynh [at] vnu.edu.vn).
 
+### 
 
 <div style="width: 100%; overflow: scroll;">
   <table>
