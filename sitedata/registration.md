@@ -1,17 +1,16 @@
+TBA
 
-### The INLG 2025 main conference ticket includes:
+<!-- ### The INLG 2025 main conference ticket includes:
 
 - **Full package**: Conference bag, coffee breaks, reception, lunch (31 October, 1st November, 2nd November), gala dinner, and , social event;
 - **Basic package**: Coffee breaks, lunch (31 October, 1st November, 2nd November);
 - **Lite package**: Coffee breaks only.
 
-<!-- **Extra ticket for Gala Dinner**: When you purchase a ticket, one person can accompany you to the gala dinner. -->
-
 
 #### Author Registration:
 Every main conference paper requires a full package registration by October 8, 2025 to be included in the program. 
 
-<!-- A full package registration can cover upto two papers. From the 3rd paper, each paper require a lite package registration. -->
+A full package registration can cover upto two papers. From the 3rd paper, each paper require a lite package registration. 
 
 #### Early Bird Rate: 
 To qualify for Early Bird rates, full payment should be made on or before October 8, 2025.
@@ -40,8 +39,6 @@ If you need an invitation letter or other documents for your visa application, p
     <tbody>
       <tr>
         <td colspan=3><h3>Registration Fee</h3></td>
-        <!-- <td></td> -->
-        <!-- <td></td> -->
         <td></td>
         <td>Foreigners (USD)</td>
         <td>Local (VND)</td>
@@ -246,7 +243,7 @@ If you need an invitation letter or other documents for your visa application, p
       </tr>
     </tbody>
   </table>
-</div>
+</div> -->
 
 <!-- 
 
