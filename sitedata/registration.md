@@ -5,6 +5,7 @@
 - **Basic package**: Coffee breaks, lunch (31 October, 1st November, 2nd November);
 - **Lite package**: Coffee breaks only.
 
+**Extra ticket for Gala Dinner**:	When you purchase a ticket, one person can accompany you to the gala dinner.
 
 #### Author Registration:
 Every main conference paper requires a full package registration by October 8, 2025 to be included in the program. 
