@@ -6,3 +6,7 @@
 
 
 
+### Vietnam VISA:
+If you need an invitation letter or other documents for your visa application, please contact to the local chair, Lê Hoàng Quỳnh (lhquynh [at] vnu.edu.vn).
+
+*Vietnam VISA Exemption*: [https://www.vietnam-visa.com/vietnam-visa-exemption/](https://www.vietnam-visa.com/vietnam-visa-exemption/ ) 
