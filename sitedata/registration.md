@@ -10,6 +10,8 @@
 #### Author Registration:
 Every main conference paper requires a full package registration by October 8, 2025 to be included in the program. 
 
+One Full Package registration can cover up to two papers by the same author. For the third and any additional papers, the author must register each with a Lite Package.
+
 #### Early Bird Rate: 
 To qualify for Early Bird rates, full payment should be made on or before October 8, 2025.
 
