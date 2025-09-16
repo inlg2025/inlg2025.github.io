@@ -8,7 +8,10 @@
 **Extra ticket for Gala Dinner**:	When you purchase a ticket, one person can accompany you to the gala dinner.
 
 #### Author Registration:
-Every main conference paper requires a full package registration by October 8, 2025 to be included in the program. 
+
+Each main conference paper requires a Full Package registration by October 8, 2025, in order to be included in the program. 
+
+One Full Package registration can cover up to two papers by the same author. For the third and any additional papers, the author must register each with a Lite Package.
 
 #### Early Bird Rate: 
 To qualify for Early Bird rates, full payment should be made on or before October 8, 2025.
