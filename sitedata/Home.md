@@ -14,6 +14,10 @@ The program chairs and local organizers can be reached at <a href="mailto:inlg-o
 <table>
   <tbody>
   <tr>
+    <td style="white-space: nowrap;"><b>Sep 16</b></td>
+    <td><span style="color:red">NEW!</span> <a href="/local-info.html#visitor-handbook">Visitor Handbook</a> is now available.</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap;"><b>Sep 15</b></td>
     <td><span style="color:red">NEW!</span> <a href="/registration.html">Registration</a> is now available.</td>
   </tr>
