@@ -1,7 +1,7 @@
 
 ### The INLG 2025 main conference ticket includes:
 
-- **Full package**: Conference bag, coffee breaks, reception, lunch (31 October, 1st November, 2nd November), gala dinner, and social event;
+- **Full package**: Conference bag, coffee breaks, reception, lunch (31 October, 1st November, 2nd November), gala dinner, and excursion (3rd November in the morning);
 - **Basic package**: Coffee breaks, lunch (31 October, 1st November, 2nd November);
 - **Lite package**: Coffee breaks only.
 
