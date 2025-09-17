@@ -8,8 +8,9 @@ INLG 2025 will take place at [Vietnam Institute for Advanced Study in Mathematic
 ### Excursion
 
 On the 3rd of November in the morning, we will visit the
-<a target="_blank" href="https://hoangthanhthanglong.vn/en">Imperial Citadel of Thang Long<br/>
-<img src="https://hoangthanhthanglong.vn/en/wp-content/uploads/sites/2/2024/01/hoangthanhthanglong-390x220.jpg"/></a>
+<a target="_blank" href="https://hoangthanhthanglong.vn/en">Imperial Citadel of Thang Long</a>, one of the ten special national heritage sites, and on the UNESCO’s World Heritage List. 
+
+<a target="_blank" href="https://hoangthanhthanglong.vn/en"><img src="https://hoangthanhthanglong.vn/en/wp-content/uploads/sites/2/2024/01/hoangthanhthanglong-390x220.jpg"/></a>
 
 ### Vietnam VISA
 If you need an invitation letter or other documents for your visa application, please contact to the local chair, Lê Hoàng Quỳnh (lhquynh [at] vnu.edu.vn).
