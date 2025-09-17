@@ -25,7 +25,7 @@ Local participants benefit from special fees.
 #### Invitation Letter:
 If you need an invitation letter or other documents for your visa application, please contact to the local chair, Lê Hoàng Quỳnh (lhquynh [at] vnu.edu.vn).
 
-*Vietnam VISA Exemption*: [https://www.vietnam-visa.com/vietnam-visa-exemption/](https://www.vietnam-visa.com/vietnam-visa-exemption/ ) 
+*Vietnam VISA Exemption*: See [Visitor Handbook](/local-info.html#visitor-handbook).
 
 ### Link to the registration page: 
 [https://vlsp.org.vn/inlg/registration](https://vlsp.org.vn/inlg/registration)
