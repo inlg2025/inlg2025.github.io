@@ -30,14 +30,8 @@ We are excited to share the following speakers have kindly accepted to give invi
 
 <!-- **Abstract:** TBA -->
 
-**Short Bio:** His general interests include artificial intelligence, deep learning, and natural language processing. He is particularly interested in the following fields:
-
-- Natural language generation theories, models & evaluation
-- Fundamental problems in large language models and multi-modal foundation models
-- AI alignment, safety and ethics
-- Social intelligence with large language models (emotion, theory-of-mind, mental health applications)
-
-He is leading a research group named Conversational AI (CoAI, GitHub link). This group published more than 100 papers on ACL, ICLR, ICML, Neurips conferences, and has won many paper awards including COLING 2010 best paper, ACL 2012 best student paper, IJCAI 2018 distinguished paper, SIGDIAL 2020 best paper, NLPCC 2015/2020 best paper, ACL 2023/2024 area chair award, etc. They have also highly cited works including emotional chatting machine (AAAI 2018), ESC (ACL 2021), PPT (ACL 2022), MiniLLM (ICLR 2024), ChatGLM (2024, with Prof. Jie Tang), etc.
+**Short Bio:** Dr. Minlie Huang, professor of Tsinghua University, the deputy director of the Foundation Model Center of Tsinghua University. He was supported by National Distinguished Young Scholar project. He won several awards in Chinese AI and information processing societies, including Wuwenjun Technical Advancement Award and Qianweichang Technical Innovation Award. His research fields include large-scale language models, language generation, AI safety and alignment, social intelligence, etc. He authored a Chinese book "Modern Natural Language Generation". He published more than 200 papers in premier conferences and journals (ICML, ICLR, Neurips, ACL, EMNLP etc.), with more than 29,000  citations, and was selected as Elsevier China's Highly Cited Scholars since 2022 and  the AI 2000 list of the world's most influential AI scholars since 2020; He has won several best papers or nominations at major international conferences (IJCAI, ACL, SIGDIAL, NLPCC, etc.). He was a key contributor of several large foundation models such as ChatGLM, GLM-4.5, GLM4.1v-thinking, CharacterGLM etc. 
+He serves as associate editors for TNNLS, TACL, CL, and TBD, and has served as the senior area chair of ACL/EMNLP/IJCAI/AAAI for more than 10 times. His homepage is located at [http://coai.cs.tsinghua.edu.cn/hml/](http://coai.cs.tsinghua.edu.cn/hml/).
 
 ## Keynote 4: [Michael White](https://www.linkedin.com/in/michael-white-16546184?trk=public_post-text) (Ohio State University)
 <img src="/static/images/michael_white.jpg" class="rounded" style="display:block;margin: auto; height: 12rem; width: 10rem; object-fit: cover;" />
