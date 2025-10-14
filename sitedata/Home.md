@@ -14,6 +14,10 @@ The program chairs and local organizers can be reached at <a href="mailto:inlg-o
 <table>
   <tbody>
   <tr>
+    <td style="white-space: nowrap;"><b>Oct 14</b></td>
+    <td><span style="color:red">NEW!</span> <a href="/presentation-manual.html#poster-presentation-guidelines">Poster Presentation Guidelines</a> are now available.</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap;"><b>Oct 12</b></td>
     <td><span style="color:red">NEW!</span> <a href="/keynotes.html">Titles and Abstracts of Keynotes</a> are now available.</td>
   </tr>
