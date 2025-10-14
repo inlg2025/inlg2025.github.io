@@ -1,4 +1,5 @@
 ### Poster Presentation Guidelines
+<a id="poster-presentation-guidelines" name="poster-presentation-guidelines"></a>
 
 - Size: A0 (841 mm × 1189 mm / 33.1 in × 46.8 in)
 - Orientation: Portrait (vertical)
