@@ -19,10 +19,10 @@ tutorials:
     link: "/workshops-tutorials-werewolf.html"
     md_file: tutorials_Werewolf.md
 
-  - id: visual-context
-    title: Visual Context (full day tutorial on Oct 29)
-    link: "/workshops-tutorials-visual-context.html"
-    md_file: tutorials_VisualContext.md
+  # - id: visual-context
+  #   title: Visual Context (cancelled)
+  #   link: "#"
+  #   md_file: tutorials_VisualContext.md
 
   - id: vlsp
     title: "The 11th International Workshop on Vietnamese Language and Speech Processing (VLSP 2025) (two-day workshop Oct 29-30)"

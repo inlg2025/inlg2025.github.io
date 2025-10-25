@@ -1,3 +1,3 @@
-# Visual Context (full day tutorial on Oct 29)
+# Visual Context (cancelled)
 
-### Stay tuned! More information coming soon... 
+This event has been cancelled due to an unforeseen circumstance. 
