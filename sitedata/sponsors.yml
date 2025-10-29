@@ -1,6 +1,7 @@
-gold_sponsors: []
-  # - name: TBA
-    # img: /static/images/blank.png
+gold_sponsors:
+  - name: VINGROUP INNOVATION FOUNDATION - VINIF
+    img: "/static/images/logoVINIF-PowerbyVinbigdata.png"
+    link: https://vinif.org/en/
 silver_sponsors: []
   # - name: TBA
     # img: /static/images/blank.png
