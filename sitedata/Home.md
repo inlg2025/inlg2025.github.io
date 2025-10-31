@@ -17,7 +17,11 @@ The program chairs and local organizers can be reached at <a href="mailto:inlg-o
 
 <table>
   <tbody>
-    <tr>
+  <tr>
+    <td style="white-space: nowrap;"><b>Oct 31</b></td>
+    <td><span style="color:red">NEW!</span> <a href="/banquet.html">Banquet information</a> is now available.</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap;"><b>Oct 30</b></td>
     <td><span style="color:red">NEW!</span> <a target="_blank" href="https://bit.ly/inlg2025">INLG 2025 Proceedings</a> are now available.</td>
   </tr>
