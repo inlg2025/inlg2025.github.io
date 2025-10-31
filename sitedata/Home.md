@@ -13,6 +13,10 @@ The program chairs and local organizers can be reached at <a href="mailto:inlg-o
 
 <table>
   <tbody>
+    <tr>
+    <td style="white-space: nowrap;"><b>Oct 30</b></td>
+    <td><span style="color:red">NEW!</span> <a target="_blank" href="https://bit.ly/inlg2025">INLG 2025 Proceedings</a> are now available.</td>
+  </tr>
   <tr>
     <td style="white-space: nowrap;"><b>Oct 14</b></td>
     <td><span style="color:red">NEW!</span> <a href="/presentation-manual.html#poster-presentation-guidelines">Poster Presentation Guidelines</a> are now available.</td>
