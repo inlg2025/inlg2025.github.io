@@ -18,6 +18,10 @@ The program chairs and local organizers can be reached at <a href="mailto:inlg-o
 <table>
   <tbody>
   <tr>
+    <td style="white-space: nowrap;"><b>Nov 2</b></td>
+    <td><span style="color:red">NEW!</span> <a href="/awards.html">Awards information</a> is now available.</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap;"><b>Oct 31</b></td>
     <td><span style="color:red">NEW!</span> <a href="/banquet.html">Banquet information</a> is now available.</td>
   </tr>
