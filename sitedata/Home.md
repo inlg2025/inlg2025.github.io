@@ -10,7 +10,7 @@ All accepted papers must be presented in person, and remote presentations are no
 The program chairs and local organizers can be reached at <a href="mailto:inlg-organizers@googlegroups.com" title="Email address for INLG's organizers"><b>inlg-organizers</b><span>@</span>googlegroups.com</a>
 
 
-### It is happening now! Follow [INLG 2025 Official LinkedIn](https://www.linkedin.com/groups/15688012/) for real-time moments and share them with your communities #INLG2025.
+#### Check out [INLG 2025 Official LinkedIn](https://www.linkedin.com/groups/15688012/) for memorable moments #INLG2025.
 
 
 #### News
